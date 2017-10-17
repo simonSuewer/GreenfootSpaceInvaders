@@ -15,6 +15,11 @@ public class Enemy extends Ship
      */
     public void act() 
     {
+        if(Greenfoot.getRandomNumber(10) > 8)
+        {
+            getWorld().addObject(new EnemyShot(), getX(), getY()+5);
+        }
+        
         // Add your action code here.
         move(this.get_moveSpeed());
         if(this.isAtEdge())
