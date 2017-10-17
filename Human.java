@@ -8,10 +8,27 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Human extends Ship
 {
-    private Weapon weapom = new Weapon();
+    
     private Upgrade upgrade = new Upgrade();
+    
+ 
     public void act() 
     {
-        // Add your action code here.
+        //move left
+        if(Greenfoot.isKeyDown("a"))
+        {
+            if(!this.atWorldEdge())
+            {
+                this.move(-this.get_speed());
+            }
+        }
+        //move right
+        if(Greenfoot.isKeyDown("d"))
+        {
+            if(this.atWorldEdge())
+            {
+                this.move(this.get_speed());
+            }
+        }
     }    
 }
