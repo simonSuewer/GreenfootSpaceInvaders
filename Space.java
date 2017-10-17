@@ -15,7 +15,16 @@ public class Space extends World
      */
     public Space()
     {    
-        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(600, 400, 1); 
+        super(800, 800, 1);
+        initialize();
+    }
+    
+    public void initialize()
+    {
+        for(int i = 0;i<10;i++)
+        {
+            this.addObject(new Sven(), 110+(64*(i)),50);
+        }
+        this.addObject(new Human(),400,750);
     }
 }
