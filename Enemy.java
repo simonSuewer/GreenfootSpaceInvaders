@@ -40,7 +40,7 @@ public class Enemy extends Ship
         }
         
         // Add your action code here.
-            move(this.get_moveSpeed());
+       move(this.get_moveSpeed());
        if(this.isAtEdge())
         {
             if(this.get_moveSpeed()>0)
