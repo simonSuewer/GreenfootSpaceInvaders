@@ -1,7 +1,11 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
+<<<<<<< HEAD
 >>>>>>>=a0bc959ab44a44808f9c771f430fdda3dea5a702
+=======
+>>>>>>>=25d3a84d24c4a7f2677ee1610d58ec213e0fbfc1
+>>>>>>> 0302db5111c250dad27fe157a9a80ec0e2b70321
 class.BackgroundHeader.image=header.png
 class.BackgroundHeader.superclass=MenuActor
 class.ButtonExit.image=button_exit.png
@@ -11,6 +15,8 @@ class.ButtonSettings.superclass=MenuActor
 class.ButtonStart.image=button_start.png
 class.ButtonStart.superclass=MenuActor
 class.Enemy.superclass=Ship
+class.EnemyShot.image=grafik_schuss_gegner.png
+class.EnemyShot.superclass=Weapon
 class.Human.image=eigenesSchiff.png
 class.Human.superclass=Ship
 class.HumanShot.image=grafik_schuss.png
@@ -22,29 +28,51 @@ class.MyWorld.superclass=greenfoot.World
 class.Ship.superclass=greenfoot.Actor
 class.Space.image=background.png
 class.Space.superclass=greenfoot.World
+<<<<<<< HEAD
 class.Sven.image=elephant.png
+=======
+class.Sven.image=grafik_gegner_level1.png
+>>>>>>> 0302db5111c250dad27fe157a9a80ec0e2b70321
 class.Sven.superclass=Enemy
 class.Upgrade.superclass=
 class.Weapon.superclass=greenfoot.Actor
 dependency1.from=Human
-dependency1.to=Upgrade
+dependency1.to=Weapon
 dependency1.type=UsesDependency
+<<<<<<< HEAD
 dependency10.from=Ship
 dependency10.to=Weapon
+=======
+dependency10.from=EnemyShot
+dependency10.to=Human
+>>>>>>> 0302db5111c250dad27fe157a9a80ec0e2b70321
 dependency10.type=UsesDependency
-dependency11.from=Menu
-dependency11.to=ButtonExit
+dependency11.from=Ship
+dependency11.to=Weapon
 dependency11.type=UsesDependency
-dependency12.from=Ship
-dependency12.to=Weapon
+dependency12.from=Menu
+dependency12.to=BackgroundHeader
 dependency12.type=UsesDependency
+<<<<<<< HEAD
+=======
+dependency13.from=Menu
+dependency13.to=ButtonStart
+dependency13.type=UsesDependency
+dependency14.from=Menu
+dependency14.to=ButtonSettings
+dependency14.type=UsesDependency
+dependency15.from=Menu
+dependency15.to=ButtonExit
+dependency15.type=UsesDependency
+>>>>>>> 0302db5111c250dad27fe157a9a80ec0e2b70321
 dependency2.from=Human
-dependency2.to=HumanShot
+dependency2.to=Upgrade
 dependency2.type=UsesDependency
-dependency3.from=Space
-dependency3.to=Sven
+dependency3.from=Human
+dependency3.to=HumanShot
 dependency3.type=UsesDependency
 dependency4.from=Space
+<<<<<<< HEAD
 dependency4.to=Human
 dependency4.type=UsesDependency
 dependency5.from=HumanShot
@@ -72,13 +100,42 @@ mainWindow.x=-7
 mainWindow.y=1
 package.numDependencies=10
 package.numTargets=14
+=======
+dependency4.to=Sven
+dependency4.type=UsesDependency
+dependency5.from=Space
+dependency5.to=Human
+dependency5.type=UsesDependency
+dependency6.from=Sven
+dependency6.to=Weapon
+dependency6.type=UsesDependency
+dependency7.from=HumanShot
+dependency7.to=Enemy
+dependency7.type=UsesDependency
+dependency8.from=Enemy
+dependency8.to=EnemyShot
+dependency8.type=UsesDependency
+dependency9.from=EnemyShot
+dependency9.to=Enemy
+dependency9.type=UsesDependency
+editor.fx.0.height=722
+editor.fx.0.width=800
+editor.fx.0.x=440
+editor.fx.0.y=98
+mainWindow.height=929
+mainWindow.width=1272
+mainWindow.x=183
+mainWindow.y=40
+package.numDependencies=15
+package.numTargets=15
+>>>>>>> 0302db5111c250dad27fe157a9a80ec0e2b70321
 project.charset=UTF-8
 readme.height=58
 readme.name=@README
 readme.width=47
 readme.x=10
 readme.y=10
-simulation.speed=60
+simulation.speed=48
 target1.height=50
 target1.name=Human
 target1.showInterface=false
@@ -112,11 +169,11 @@ target12.width=90
 target12.x=0
 target12.y=0
 target13.height=50
-target13.name=Menu
+target13.name=EnemyShot
 target13.showInterface=false
 target13.type=ClassTarget
 target13.typeParameters=
-target13.width=80
+target13.width=90
 target13.x=0
 target13.y=0
 target14.height=50
@@ -127,6 +184,14 @@ target14.typeParameters=
 target14.width=80
 target14.x=0
 target14.y=0
+target15.height=50
+target15.name=Menu
+target15.showInterface=false
+target15.type=ClassTarget
+target15.typeParameters=
+target15.width=80
+target15.x=0
+target15.y=0
 target2.height=50
 target2.name=Space
 target2.showInterface=false
@@ -192,4 +257,8 @@ target9.width=80
 target9.x=0
 target9.y=0
 version=3.0.0
+<<<<<<< HEAD
 world.lastInstantiated=Menu
+=======
+world.lastInstantiated=Space
+>>>>>>> 0302db5111c250dad27fe157a9a80ec0e2b70321
