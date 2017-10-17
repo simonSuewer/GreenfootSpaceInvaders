@@ -24,6 +24,7 @@ public class Weapon extends Actor
         Actor actor = getOneObjectAtOffset(0, 0, clss);
         if(actor != null) {
             getWorld().removeObject(actor);
+            Enemy.set_counter(Enemy.get_counter()-1);
         }
     }
     

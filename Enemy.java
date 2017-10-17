@@ -8,7 +8,18 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Enemy extends Ship
 {
-    int counter = 30;
+    private static int counter = 30;
+    
+    public static int get_counter()
+    {
+        return counter;
+    }
+
+    //setter
+    public static void set_counter(int counterr)
+    {
+        counter = counterr;
+    }
     /**
      * Act - do whatever the Enemy wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -16,8 +27,8 @@ public class Enemy extends Ship
     public void act() 
     {
         // Add your action code here.
-        move(this.get_moveSpeed());
-        if(this.isAtEdge())
+            move(this.get_moveSpeed());
+       if(this.isAtEdge())
         {
             if(this.get_moveSpeed()>0)
             {
@@ -37,11 +48,6 @@ public class Enemy extends Ship
             this.move(this.get_moveSpeed()+1);
         }
         //this.move(this.get_moveSpeed());
-        }/*
-        else if(this.getObjectsInRange(58, Enemy.class).toString()!="[]")
-        {
-            this.set_moveSpeed(this.get_moveSpeed()*(-1));
-            move(this.get_moveSpeed());
-        }*/
+        }
     }    
 }
