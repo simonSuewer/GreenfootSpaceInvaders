@@ -19,15 +19,15 @@ public class Human extends Ship
         {
             if(!this.atWorldEdge())
             {
-                this.move(-this.get_speed());
+                this.move(this.get_moveSpeed() * (-1));
             }
         }
         //move right
         if(Greenfoot.isKeyDown("d"))
         {
-            if(this.atWorldEdge())
+            if(!this.atWorldEdge())
             {
-                this.move(this.get_speed());
+                this.move(this.get_moveSpeed());
             }
         }
     }    
