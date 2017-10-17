@@ -31,8 +31,13 @@ class.Weapon.superclass=greenfoot.Actor
 dependency1.from=Human
 dependency1.to=Weapon
 dependency1.type=UsesDependency
+<<<<<<< HEAD
 dependency10.from=EnemyShot
 dependency10.to=Human
+=======
+dependency10.from=Enemy
+dependency10.to=EnemyShot
+>>>>>>> a28b96c58dbdbb5bf17ffc9898d6b7fba93b8cb2
 dependency10.type=UsesDependency
 dependency11.from=Menu
 dependency11.to=BackgroundHeader
@@ -64,17 +69,17 @@ dependency4.type=UsesDependency
 dependency5.from=Space
 dependency5.to=Human
 dependency5.type=UsesDependency
-dependency6.from=Sven
-dependency6.to=Weapon
+dependency6.from=Space
+dependency6.to=Enemy
 dependency6.type=UsesDependency
-dependency7.from=HumanShot
-dependency7.to=Enemy
+dependency7.from=Sven
+dependency7.to=Weapon
 dependency7.type=UsesDependency
-dependency8.from=Weapon
+dependency8.from=HumanShot
 dependency8.to=Enemy
 dependency8.type=UsesDependency
-dependency9.from=Enemy
-dependency9.to=EnemyShot
+dependency9.from=Weapon
+dependency9.to=Enemy
 dependency9.type=UsesDependency
 editor.fx.0.height=1048
 editor.fx.0.width=1938
@@ -214,4 +219,8 @@ target9.width=80
 target9.x=0
 target9.y=0
 version=3.0.0
+<<<<<<< HEAD
 world.lastInstantiated=Menu
+=======
+world.lastInstantiated=Space
+>>>>>>> a28b96c58dbdbb5bf17ffc9898d6b7fba93b8cb2
