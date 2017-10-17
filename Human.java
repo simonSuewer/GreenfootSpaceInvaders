@@ -10,7 +10,7 @@ public class Human extends Ship
 {
     
     private Upgrade upgrade = new Upgrade();
-    
+    private int shotCount = 0;
  
     public void act() 
     {
@@ -23,6 +23,18 @@ public class Human extends Ship
         if(Greenfoot.isKeyDown("d"))
         {
             this.move(this.get_moveSpeed());
+        }
+        
+        //shot
+        if(shotCount != 0) shotCount -= 1;
+        
+        if(Greenfoot.isKeyDown("x"))
+        {
+            if(shotCount == 0)
+            {
+                shotCount = 30;
+                getWorld().addObject(new HumanShot(), getX(), getY()+5);
+            }
         }
     }    
 }

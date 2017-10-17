@@ -13,10 +13,19 @@ public class HumanShot extends Weapon
     public HumanShot()
     {
         super();
-        this.turn(90);
+        this.turn(-90);
     }
     public void act() 
     {
         this.move(SHOT_SPEED);
+        if(this.atWorldEdge())
+        {
+            getWorld().removeObject(this);
+        }
+        else{
+            this.hit(Enemy.class);  
+        }
+        
+        
     }    
 }
