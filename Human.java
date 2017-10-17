@@ -28,7 +28,7 @@ public class Human extends Ship
         //shot
         if(shotCount != 0) shotCount -= 1;
         
-        if(Greenfoot.isKeyDown("x"))
+        if(Greenfoot.isKeyDown("space"))
         {
             if(shotCount == 0)
             {
