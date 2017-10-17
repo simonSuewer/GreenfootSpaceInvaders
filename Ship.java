@@ -9,10 +9,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Ship extends Actor
 {
     private int health;
-    private int moveSpeed;
+    private final int moveSpeed = 5;
     private Weapon weapon;
-
-
 
     public void act() 
     {
@@ -43,7 +41,7 @@ public class Ship extends Actor
 
     public void set_moveSpeed(int moveSpeed)
     {
-        this.moveSpeed = moveSpeed;
+        //this.moveSpeed = moveSpeed;
     }
 
     public void set_weapond(Weapon weapon)
