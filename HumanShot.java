@@ -23,7 +23,10 @@ public class HumanShot extends Weapon
             getWorld().removeObject(this);
         }
         else{
-            this.hit(Enemy.class);  
+            if(this.hit(Enemy.class))
+            {
+                getWorld().removeObject(this);
+            }
         }
         
         

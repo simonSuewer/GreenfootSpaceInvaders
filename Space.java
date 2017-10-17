@@ -29,5 +29,6 @@ public class Space extends World
             }
         }
         this.addObject(new Human(),400,750);
+            Enemy.set_counter(30);
     }
 }
