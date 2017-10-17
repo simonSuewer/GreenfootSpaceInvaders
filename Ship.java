@@ -58,7 +58,7 @@ public class Ship extends Actor
 
     public void set_moveSpeed(int moveSpeed)
     {
-        //this.moveSpeed = moveSpeed;
+        this.moveSpeed = moveSpeed;
     }
 
     public void set_weapond(Weapon weapon)
