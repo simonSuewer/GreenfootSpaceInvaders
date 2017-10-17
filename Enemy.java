@@ -9,15 +9,20 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Enemy extends Ship
 {
     int counter = 30;
+    private int shotCount = 0;
+    private int max_shot = 5;
     /**
      * Act - do whatever the Enemy wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() 
     {
-        if(Greenfoot.getRandomNumber(10) > 8)
+        //shot
+        if(shotCount != 0) shotCount -= 1;
+        if((Greenfoot.getRandomNumber(100) < 1) && (getWorld().getObjects(EnemyShot.class).size())< max_shot)
         {
             getWorld().addObject(new EnemyShot(), getX(), getY()+5);
+            shotCount = 30;
         }
         
         // Add your action code here.
