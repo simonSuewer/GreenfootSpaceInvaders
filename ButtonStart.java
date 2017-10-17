@@ -8,12 +8,23 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class ButtonStart extends MenuActor
 {
-    /**
-     * Act - do whatever the ButtonStart wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
-    public void act() 
+       private boolean onThis=false;
+ 
+ 
+    public void act()
     {
-        // Add your action code here.
-    }    
-}
+        if(Greenfoot.mouseMoved(null))
+            onThis = Greenfoot.mouseMoved(this);
+        if(onThis)
+        {
+            System.out.println("Hover");
+            setImage("button_settings.png"); 
+        }
+        else
+        {
+            System.out.println("notHover");
+            setImage("button_start.png"); 
+        }
+    }
+ }    
+
