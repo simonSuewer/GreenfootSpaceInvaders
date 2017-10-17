@@ -19,13 +19,15 @@ public class Weapon extends Actor
             return false;
     }
     
-    public void hit(Class clss)
+    public boolean hit(Class clss)
     {
         Actor actor = getOneObjectAtOffset(0, 0, clss);
         if(actor != null) {
             getWorld().removeObject(actor);
             Enemy.set_counter(Enemy.get_counter()-1);
+            return true;
         }
+        return false;
     }
     
     public void act() 
