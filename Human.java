@@ -17,12 +17,12 @@ public class Human extends Ship
         //move left
         if(Greenfoot.isKeyDown("a"))
         {
-                this.move(this.get_moveSpeed() * (-1));
+            this.move(this.get_moveSpeed() * (-1));
         }
         //move right
         if(Greenfoot.isKeyDown("d"))
         {
-                this.move(this.get_moveSpeed());
+            this.move(this.get_moveSpeed());
         }
     }    
 }

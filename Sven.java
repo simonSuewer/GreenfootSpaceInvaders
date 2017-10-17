@@ -8,9 +8,5 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Sven extends Enemy
 {
-    private Weapon weapom = new Weapon();
-    public void act() 
-    {
-        // Add your action code here.
-    }    
+    private Weapon weapon = new Weapon();
 }

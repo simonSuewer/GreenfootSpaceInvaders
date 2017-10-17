@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=HumanShot
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ HumanShot\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+<<<<<<< HEAD
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ HumanShot\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=2
+=======
+comment1.target=HumanShot()
+comment2.params=
+comment2.target=void\ act()
+numComments=3
+>>>>>>> 09d3105a8dcd2fdd8601c4b1e43bab5ffd38de31
