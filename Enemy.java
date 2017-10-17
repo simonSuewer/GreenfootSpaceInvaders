@@ -8,8 +8,10 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Enemy extends Ship
 {
-<<<<<<< HEAD
+
     private static int counter = 30;
+    private int shotCount = 0;
+    private int max_shot = 5;
     
     public static int get_counter()
     {
@@ -21,11 +23,8 @@ public class Enemy extends Ship
     {
         counter = counterr;
     }
-=======
-    int counter = 30;
-    private int shotCount = 0;
-    private int max_shot = 5;
->>>>>>> 73e227f64181f60fb0846c8395a0f7163de48fc7
+
+
     /**
      * Act - do whatever the Enemy wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
