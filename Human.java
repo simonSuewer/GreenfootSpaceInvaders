@@ -17,18 +17,12 @@ public class Human extends Ship
         //move left
         if(Greenfoot.isKeyDown("a"))
         {
-            if(!this.atWorldEdge())
-            {
                 this.move(this.get_moveSpeed() * (-1));
-            }
         }
         //move right
         if(Greenfoot.isKeyDown("d"))
         {
-            if(!this.atWorldEdge())
-            {
                 this.move(this.get_moveSpeed());
-            }
         }
     }    
 }
