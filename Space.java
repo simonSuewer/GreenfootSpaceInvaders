@@ -21,9 +21,12 @@ public class Space extends World
     
     public void initialize()
     {
-        for(int i = 0;i<10;i++)
+        for (int j = 0;j<3;j++)
         {
-            this.addObject(new Sven(), 110+(64*(i)),50);
+            for (int i = 0;i<10;i++)
+            {
+                this.addObject(new Sven(), 110+(64*(i)),50+j*90);
+            }
         }
         this.addObject(new Human(),400,750);
     }
