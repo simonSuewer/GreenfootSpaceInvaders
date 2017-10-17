@@ -24,5 +24,11 @@ public class Human extends Ship
         {
             this.move(this.get_moveSpeed());
         }
+        
+        //move right
+        if(Greenfoot.isKeyDown("x"))
+        {
+            getWorld().addObject(new HumanShot(), getX(), getY()+5);
+        }
     }    
 }

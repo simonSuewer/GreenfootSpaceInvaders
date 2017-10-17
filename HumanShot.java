@@ -13,7 +13,7 @@ public class HumanShot extends Weapon
     public HumanShot()
     {
         super();
-        this.turn(90);
+        this.turn(-90);
     }
     public void act() 
     {
