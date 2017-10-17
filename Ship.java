@@ -8,12 +8,46 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Ship extends Actor
 {
-    /**
-     * Act - do whatever the Ship wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
+    private int health;
+    private int moveSpeed;
+    private Weapon weapon;
+
+
+
     public void act() 
     {
         // Add your action code here.
-    }    
+    }
+
+    //getter
+    public int get_health()
+    {
+        return health;
+    }
+
+    public int get_moveSpeed()
+    {
+        return moveSpeed;
+    }
+
+    public Weapon get_weapond()
+    {
+        return weapon;
+    }
+
+    //setter
+    public void set_health(int health)
+    {
+        this.health = health;
+    }
+
+    public void set_moveSpeed(int moveSpeed)
+    {
+        this.moveSpeed = moveSpeed;
+    }
+
+    public void set_weapond(Weapon weapon)
+    {
+        this.weapon = weapon;
+    }
 }
