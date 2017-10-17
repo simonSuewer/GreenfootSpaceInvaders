@@ -9,7 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Ship extends Actor
 {
     private int health;
-    private final int moveSpeed = 5;
+    private int moveSpeed = 5;
     private Weapon weapon;
 
     public void act() 

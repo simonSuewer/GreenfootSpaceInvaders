@@ -15,5 +15,6 @@ public class Enemy extends Ship
     public void act() 
     {
         // Add your action code here.
+        move(5);
     }    
 }
