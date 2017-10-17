@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
@@ -74,37 +76,91 @@ dependency5.type=UsesDependency
 dependency6.from=Menu
 dependency6.to=Sven
 =======
+>>>>>>> 4f45e6c649fdc92887dacd6d72cb20725fa25180
 #Greenfoot properties
-<<<<<<< HEAD
-#Tue Oct 17 10:51:36 CEST 2017
-class.Weapon.superclass=
-=======
-#Tue Oct 17 10:50:00 CEST 2017
+#Tue Oct 17 12:17:53 CEST 2017
 class.Weapon.superclass=greenfoot.Actor
->>>>>>> 09d3105a8dcd2fdd8601c4b1e43bab5ffd38de31
->>>>>>> 173325803472ee984b26874cc448f11af7cbcd12
 class.Sven.superclass=Enemy
-class.Upgrade.superclass=
-class.Weapon.superclass=greenfoot.Actor
-dependency1.from=Human
-dependency1.to=Upgrade
-dependency1.type=UsesDependency
-dependency2.from=Human
-dependency2.to=HumanShot
-dependency2.type=UsesDependency
+target4.type=ClassTarget
+target8.showInterface=false
 dependency3.from=Space
-dependency3.to=Sven
+target3.height=50
+target5.height=50
+readme.y=10
 dependency3.type=UsesDependency
+readme.x=10
+class.Human.superclass=Ship
+target4.name=Menu
+class.Enemy.superclass=Ship
+target8.width=80
+target4.typeParameters=
+readme.width=47
+editor.fx.0.width=816
+class.Upgrade.superclass=
+target1.height=50
+target5.type=ClassTarget
+target3.typeParameters=
 dependency4.from=Space
+<<<<<<< HEAD
+mainWindow.width=1073
+=======
 dependency4.to=Human
 >>>>>>> a0bc959ab44a44808f9c771f430fdda3dea5a702
+>>>>>>> 4f45e6c649fdc92887dacd6d72cb20725fa25180
 dependency4.type=UsesDependency
+target2.width=80
+target5.name=Ship
+class.HumanShot.image=grafik_schuss.png
+target9.typeParameters=
+version=3.0.0
+class.ButtonSettings.superclass=MenuActor
+target6.type=ClassTarget
+dependency1.to=Weapon
+class.Menu.superclass=greenfoot.World
+target7.width=90
 dependency5.from=Ship
-dependency5.to=Weapon
+class.Human.image=eigenesSchiff.png
+dependency2.to=Upgrade
+target1.width=80
 dependency5.type=UsesDependency
-dependency6.from=Sven
-<<<<<<< HEAD
+editor.fx.0.y=99
+editor.fx.0.x=417
+target2.typeParameters=
+target8.height=50
+dependency3.to=Sven
+target3.showInterface=false
+target6.name=Sven
+class.Sven.image=grafik_gegner_level1.png
+dependency4.to=Human
+target7.showInterface=false
+dependency5.to=Weapon
+target1.showInterface=false
+target8.typeParameters=
 dependency6.to=Weapon
+<<<<<<< HEAD
+target5.showInterface=false
+target6.width=80
+target9.y=0
+target7.type=ClassTarget
+target9.x=0
+target9.showInterface=false
+target6.height=50
+dependency6.from=Sven
+package.numTargets=9
+target8.y=0
+target8.x=0
+target7.typeParameters=
+dependency6.type=UsesDependency
+target1.type=ClassTarget
+target7.y=0
+target7.x=0
+target7.name=HumanShot
+target6.y=0
+target1.typeParameters=
+target6.x=0
+class.Ship.superclass=greenfoot.Actor
+target2.height=50
+=======
 =======
 <<<<<<< HEAD
 dependency6.to=Weapon
@@ -216,35 +272,45 @@ target3.showInterface=false
 =======
 target5.y=0
 target4.height=50
+>>>>>>> 4f45e6c649fdc92887dacd6d72cb20725fa25180
 class.Space.superclass=greenfoot.World
+target4.height=50
+target5.y=0
 target5.x=0
 target1.name=Human
-target8.type=ClassTarget
 target4.y=0
+target8.type=ClassTarget
 target4.x=0
 target3.y=0
 target3.x=0
 target2.type=ClassTarget
 target2.y=0
-target2.x=0
 class.MyWorld.superclass=greenfoot.World
-<<<<<<< HEAD
+target2.x=0
 mainWindow.y=48
->>>>>>> 173325803472ee984b26874cc448f11af7cbcd12
 mainWindow.x=373
-mainWindow.y=23
-package.numDependencies=7
-package.numTargets=9
-project.charset=UTF-8
+dependency1.from=Human
+target6.typeParameters=
+target8.name=Upgrade
+target5.width=80
+target1.y=0
+target1.x=0
+editor.fx.0.height=739
+class.HumanShot.superclass=Weapon
+dependency1.type=UsesDependency
 readme.height=58
 readme.name=@README
-<<<<<<< HEAD
-readme.width=47
-readme.x=10
-readme.y=10
-=======
-<<<<<<< HEAD
+target2.name=Space
+simulation.speed=52
 package.numDependencies=6
+<<<<<<< HEAD
+target9.type=ClassTarget
+class.ButtonExit.superclass=MenuActor
+class.ButtonStart.superclass=MenuActor
+class.MenuActor.superclass=greenfoot.Actor
+target3.type=ClassTarget
+target4.width=80
+=======
 simulation.speed=60
 >>>>>>> 70ed965c9ff0714c9fa85f20ab4a1d301ff3a8b8
 >>>>>>> a0bc959ab44a44808f9c771f430fdda3dea5a702
@@ -306,93 +372,28 @@ world.lastInstantiated=Menu
 <<<<<<< HEAD
 =======
 =======
+>>>>>>> 4f45e6c649fdc92887dacd6d72cb20725fa25180
 dependency2.from=Human
-=======
-target9.type=ClassTarget
-package.numDependencies=5
->>>>>>> 173325803472ee984b26874cc448f11af7cbcd12
-simulation.speed=60
-target1.height=50
-target1.name=Human
-target1.showInterface=false
-target1.type=ClassTarget
-target1.typeParameters=
-target1.width=80
-target1.x=0
-target1.y=0
-target2.height=50
-target2.name=Space
-target2.showInterface=false
-target2.type=ClassTarget
-target2.typeParameters=
-target2.width=80
-target2.x=0
-target2.y=0
-target3.height=50
-target3.name=Enemy
-target3.showInterface=false
-target3.type=ClassTarget
-target3.typeParameters=
-target3.width=80
-target3.x=0
-target3.y=0
-target4.height=50
-target4.name=Ship
-target4.showInterface=false
-target4.type=ClassTarget
-target4.typeParameters=
-target4.width=80
-target4.x=0
-target4.y=0
-target5.height=50
-target5.name=Menu
-target5.showInterface=false
-target5.type=ClassTarget
-target5.typeParameters=
-target5.width=80
-target5.x=0
-target5.y=0
-target6.height=50
-target6.name=Sven
-target6.showInterface=false
-target6.type=ClassTarget
-target6.typeParameters=
-target6.width=80
-target6.x=0
-target6.y=0
-target7.height=50
-target7.name=HumanShot
-target7.showInterface=false
-target7.type=ClassTarget
-target7.typeParameters=
-target7.width=100
-target7.x=0
-target7.y=0
-target8.height=50
-target8.name=Upgrade
-target8.showInterface=false
-target8.type=ClassTarget
-target8.typeParameters=
-target8.width=80
-target8.x=0
-target8.y=0
-target9.height=50
 target9.name=Weapon
-target9.showInterface=false
-target9.type=ClassTarget
-target9.typeParameters=
-target9.width=80
-<<<<<<< HEAD
-target9.x=0
-target9.y=0
-version=3.0.0
+class.Space.image=background.png
+dependency2.type=UsesDependency
+class.BackgroundHeader.superclass=MenuActor
+target5.typeParameters=
 world.lastInstantiated=Space
-=======
+target2.showInterface=false
+mainWindow.height=981
+target3.name=Enemy
+target7.height=50
+target6.showInterface=false
+target9.height=50
+target9.width=80
 target3.width=80
 project.charset=UTF-8
->>>>>>> 09d3105a8dcd2fdd8601c4b1e43bab5ffd38de31
 target4.showInterface=false
+<<<<<<< HEAD
+=======
 =\=\=\=\=\=\=
 >>>>>>> 70ed965c9ff0714c9fa85f20ab4a1d301ff3a8b8
 >>>>>>> 173325803472ee984b26874cc448f11af7cbcd12
 >>>>>>> a0bc959ab44a44808f9c771f430fdda3dea5a702
+>>>>>>> 4f45e6c649fdc92887dacd6d72cb20725fa25180
