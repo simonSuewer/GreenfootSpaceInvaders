@@ -8,12 +8,15 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class HumanShot extends Weapon
 {
-    /**
-     * Act - do whatever the HumanShot wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
+    private static final int SHOT_SPEED = 5;
+    
+    public HumanShot()
+    {
+        super();
+        this.turn(90);
+    }
     public void act() 
     {
-        // Add your action code here.
+        this.move(SHOT_SPEED);
     }    
 }
