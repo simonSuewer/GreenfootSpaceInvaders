@@ -1,8 +1,7 @@
 #BlueJ class context
 comment0.target=Space
-comment0.text=\n\ Write\ a\ description\ of\ class\ MyWorld\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ MyWorld\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 comment1.params=
-<<<<<<< HEAD
 comment1.target=int\ get_level()
 comment2.params=newLevel
 comment2.target=void\ set_level(int)
@@ -16,10 +15,3 @@ comment5.target=void\ initializeLvl2()
 comment6.params=
 comment6.target=void\ initializeLvl3()
 numComments=7
-=======
-comment1.target=Space()
-comment1.text=\n\ Constructor\ for\ objects\ of\ class\ MyWorld.\n\ \n
-comment2.params=
-comment2.target=void\ initialize()
-numComments=3
->>>>>>> c06eb5c1be90ceea7591aa9ab191957d454e9949

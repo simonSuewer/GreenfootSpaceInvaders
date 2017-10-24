@@ -25,8 +25,8 @@ public class Weapon extends Actor
         if(actor != null) {
             getWorld().removeObject(actor);
             Enemy.set_counter(Enemy.get_counter()-1);
-            //if(Enemy.get_counter()==0)
-            //{
+            if(Enemy.get_counter()==0)
+            {
                 Space.set_level(Space.get_level()+1);
                 Space x = (Space) getWorld();
                 switch(Space.get_level())
@@ -42,8 +42,8 @@ public class Weapon extends Actor
                         
                 }
                 return false;
-            //}
-            //return true;
+            }
+            return true;
         }
         return false;
     }
