@@ -27,6 +27,13 @@ public class XML
         
     }
 
+    public Safegame read()
+    {
+       
+        File file = new File( path );
+        Safegame read  = JAXB.unmarshal( file, Safegame.class );
+        return read;
+    }
     public void init() throws JAXBException
     {
         Safegame write = new Safegame();
@@ -35,9 +42,13 @@ public class XML
         write.setCredits(2);
         write.setScore(3);
         
+        File file = new File( path );
+        
+        
         JAXBContext jaxbContext = JAXBContext.newInstance(Safegame.class);
         Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
         jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
-        jaxbMarshaller.marshal(write, System.out);
+        //jaxbMarshaller.marshal(write, System.out);
+        jaxbMarshaller.marshal(write, file);
     }
 }
