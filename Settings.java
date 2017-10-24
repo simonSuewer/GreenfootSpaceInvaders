@@ -16,6 +16,15 @@ public class Settings extends World
     public Settings()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(600, 400, 1); 
+        super(800, 800, 1);
+        initial();
+    }
+    
+        public void initial() {
+        addObject(new BackgroundHeader(), 400, 125);
+        addObject(new ButtonMusik(), 400, 350);
+        addObject(new ButtonSfxSounds(), 400, 450);
+        addObject(new ButtonMitwirkende(), 400, 550);
+        addObject(new ButtonExit(), 400, 700);
     }
 }

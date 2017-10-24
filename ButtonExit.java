@@ -10,7 +10,7 @@ public class ButtonExit extends MenuActor
 {
        private boolean onThis=false;
  
- 
+
     public void act() {
         if(Greenfoot.mouseMoved(null))
             onThis = Greenfoot.mouseMoved(this);
@@ -18,7 +18,13 @@ public class ButtonExit extends MenuActor
         {
             setImage("button_exit-hover.png"); 
             if(Greenfoot.mouseClicked(this)) {
-                System.exit(1);
+                System.out.println(getWorld().getClass().getName());
+                 if(getWorld().getClass().getName() == "Settings") {
+                     Menu menu = new Menu();
+                     Greenfoot.setWorld(menu);
+                 } else if(getWorld().getClass().getName() == "Menu") {
+                     System.exit(1);
+                 }
             }
         }
         else
