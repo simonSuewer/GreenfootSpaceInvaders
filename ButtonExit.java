@@ -16,12 +16,13 @@ public class ButtonExit extends MenuActor
             onThis = Greenfoot.mouseMoved(this);
         if(onThis)
         {
-            System.out.println("Hover");
             setImage("button_exit-hover.png"); 
+            if(Greenfoot.mouseClicked(this)) {
+                System.exit(1);
+            }
         }
         else
         {
-            System.out.println("notHover");
             setImage("button_exit.png"); 
         }
     }  
