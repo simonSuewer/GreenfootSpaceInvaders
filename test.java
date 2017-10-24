@@ -14,7 +14,7 @@ public class test extends Actor
      */
     public void act() 
     {
-        XML test = new XML();
+      
         
         /*try{
             test.init();
@@ -23,7 +23,7 @@ public class test extends Actor
                 
         }*/
         
-        Safegame newSafe = test.read();
+        Safegame newSafe = XML.read();
         System.out.println("1-->" + newSafe.getCredits());
     }    
 }

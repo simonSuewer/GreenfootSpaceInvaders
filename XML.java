@@ -13,14 +13,14 @@ public class XML
     {
     }
 
-    public Safegame read()
+    public static Safegame read()
     {
        
         File file = new File( path );
         Safegame read  = JAXB.unmarshal( file, Safegame.class );
         return read;
     }
-    public void init() throws JAXBException
+    public static void init() throws JAXBException
     {
         Safegame write = new Safegame();
         
@@ -38,7 +38,7 @@ public class XML
         jaxbMarshaller.marshal(write, file);
     }
     
-    public void save()
+    public static void save()
     {
         Safegame write = new Safegame();
 
