@@ -27,30 +27,8 @@ public class HumanShot extends Weapon
             {
                 getWorld().removeObject(this);
             }
-            else
-            {
-                if(this.isTouching(ButtonHealth.class))
-                {
-                    Upgrade.addHealth(1);
-                    getWorld().removeObject(this);
-                }
-                else
-                {
-                    if(this.isTouching(ButtonDamage.class))
-                    {
-                        Upgrade.addDamage(1);
-                        getWorld().removeObject(this);
-                    }
-                    else
-                    {
-                        if(this.isTouching(ButtonNextLvl.class))
-                        {
-                            System.out.println(Upgrade.getHealth()+""+Upgrade.getDamage());
-                            getWorld().removeObject(this);
-                        } 
-                    }
-                }
-            }           
         }
+        
+        
     }    
 }

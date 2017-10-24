@@ -1,42 +1,30 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-
 /**
  * Write a description of class Upgrade here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Upgrade extends Actor
+public class Upgrade  
 {
-    static int extraHealth=0;
-    static int extraDamage=0;
-    
+    // instance variables - replace the example below with your own
+    private int x;
+
     /**
-     * Act - do whatever the Upgrade wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
+     * Constructor for objects of class Upgrade
      */
-    public void act() 
+    public Upgrade()
     {
- 
-    }    
-    
-    public static void addDamage(int add)
-    {
-        extraDamage= extraDamage + add;
     }
-    
-        public static void addHealth(int add)
+
+    /**
+     * An example of a method - replace this comment with your own
+     * 
+     * @param  y   a sample parameter for a method
+     * @return     the sum of x and y 
+     */
+    public int sampleMethod(int y)
     {
-        extraHealth= extraHealth + add;
-    }
-    
-    public static int getDamage()
-    {
-        return extraDamage;
-    }
-    
-       public static int getHealth()
-    {
-        return extraHealth;
+        // put your code here
+        return x + y;
     }
 }
