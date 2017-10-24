@@ -16,12 +16,14 @@ public class ButtonSettings extends MenuActor
             onThis = Greenfoot.mouseMoved(this);
         if(onThis)
         {
-            System.out.println("Hover");
-            setImage("button_settings-hover.png"); 
+            setImage("button_settings-hover.png");
+            if(Greenfoot.mouseClicked(this)) {
+                Settings settings = new Settings();
+                Greenfoot.setWorld(settings);
+            }
         }
         else
         {
-            System.out.println("notHover");
             setImage("button_settings.png"); 
         }
     }  
