@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Safegame
+comment1.params=
+comment1.target=Safegame()
+comment2.params=
+comment2.target=int\ getLvl()
+comment3.params=
+comment3.target=int\ getCredits()
+comment4.params=
+comment4.target=int\ getScore()
+comment5.params=
+comment5.target=Upgrade\ getUpgrade()
+comment6.params=lvl
+comment6.target=void\ setLvl(int)
+comment7.params=credits
+comment7.target=void\ setCredits(int)
+comment8.params=score
+comment8.target=void\ setScore(int)
+comment9.params=upgrades
+comment9.target=void\ setUpgrade(Upgrade)
+numComments=10
