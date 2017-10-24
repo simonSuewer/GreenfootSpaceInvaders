@@ -4,12 +4,12 @@ import javax.xml.bind.annotation.*;
 public class Safegame  
 {
     // instance variables - replace the example below with your own
-    private int lvl;
-    private int credits;
-    private Upgrade upgrades;
-    private int score;
-    private boolean MusikIsOn = true;
-    private boolean SfxIsOn = true;
+    private static int lvl;
+    private static int credits;
+    private static Upgrade upgrades;
+    private static int score;
+    private static boolean MusikIsOn = true;
+    private static boolean SfxIsOn = true;
     
     
     public Safegame()
