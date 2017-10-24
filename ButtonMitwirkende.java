@@ -1,12 +1,12 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class ButtonSettings here.
+ * Write a description of class ButtonMitwirkende here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class ButtonSettings extends MenuActor
+public class ButtonMitwirkende extends SettingsActor
 {
        private boolean onThis=false;
  
@@ -16,7 +16,7 @@ public class ButtonSettings extends MenuActor
             onThis = Greenfoot.mouseMoved(this);
         if(onThis)
         {
-            setImage("button_settings-hover.png");
+            setImage("button_mitwirkende-hover.png");
             if(Greenfoot.mouseClicked(this)) {
                 Settings settings = new Settings();
                 Greenfoot.setWorld(settings);
@@ -24,7 +24,7 @@ public class ButtonSettings extends MenuActor
         }
         else
         {
-            setImage("button_settings.png"); 
+            setImage("button_mitwirkende.png"); 
         }
-    }  
+    }   
 }
