@@ -8,6 +8,8 @@ public class Safegame
     private int credits;
     private Upgrade upgrades;
     private int score;
+    private boolean MusikIsOn = true;
+    private boolean SfxIsOn = true;
     
     
     public Safegame()
@@ -32,6 +34,10 @@ public class Safegame
     {
         return upgrades;
     }
+    public boolean getMusicStatus()
+    {
+        return MusikIsOn;
+    }
     
     //setter
     public void setLvl(int lvl)
@@ -49,6 +55,10 @@ public class Safegame
     public void setUpgrade(Upgrade upgrades)
     {
         this.upgrades = upgrades;
+    }
+    public void setMusicStatus()
+    {
+        this.MusikIsOn = MusikIsOn;
     }
     
     

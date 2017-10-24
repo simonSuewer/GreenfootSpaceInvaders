@@ -18,7 +18,6 @@ public class ButtonExit extends MenuActor
         {
             setImage("button_exit-hover.png"); 
             if(Greenfoot.mouseClicked(this)) {
-                System.out.println(getWorld().getClass().getName());
                  if(getWorld().getClass().getName() == "Settings") {
                      Menu menu = new Menu();
                      Greenfoot.setWorld(menu);
