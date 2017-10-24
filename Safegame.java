@@ -34,9 +34,13 @@ public class Safegame
     {
         return upgrades;
     }
-    public boolean getMusicStatus()
+    public boolean getMusikIsOn()
     {
         return MusikIsOn;
+    }
+    public boolean getSfxIsOn()
+    {
+        return SfxIsOn;
     }
     
     //setter
@@ -56,9 +60,13 @@ public class Safegame
     {
         this.upgrades = upgrades;
     }
-    public void setMusicStatus()
+    public void setMusikIsOn(boolean MusikIsOn)
     {
         this.MusikIsOn = MusikIsOn;
+    }
+    public void setSfxIsOn(boolean SfxIsOn)
+    {
+        this.SfxIsOn = SfxIsOn;
     }
     
     
