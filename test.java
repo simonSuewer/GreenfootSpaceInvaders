@@ -21,5 +21,8 @@ public class test extends Actor
             System.err.println("IndexOutOfBoundsException: " + e.getMessage());
                 
         }
+        
+        Safegame newSafe = test.read();
+        System.out.println("1-->" + newSafe.getCredits());
     }    
 }
