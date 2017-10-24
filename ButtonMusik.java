@@ -10,7 +10,7 @@ public class ButtonMusik extends SettingsActor
 {
 private boolean onThis=false;
  
-    int statusMusikIsActivated = 0;
+    private Safegame savegame = new Safegame();
  
     public void act() {
         if(Greenfoot.mouseMoved(null))
@@ -18,14 +18,14 @@ private boolean onThis=false;
         if(onThis)
         {
             if(Greenfoot.mouseClicked(this)) {
-               if(statusMusikIsActivated == 0) {
-                    statusMusikIsActivated = 1;
+               if(!savegame.getMusikIsOn()) {
+                    savegame.setMusikIsOn(true);
                 } else {
-                    statusMusikIsActivated = 0;
+                    savegame.setMusikIsOn(false);
                 }
             }
             
-            if( statusMusikIsActivated == 1) {
+            if(savegame.getMusikIsOn()) {
                     setImage("button_musik_off-hover.png");
                 } else {
                     setImage("button_musik_on-hover.png");
@@ -33,7 +33,7 @@ private boolean onThis=false;
         }
         else
         {
-                if( statusMusikIsActivated == 1) {
+                if(savegame.getMusikIsOn()) {
                     setImage("button_musik_off.png");
                 } else {
                     setImage("button_musik_on.png");

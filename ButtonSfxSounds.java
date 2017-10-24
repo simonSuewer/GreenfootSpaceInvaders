@@ -10,7 +10,7 @@ public class ButtonSfxSounds extends SettingsActor
 {
 private boolean onThis=false;
  
-    int statusSfxIsActivated = 0;
+    private Safegame savegame = new Safegame();
  
     public void act() {
         if(Greenfoot.mouseMoved(null))
@@ -18,14 +18,14 @@ private boolean onThis=false;
         if(onThis)
         {
             if(Greenfoot.mouseClicked(this)) {
-               if(statusSfxIsActivated == 0) {
-                    statusSfxIsActivated = 1;
+               if(!savegame.getSfxIsOn()) {
+                    savegame.setSfxIsOn(true);
                 } else {
-                    statusSfxIsActivated = 0;
+                    savegame.setSfxIsOn(false);
                 }
             }
             
-            if( statusSfxIsActivated == 1) {
+            if(savegame.getSfxIsOn()) {
                     setImage("button_sfx-sounds_off-hover.png");
                 } else {
                     setImage("button_sfx-sounds-hover.png");
@@ -33,7 +33,7 @@ private boolean onThis=false;
         }
         else
         {
-                if( statusSfxIsActivated == 1) {
+                if(savegame.getSfxIsOn()) {
                     setImage("button_sfx-sounds_off.png");
                 } else {
                     setImage("button_sfx-sounds.png");
