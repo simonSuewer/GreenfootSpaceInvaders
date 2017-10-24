@@ -19,9 +19,9 @@ public class Enemy extends Ship
     }
 
     //setter
-    public static void set_counter(int counterr)
+    public static void set_counter(int newCounter)
     {
-        counter = counterr;
+        counter = newCounter;
     }
 
 
