@@ -15,12 +15,13 @@ public class test extends Actor
     public void act() 
     {
         XML test = new XML();
-        try{
+        
+        /*try{
             test.init();
         } catch (JAXBException e) {
             System.err.println("IndexOutOfBoundsException: " + e.getMessage());
                 
-        }
+        }*/
         
         Safegame newSafe = test.read();
         System.out.println("1-->" + newSafe.getCredits());

@@ -1,11 +1,11 @@
 #BlueJ class context
 comment0.target=XML
-comment1.params=args
-comment1.target=void\ main(java.lang.String[])
+comment1.params=
+comment1.target=XML()
 comment2.params=
-comment2.target=XML()
+comment2.target=Safegame\ read()
 comment3.params=
-comment3.target=Safegame\ read()
+comment3.target=void\ init()
 comment4.params=
-comment4.target=void\ init()
+comment4.target=void\ save()
 numComments=5
