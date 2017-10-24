@@ -11,19 +11,18 @@ public class ButtonStart extends MenuActor
        private boolean onThis=false;
  
  
-    public void act() {
+    public void act()
+    {
         if(Greenfoot.mouseMoved(null))
             onThis = Greenfoot.mouseMoved(this);
         if(onThis)
         {
-            setImage("button_start-hover.png");
-            if(Greenfoot.mouseClicked(this)) {
-                Space space = new Space();
-                Greenfoot.setWorld(space);
-            }
+            System.out.println("Hover");
+            setImage("button_settings.png"); 
         }
         else
         {
+            System.out.println("notHover");
             setImage("button_start.png"); 
         }
     }
