@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Greenfoot properties
 #Tue Oct 24 12:09:00 CEST 2017
 target16.name=EnemyShot
@@ -41,18 +42,323 @@ target15.name=ButtonSfxSounds
 target5.height=50
 target1.name=Human
 version=3.0.0
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+#Greenfoot project file
+=\=\=\=\=\=\=
+<<<<<<<=HEAD
+>>>>>>>=bdbf2bcf0cc429c0dff08012444dd13693fb6fc2
+class.BackgroundHeader.image=header.png
+class.BackgroundHeader.superclass=MenuActor
+class.ButtonExit.image=button_exit.png
+class.ButtonExit.superclass=MenuActor
+class.ButtonMitwirkende.image=button_mitwirkende.png
+class.ButtonMitwirkende.superclass=SettingsActor
+class.ButtonMusik.image=button_musik_on.png
+class.ButtonMusik.superclass=SettingsActor
+class.ButtonSettings.image=button_settings.png
+class.ButtonSettings.superclass=MenuActor
+class.ButtonSettingsExit.superclass=SettingsActor
+class.ButtonSfxSounds.image=button_sfx-sounds.png
+class.ButtonSfxSounds.superclass=SettingsActor
+class.ButtonStart.image=button_start.png
+class.ButtonStart.superclass=MenuActor
+=======
+<<<<<<< HEAD
+#Greenfoot project file
+=\=\=\=\=\=\=
+<<<<<<<=HEAD
+>>>>>>>=ef6fa6b96b9d09f7ffb4778a20a7fa7851c4b883
+class.BackgroundHeader.image=header.png
+class.BackgroundHeader.superclass=MenuActor
+class.ButtonExit.image=button_exit.png
+class.ButtonExit.superclass=MenuActor
+class.ButtonSettings.image=button_settings.png
+class.ButtonSettings.superclass=MenuActor
+class.ButtonStart.image=button_start.png
+class.ButtonStart.superclass=MenuActor
+class.Enemy.superclass=Ship
+class.EnemyShot.image=grafik_schuss_gegner.png
+class.EnemyShot.superclass=Weapon
+class.Human.image=eigenesSchiff.png
+class.Human.superclass=Ship
+class.HumanShot.image=grafik_schuss.png
+class.HumanShot.superclass=Weapon
+class.Menu.image=background.png
+class.Menu.superclass=greenfoot.World
+class.MenuActor.superclass=greenfoot.Actor
+class.MyWorld.superclass=greenfoot.World
+class.Safegame.superclass=
+=======
+>>>>>>> cb43bd42cde0a032060be9a9ff5835aef7177f9a
+#Greenfoot properties
+#Tue Oct 24 12:07:29 CEST 2017
+editor.fx.0.height=722
+target2.width=80
+target8.name=ButtonStart
+target11.y=0
+target11.x=0
+class.Ship.superclass=greenfoot.Actor
+dependency12.type=UsesDependency
+class.ButtonExit.superclass=MenuActor
+class.Space.superclass=greenfoot.World
+target1.type=ClassTarget
+target7.showInterface=false
+class.Sven.superclass=Enemy
+mainWindow.height=946
+target6.typeParameters=
+dependency9.to=Enemy
+target1.height=50
+<<<<<<< HEAD
+target17.height=50
+class.Enemy.superclass=Ship
+target13.name=ButtonSettings
+class.Human.superclass=Ship
+=======
+>>>>>>> 97e9c8eeee7dc63e00894a46188bb33b35e1735b
+class.Enemy.superclass=Ship
+class.EnemyShot.image=grafik_schuss_gegner.png
+class.EnemyShot.superclass=Weapon
+class.Human.image=eigenesSchiff.png
+class.Human.superclass=Ship
+<<<<<<< HEAD
+class.HumanShot.image=grafik_schuss.png
+class.HumanShot.superclass=Weapon
+class.Menu.image=background.png
+=======
+target8.y=0
+>>>>>>> cb43bd42cde0a032060be9a9ff5835aef7177f9a
+dependency16.type=UsesDependency
+target8.y=0
+class.Tim.superclass=Enemy
+target8.x=0
+class.Sven.image=grafik_gegner_level1.png
+dependency2.type=UsesDependency
+target5.type=ClassTarget
+target6.y=0
+target6.x=0
+dependency19.to=Weapon
+target17.name=Ship
+target1.showInterface=false
+target4.y=0
+dependency10.from=ButtonStart
+target4.x=0
+dependency6.type=UsesDependency
+target4.showInterface=false
+target9.type=ClassTarget
+target2.y=0
+target14.height=50
+target2.x=0
+target10.type=ClassTarget
+target8.height=50
+class.Safegame.superclass=
+dependency10.to=Space
+dependency14.from=EnemyShot
+target14.type=ClassTarget
+class.HumanShot.image=grafik_schuss.png
+class.XML.superclass=
+dependency18.from=Menu
+target11.height=50
+target10.typeParameters=
+dependency4.from=Space
+dependency5.to=Human
+class.MyWorld.superclass=greenfoot.World
+target18.type=ClassTarget
+target17.typeParameters=
+target1.name=Human
+target10.showInterface=false
+dependency8.from=HumanShot
+dependency15.to=BackgroundHeader
+target13.showInterface=false
+>>>>>>> 97e9c8eeee7dc63e00894a46188bb33b35e1735b
+class.Menu.superclass=greenfoot.World
+<<<<<<< HEAD
+class.Upgrade.superclass=
+target4.typeParameters=
+target5.name=HumanShot
+world.lastInstantiated=Space
+target16.showInterface=false
+mainWindow.width=1938
+readme.width=47
+class.ButtonSettings.superclass=MenuActor
+class.BackgroundHeader.image=header.png
+target9.name=Safegame
+target5.height=50
+target10.name=ButtonSettings
+class.ButtonStart.superclass=MenuActor
+dependency13.type=UsesDependency
+target15.typeParameters=
+target2.type=ClassTarget
+target14.name=Menu
+dependency1.to=Weapon
+dependency17.type=UsesDependency
+class.EnemyShot.image=grafik_schuss_gegner.png
+class.BackgroundHeader.superclass=MenuActor
+dependency3.type=UsesDependency
+target2.height=50
+target2.typeParameters=
+target6.type=ClassTarget
+class.MenuActor.superclass=greenfoot.Actor
+target18.height=50
+class.Settings.image=background.png
+dependency11.to=EnemyShot
+target18.name=Menu
+dependency11.from=Enemy
+target9.typeParameters=
+dependency7.type=UsesDependency
+target11.type=ClassTarget
+version=3.0.0
+editor.fx.0.y=-9
+editor.fx.0.x=-9
+dependency15.from=Menu
+class.HumanShot.superclass=Weapon
+target15.height=50
+dependency6.to=Enemy
+target2.showInterface=false
+dependency1.from=Human
+target15.type=ClassTarget
+mainWindow.y=-9
+mainWindow.x=-9
+target5.showInterface=false
+dependency19.from=Ship
+target17.width=80
+dependency16.to=ButtonStart
+dependency5.from=Space
+target8.showInterface=false
+target18.width=80
+class.Weapon.superclass=greenfoot.Actor
+target18.y=0
+target18.x=0
+target7.typeParameters=
+target2.name=Space
+target16.y=0
+target16.x=0
+dependency9.from=Weapon
+readme.name=@README
+target14.width=80
+target13.typeParameters=
+class.Menu.image=background.png
+target14.y=0
+target15.width=80
+target14.x=0
+target6.name=Upgrade
+target9.height=50
+target16.width=80
+target12.y=0
+target12.x=0
+dependency10.type=UsesDependency
+class.Lucas.superclass=Enemy
+editor.fx.0.width=1938
+target11.showInterface=false
+target10.y=0
+class.test.superclass=greenfoot.Actor
+target10.x=0
+dependency2.to=Upgrade
+target12.width=90
+target14.showInterface=false
+target11.name=BackgroundHeader
+dependency14.type=UsesDependency
+target12.height=50
+class.ButtonSettings.image=button_settings.png
+target13.width=90
+target9.y=0
+target17.showInterface=false
+target9.x=0
+target6.height=50
+target3.type=ClassTarget
+dependency12.to=Space
+target7.y=0
+target7.x=0
+target15.name=Ship
+=======
+class.MenuActor.superclass=greenfoot.Actor
+class.Mitwirkende.image=background.png
+class.Mitwirkende.superclass=Settings
+class.MyWorld.superclass=greenfoot.World
+class.Settings.image=background.png
+class.Settings.superclass=greenfoot.World
+class.SettingsActor.superclass=greenfoot.Actor
+class.Ship.superclass=greenfoot.Actor
+class.Space.image=background.png
+>>>>>>> bfd05f309d08cfa4b4ef7d65216ff5374d99a518
 class.Space.superclass=greenfoot.World
 target8.name=ButtonStart
 class.Upgrade.superclass=
 dependency10.type=UsesDependency
 dependency17.type=UsesDependency
+<<<<<<< HEAD
 dependency14.from=ButtonSettings
 class.BackgroundHeader.image=header.png
 package.numTargets=16
 target13.type=ClassTarget
+=======
+dependency18.from=Menu
+dependency18.to=ButtonStart
+>>>>>>> cb43bd42cde0a032060be9a9ff5835aef7177f9a
+dependency18.type=UsesDependency
+dependency19.from=Menu
+dependency19.to=ButtonSettings
+dependency19.type=UsesDependency
+dependency2.from=Human
+dependency2.to=Upgrade
+dependency2.type=UsesDependency
+dependency20.from=Menu
+dependency20.to=ButtonExit
+dependency20.type=UsesDependency
+dependency21.from=Ship
+dependency21.to=Weapon
+dependency21.type=UsesDependency
+dependency22.from=ButtonMitwirkende
+dependency22.to=Settings
+dependency22.type=UsesDependency
+dependency23.from=Settings
+dependency23.to=Space
+dependency23.type=UsesDependency
+dependency24.from=Settings
+dependency24.to=BackgroundHeader
+>>>>>>> bfd05f309d08cfa4b4ef7d65216ff5374d99a518
 dependency24.type=UsesDependency
 dependency21.from=Ship
 dependency28.from=Settings
+<<<<<<< HEAD
+=======
+dependency28.to=ButtonSfxSounds
+dependency28.type=UsesDependency
+dependency3.from=Human
+dependency3.to=HumanShot
+dependency3.type=UsesDependency
+dependency4.from=Space
+dependency4.to=Sven
+dependency4.type=UsesDependency
+<<<<<<< HEAD
+target7.type=ClassTarget
+target10.width=120
+target3.y=0
+target11.width=150
+target18.typeParameters=
+target3.x=0
+dependency12.from=ButtonSettings
+dependency7.to=Weapon
+target3.height=50
+target1.y=0
+dependency8.type=UsesDependency
+=======
+dependency5.from=Space
+dependency5.to=Human
+dependency5.type=UsesDependency
+dependency6.from=Space
+dependency6.to=Enemy
+dependency6.type=UsesDependency
+dependency7.from=Sven
+dependency7.to=Weapon
+dependency7.type=UsesDependency
+dependency8.from=HumanShot
+dependency8.to=Enemy
+dependency8.type=UsesDependency
+dependency9.from=Weapon
+>>>>>>> bfd05f309d08cfa4b4ef7d65216ff5374d99a518
 dependency9.to=Enemy
 target6.type=ClassTarget
 target19.height=50
@@ -74,12 +380,28 @@ target17.typeParameters=
 dependency3.to=HumanShot
 class.Sven.image=grafik_gegner_level1.png
 target1.width=80
+<<<<<<< HEAD
 dependency7.type=UsesDependency
 dependency4.from=Space
 dependency20.to=ButtonExit
 class.ButtonMitwirkende.image=button_mitwirkende.png
 target14.name=ButtonExit
 target9.height=50
+=======
+>>>>>>> cb43bd42cde0a032060be9a9ff5835aef7177f9a
+target1.x=0
+target1.y=0
+target10.height=50
+target10.name=MenuActor
+target10.showInterface=false
+target10.type=ClassTarget
+target10.typeParameters=
+target10.width=100
+target10.x=0
+target10.y=0
+target11.height=50
+target11.name=Enemy
+>>>>>>> bfd05f309d08cfa4b4ef7d65216ff5374d99a518
 target11.showInterface=false
 target2.showInterface=false
 class.ButtonExit.image=button_exit.png
@@ -92,6 +414,7 @@ dependency16.type=UsesDependency
 target14.typeParameters=
 target8.width=100
 target12.type=ClassTarget
+<<<<<<< HEAD
 target21.height=50
 target13.height=50
 dependency23.type=UsesDependency
@@ -99,6 +422,135 @@ dependency20.from=Menu
 class.Ship.superclass=greenfoot.Actor
 class.Enemy.superclass=Ship
 target19.type=ClassTarget
+=======
+<<<<<<< HEAD
+class.Lucas.image=grafik_gegner_level3.png
+target5.typeParameters=
+dependency17.to=ButtonSettings
+dependency16.from=Menu
+class.ButtonStart.image=button_start.png
+<<<<<<<=HEAD
+dependency2.from=Human
+target16.type=ClassTarget
+=======
+target12.typeParameters=
+target12.width=120
+target12.x=0
+target12.y=0
+target13.height=50
+target13.name=BackgroundHeader
+target13.showInterface=false
+target13.type=ClassTarget
+target13.typeParameters=
+target13.width=150
+target13.x=0
+target13.y=0
+target14.height=50
+target14.name=ButtonExit
+target14.showInterface=false
+target14.type=ClassTarget
+target14.typeParameters=
+target14.width=90
+target14.x=0
+target14.y=0
+target15.height=50
+target15.name=ButtonSfxSounds
+target15.showInterface=false
+target15.type=ClassTarget
+target15.typeParameters=
+target15.width=140
+target15.x=0
+target15.y=0
+>>>>>>> cb43bd42cde0a032060be9a9ff5835aef7177f9a
+target16.height=50
+target16.name=EnemyShot
+target16.showInterface=false
+target16.type=ClassTarget
+target16.typeParameters=
+<<<<<<< HEAD
+target16.width=90
+target16.x=0
+target16.y=0
+target17.height=50
+target17.name=Menu
+target17.showInterface=false
+target17.type=ClassTarget
+target17.typeParameters=
+target17.width=80
+target17.x=0
+target17.y=0
+target18.height=50
+target18.name=Ship
+target18.showInterface=false
+target18.type=ClassTarget
+target18.typeParameters=
+target18.width=80
+target18.x=0
+target18.y=0
+target19.height=50
+target19.name=ButtonMitwirkende
+target19.showInterface=false
+target19.type=ClassTarget
+target19.typeParameters=
+target19.width=150
+target19.x=0
+target19.y=0
+target2.height=50
+target2.name=Space
+target2.showInterface=false
+target2.type=ClassTarget
+target2.typeParameters=
+target2.width=80
+target2.x=0
+target2.y=0
+target20.height=50
+target20.name=SettingsActor
+target20.showInterface=false
+target20.type=ClassTarget
+target20.typeParameters=
+target20.width=110
+target20.x=0
+target20.y=0
+target21.height=50
+target21.name=Settings
+target21.showInterface=false
+target21.type=ClassTarget
+target21.typeParameters=
+target21.width=80
+target21.x=0
+target21.y=0
+target3.height=50
+target3.name=ButtonSettingsExit
+=======
+project.charset=UTF-8
+<<<<<<< HEAD
+class.ButtonExit.image=button_exit.png
+target3.showInterface=false
+target3.name=Sven
+target6.showInterface=false
+target3.typeParameters=
+=======
+>>>>>>> 5ad15eb8dc15627399586a3ae3c0751ee799f869
+>>>>>>> 97e9c8eeee7dc63e00894a46188bb33b35e1735b
+target3.showInterface=false
+target3.type=ClassTarget
+target3.typeParameters=
+<<<<<<< HEAD
+target3.width=150
+=======
+<<<<<<< HEAD
+target3.width=80
+>>>>>>> 97e9c8eeee7dc63e00894a46188bb33b35e1735b
+target3.x=0
+target3.y=0
+target4.height=50
+target4.name=Sven
+target4.showInterface=false
+<<<<<<< HEAD
+=======
+target4.type=ClassTarget
+target4.typeParameters=
+>>>>>>> bfd05f309d08cfa4b4ef7d65216ff5374d99a518
 target4.width=80
 target9.showInterface=false
 dependency27.from=Settings
@@ -117,6 +569,7 @@ target11.y=0
 target11.x=0
 readme.height=58
 target8.showInterface=false
+<<<<<<< HEAD
 target17.showInterface=false
 dependency27.to=ButtonMitwirkende
 dependency3.from=Human
@@ -206,6 +659,94 @@ target10.x=0
 readme.name=@README
 target16.width=90
 target10.typeParameters=
+=======
+=======
+>>>>>>> cb43bd42cde0a032060be9a9ff5835aef7177f9a
+target9.showInterface=false
+dependency3.to=HumanShot
+target7.name=ButtonStart
+dependency11.type=UsesDependency
+class.Tim.image=grafik_gegner_level2.png
+package.numDependencies=19
+class.Human.image=eigenesSchiff.png
+dependency13.to=Settings
+package.numTargets=16
+>>>>>>>=5ad15eb8dc15627399586a3ae3c0751ee799f869
+target12.name=ButtonExit
+dependency15.type=UsesDependency
+class.EnemyShot.superclass=Weapon
+dependency1.type=UsesDependency
+>>>>>>> 97e9c8eeee7dc63e00894a46188bb33b35e1735b
+target4.type=ClassTarget
+<<<<<<< HEAD
+target12.showInterface=false
+target8.width=100
+target13.height=50
+dependency8.to=Enemy
+target16.name=Settings
+dependency19.type=UsesDependency
+simulation.speed=48
+target9.width=90
+=======
+target4.typeParameters=
+target4.width=80
+target4.x=0
+target4.y=0
+target5.height=50
+target5.name=HumanShot
+target5.showInterface=false
+target5.type=ClassTarget
+target5.typeParameters=
+target5.width=100
+target5.x=0
+target5.y=0
+target6.height=50
+target6.name=Upgrade
+target6.showInterface=false
+target6.type=ClassTarget
+target6.typeParameters=
+target6.width=80
+target6.x=0
+target6.y=0
+>>>>>>> cb43bd42cde0a032060be9a9ff5835aef7177f9a
+target7.height=50
+<<<<<<< HEAD
+target7.name=Weapon
+target7.showInterface=false
+target7.type=ClassTarget
+target7.typeParameters=
+target7.width=80
+target7.x=0
+target7.y=0
+target8.height=50
+target8.name=ButtonStart
+target8.showInterface=false
+=======
+target15.showInterface=false
+dependency5.type=UsesDependency
+<<<<<<< HEAD
+target8.type=ClassTarget
+dependency18.to=ButtonExit
+target18.showInterface=false
+dependency13.from=ButtonSettings
+dependency9.type=UsesDependency
+target6.width=80
+target10.height=50
+target14.typeParameters=
+target13.type=ClassTarget
+target7.width=100
+dependency17.from=Menu
+dependency3.from=Human
+target1.typeParameters=
+target17.type=ClassTarget
+target3.width=80
+target4.width=100
+target8.typeParameters=
+=======
+>>>>>>> 5ad15eb8dc15627399586a3ae3c0751ee799f869
+>>>>>>> 97e9c8eeee7dc63e00894a46188bb33b35e1735b
+target8.type=ClassTarget
+>>>>>>> bfd05f309d08cfa4b4ef7d65216ff5374d99a518
 target8.typeParameters=
 dependency12.to=EnemyShot
 dependency4.type=UsesDependency
@@ -214,6 +755,7 @@ dependency8.from=HumanShot
 target14.height=50
 target9.y=0
 target9.x=0
+<<<<<<< HEAD
 target11.name=Enemy
 target5.y=0
 class.Settings.image=background.png
@@ -315,3 +857,34 @@ target1.height=50
 mainWindow.width=1938
 target4.typeParameters=
 =\=\=\=\=\=\=
+=======
+target9.y=0
+version=3.0.0
+world.lastInstantiated=Space
+=======
+>>>>>>> cb43bd42cde0a032060be9a9ff5835aef7177f9a
+dependency7.from=Sven
+target17.y=0
+target17.x=0
+target5.width=80
+class.Space.image=background.png
+dependency4.to=Sven
+target15.y=0
+target15.x=0
+target4.name=HumanShot
+readme.y=10
+readme.x=10
+target4.height=50
+readme.height=58
+target12.typeParameters=
+target1.width=80
+target13.y=0
+dependency14.to=Human
+<<<<<<< HEAD
+=\=\=\=\=\=\=
+target13.x=0
+=======
+>>>>>>> 5ad15eb8dc15627399586a3ae3c0751ee799f869
+>>>>>>> 97e9c8eeee7dc63e00894a46188bb33b35e1735b
+>>>>>>> cb43bd42cde0a032060be9a9ff5835aef7177f9a
+>>>>>>> bfd05f309d08cfa4b4ef7d65216ff5374d99a518
