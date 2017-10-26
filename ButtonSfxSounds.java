@@ -23,6 +23,7 @@ private boolean onThis=false;
                 } else {
                     savegame.setSfxIsOn(false);
                 }
+                XML.save();
             }
             
             if(savegame.getSfxIsOn()) {

@@ -23,6 +23,7 @@ private boolean onThis=false;
                 } else {
                     savegame.setMusikIsOn(false);
                 }
+                XML.save();
             }
             
             if(savegame.getMusikIsOn()) {
