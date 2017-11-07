@@ -18,6 +18,7 @@ public class Human extends Ship
         super();
         Safegame load = new Safegame();
         this.health = load.getUpgrade().getHealth();
+        this.setMoveSpeed(5);
     }
 
     public void act() 
