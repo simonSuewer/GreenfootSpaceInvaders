@@ -9,18 +9,8 @@ import java.util.List;
  */
 public class Space extends World
 {
-    private static int level = 1;
-    
-    public static int get_level()
-    {
-        return level;
-    }
-
-    //setter
-    public static void set_level(int newLevel)
-    {
-        level = newLevel;
-    }
+   Safegame safegame = new Safegame();
+   
     
     /**
      * Constructor for objects of class MyWorld.
@@ -30,6 +20,11 @@ public class Space extends World
     {    
         super(800, 800, 1);
         initializeLvl1();
+    }
+    
+    public Object getObjectForLVL()
+    {
+        //switch
     }
     
     public void initializeLvl1()

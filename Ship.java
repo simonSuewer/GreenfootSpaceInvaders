@@ -8,7 +8,6 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Ship extends Actor
 {
-    private int health;
     private int moveSpeed;
     private Weapon weapon;
     
@@ -18,7 +17,7 @@ public class Ship extends Actor
         moveSpeed = Safegame.getBASE_MOVE_SPEED();
     }
     
-    
+ 
     public void act() 
     {
         // Add your action code here.
