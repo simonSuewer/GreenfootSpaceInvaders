@@ -2,7 +2,7 @@
 <safegame>
     <credits>0</credits>
     <lvl>0</lvl>
-    <musikIsOn>false</musikIsOn>
+    <musikIsOn>true</musikIsOn>
     <score>0</score>
-    <sfxIsOn>false</sfxIsOn>
+    <sfxIsOn>true</sfxIsOn>
 </safegame>

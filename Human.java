@@ -8,21 +8,26 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Human extends Ship
 {
-    
-    private Upgrade upgrade = new Upgrade();
+    private int health = 5;
     private int shotCount = 0;
- 
+   
+    public Human()
+    {
+        super();
+        Safegame load = new Safegame();
+        this.health = load.getUpgrade().getHealth();
+    }
     public void act() 
     {
         //move left
         if(Greenfoot.isKeyDown("a"))
         {
-            this.move(this.get_moveSpeed() * (-1));
+            this.move(this.getMoveSpeed() * (-1));
         }
         //move right
         if(Greenfoot.isKeyDown("d"))
         {
-            this.move(this.get_moveSpeed());
+            this.move(this.getMoveSpeed());
         }
         
         //shot

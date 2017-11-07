@@ -10,7 +10,8 @@ public class Safegame
     private static int score;
     private static boolean MusikIsOn = true;
     private static boolean SfxIsOn = true;
-    
+    private static final int BASE_MOVE_SPEED = 5;
+    private static final int BASE_SHOT_SPEED = 5;
     
     public Safegame()
     {
@@ -18,6 +19,14 @@ public class Safegame
     
     
     //getter
+     public static int getBASE_MOVE_SPEED()
+    {
+        return BASE_MOVE_SPEED * lvl;
+    }
+     public static int getBASE_SHOT_SPEED()
+    {
+        return BASE_SHOT_SPEED + lvl;
+    }
     public int getLvl()
     {
         return lvl;
