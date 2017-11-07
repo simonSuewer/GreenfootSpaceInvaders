@@ -33,6 +33,7 @@ public class Space extends World
     public void initializeLvl1()
     {
         List objects = getObjects(null);
+        safegame.setLvl(1);
         if (objects != null) 
         {
             removeObjects(objects); 

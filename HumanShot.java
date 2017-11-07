@@ -27,7 +27,7 @@ public class HumanShot extends Weapon
         {
             getWorld().removeObject(this);
         }
-        else if(this.isTouching(ButtonHealth.class))
+        /*else if(this.isTouching(ButtonHealth.class))
         {
             Upgrade.addHealth(1);
             getWorld().showText("1 Extra Leben", 400, 500);
@@ -43,7 +43,7 @@ public class HumanShot extends Weapon
         {
             System.out.println(Upgrade.getHealth()+""+Upgrade.getDamage());
             getWorld().removeObject(this);
-        } 
+        } */
     }
 }
 

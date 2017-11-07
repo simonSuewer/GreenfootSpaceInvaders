@@ -21,7 +21,7 @@ public class Safegame
     //getter
      public static int getBASE_MOVE_SPEED()
     {
-        return BASE_MOVE_SPEED * lvl;
+        return BASE_MOVE_SPEED + lvl;
     }
      public static int getBASE_SHOT_SPEED()
     {
