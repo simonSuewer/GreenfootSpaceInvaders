@@ -11,9 +11,12 @@ public class Human extends Ship
     
     private Upgrade upgrade = new Upgrade();
     private int shotCount = 0;
+    private GreenfootSound soundHorn = new GreenfootSound("horn.wav"); 
  
     public void act() 
     {
+        
+        
         //move left
         if(Greenfoot.isKeyDown("a"))
         {
@@ -23,6 +26,11 @@ public class Human extends Ship
         if(Greenfoot.isKeyDown("d"))
         {
             this.move(this.get_moveSpeed());
+        }
+        
+        if(Greenfoot.isKeyDown("h"))
+        {
+            soundHorn.play();
         }
         
         //shot

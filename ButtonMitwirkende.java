@@ -18,8 +18,8 @@ public class ButtonMitwirkende extends SettingsActor
         {
             setImage("button_mitwirkende-hover.png");
             if(Greenfoot.mouseClicked(this)) {
-                Settings settings = new Settings();
-                Greenfoot.setWorld(settings);
+                Mitwirkende mitwirkende = new Mitwirkende();
+                Greenfoot.setWorld(mitwirkende);
             }
         }
         else
