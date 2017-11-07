@@ -12,9 +12,7 @@ public class Human extends Ship
     private int shotCount = 0;
 
     private GreenfootSound soundHorn = new GreenfootSound("horn.wav"); 
- 
 
-   
     public Human()
     {
         super();
@@ -22,6 +20,7 @@ public class Human extends Ship
         this.health = load.getUpgrade().getHealth();
         this.setMoveSpeed(5);
     }
+
     public void act() 
     {
         
