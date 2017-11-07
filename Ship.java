@@ -40,11 +40,7 @@ public class Ship extends Actor
             return false;
     }
 
-    //getter
-    public int getHealth()
-    {
-        return health;
-    }
+    
 
     public int getMoveSpeed()
     {
@@ -56,11 +52,6 @@ public class Ship extends Actor
         return weapon;
     }
 
-    //setter
-    public void setHealth(int health)
-    {
-        this.health = health;
-    }
 
     public void setWeapond(Weapon weapon)
     {

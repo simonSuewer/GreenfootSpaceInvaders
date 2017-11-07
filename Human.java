@@ -10,10 +10,10 @@ public class Human extends Ship
 {
     private int health = 5;
     private int shotCount = 0;
-<<<<<<< HEAD
+
     private GreenfootSound soundHorn = new GreenfootSound("horn.wav"); 
  
-=======
+
    
     public Human()
     {
@@ -21,7 +21,6 @@ public class Human extends Ship
         Safegame load = new Safegame();
         this.health = load.getUpgrade().getHealth();
     }
->>>>>>> 2b4e9b828014e0fcac26ac89df84778344293e06
     public void act() 
     {
         

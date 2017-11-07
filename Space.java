@@ -24,7 +24,10 @@ public class Space extends World
     
     public Object getObjectForLVL()
     {
+        
         //switch
+        
+        return null;
     }
     
     public void initializeLvl1()

@@ -8,7 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Weapon extends Actor
 {
-    
+    private Safegame safegame = new Safegame();
     public boolean atWorldEdge()
     {
         if(getX() < 20 || getX() > getWorld().getWidth() - 20)
@@ -27,9 +27,9 @@ public class Weapon extends Actor
             Enemy.set_counter(Enemy.get_counter()-1);
             if(Enemy.get_counter()==0)
             {
-                Space.set_level(Space.get_level()+1);
+                safegame.setLvl(safegame.getLvl()+1);
                 Space x = (Space) getWorld();
-                switch(Space.get_level())
+                switch(safegame.getLvl())
                 {
                     default:
                         break;
