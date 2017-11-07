@@ -1,7 +1,7 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
->>>>>>>=97f93877ed1ce441b72a68dc8a0c4427baf0c551
+>>>>>>>=d58d174cefbbddd0b7cb5b88a32ca0ecc1a28e2f
 class.BackgroundHeader.image=header.png
 class.BackgroundHeader.superclass=MenuActor
 class.ButtonDamage.image=grafik_upgrade_weapon.png
@@ -91,22 +91,6 @@ dependency19.type=UsesDependency
 dependency2.from=Sven
 dependency2.to=EnemyShot
 dependency2.type=UsesDependency
-<<<<<<< HEAD
-dependency20.from=ButtonMusik
-dependency20.to=Safegame
-dependency20.type=UsesDependency
-dependency21.from=ButtonMusik
-dependency21.to=XML
-dependency21.type=UsesDependency
-dependency22.from=XML
-dependency22.to=Safegame
-dependency22.type=UsesDependency
-dependency23.from=ButtonSfxSounds
-dependency23.to=Safegame
-dependency23.type=UsesDependency
-dependency24.from=ButtonSfxSounds
-dependency24.to=XML
-=======
 dependency20.from=Settings
 dependency20.to=ButtonMitwirkende
 dependency20.type=UsesDependency
@@ -121,7 +105,6 @@ dependency23.to=Human
 dependency23.type=UsesDependency
 dependency24.from=Space
 dependency24.to=Space
->>>>>>> d58d174cefbbddd0b7cb5b88a32ca0ecc1a28e2f
 dependency24.type=UsesDependency
 dependency25.from=Space
 dependency25.to=Sven
@@ -192,29 +175,16 @@ dependency8.type=UsesDependency
 dependency9.from=Enemy
 dependency9.to=EnemyShot
 dependency9.type=UsesDependency
-<<<<<<< HEAD
 editor.fx.0.height=0
 editor.fx.0.width=0
 editor.fx.0.x=0
 editor.fx.0.y=0
-mainWindow.height=1036
-mainWindow.width=1934
-mainWindow.x=-7
-mainWindow.y=1
-package.numDependencies=24
-package.numTargets=26
-=======
-editor.fx.0.height=739
-editor.fx.0.width=816
-editor.fx.0.x=392
-editor.fx.0.y=54
-mainWindow.height=1092
-mainWindow.width=1936
+mainWindow.height=780
+mainWindow.width=1378
 mainWindow.x=-1928
 mainWindow.y=-188
 package.numDependencies=40
 package.numTargets=30
->>>>>>> d58d174cefbbddd0b7cb5b88a32ca0ecc1a28e2f
 project.charset=UTF-8
 readme.height=58
 readme.name=@README

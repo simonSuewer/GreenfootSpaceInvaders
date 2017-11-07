@@ -1,8 +1,7 @@
 #BlueJ class context
 comment0.target=Upgrade
-comment0.text=\n\ Write\ a\ description\ of\ class\ Upgrade\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Upgrade\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 comment1.params=
-<<<<<<< HEAD
 comment1.target=void\ act()
 comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Upgrade\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
 comment2.params=add
@@ -14,11 +13,3 @@ comment4.target=int\ getDamage()
 comment5.params=
 comment5.target=int\ getHealth()
 numComments=6
-=======
-comment1.target=Upgrade()
-comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Upgrade\n
-comment2.params=y
-comment2.target=int\ sampleMethod(int)
-comment2.text=\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\n\ \n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \n
-numComments=3
->>>>>>> 97f93877ed1ce441b72a68dc8a0c4427baf0c551
