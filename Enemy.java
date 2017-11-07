@@ -12,6 +12,14 @@ public class Enemy extends Ship
     private static int counter = 30;
     private int shotCount = 0;
     private int max_shot = 5;
+    private int health;
+    
+    public Enemy()
+    {
+        super();
+        Safegame load = new Safegame();
+        this.health = load.getLvl() * load.getLvl();
+    }
     
     public static int get_counter()
     {
@@ -40,14 +48,14 @@ public class Enemy extends Ship
         }
         
         // Add your action code here.
-       move(this.get_moveSpeed());
+       move(this.getMoveSpeed());
        if(this.isAtEdge())
         {
-            if(this.get_moveSpeed()>0)
+            if(this.getMoveSpeed()>0)
             {
                 for (int i = counter-1;i>=0;i--)
             {
-                getWorld().getObjects(Enemy.class).get(i).set_moveSpeed(getWorld().getObjects(Enemy.class).get(i).get_moveSpeed()*(-1));
+                getWorld().getObjects(Enemy.class).get(i).setMoveSpeed(getWorld().getObjects(Enemy.class).get(i).getMoveSpeed()*(-1));
                 //getWorld().getObjects(Enemy.class).get(i).move(getWorld().getObjects(Enemy.class).get(i).get_moveSpeed());
             }
         }
@@ -55,10 +63,10 @@ public class Enemy extends Ship
         {
             for (int i = 0;i<counter;i++)
             {
-                getWorld().getObjects(Enemy.class).get(i).set_moveSpeed(getWorld().getObjects(Enemy.class).get(i).get_moveSpeed()*(-1));
+                getWorld().getObjects(Enemy.class).get(i).setMoveSpeed(getWorld().getObjects(Enemy.class).get(i).getMoveSpeed()*(-1));
                 //getWorld().getObjects(Enemy.class).get(i).move(getWorld().getObjects(Enemy.class).get(i).get_moveSpeed());
             }
-            this.move(this.get_moveSpeed()+1);
+            this.move(this.getMoveSpeed()+1);
         }
         //this.move(this.get_moveSpeed());
         }

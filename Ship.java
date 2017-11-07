@@ -9,9 +9,16 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Ship extends Actor
 {
     private int health;
-    private int moveSpeed = 5;
+    private int moveSpeed;
     private Weapon weapon;
-
+    
+    public Ship()
+    {
+        super();
+        moveSpeed = Safegame.getBASE_MOVE_SPEED();
+    }
+    
+    
     public void act() 
     {
         // Add your action code here.
@@ -35,34 +42,34 @@ public class Ship extends Actor
     }
 
     //getter
-    public int get_health()
+    public int getHealth()
     {
         return health;
     }
 
-    public int get_moveSpeed()
+    public int getMoveSpeed()
     {
         return moveSpeed;
     }
 
-    public Weapon get_weapond()
+    public Weapon getWeapond()
     {
         return weapon;
     }
 
     //setter
-    public void set_health(int health)
+    public void setHealth(int health)
     {
         this.health = health;
     }
 
-    public void set_moveSpeed(int moveSpeed)
-    {
-        this.moveSpeed = moveSpeed;
-    }
-
-    public void set_weapond(Weapon weapon)
+    public void setWeapond(Weapon weapon)
     {
         this.weapon = weapon;
+    }
+    
+    public void setMoveSpeed(int newSpeed)
+    {
+        this.moveSpeed = newSpeed;
     }
 }

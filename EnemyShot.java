@@ -8,7 +8,9 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class EnemyShot extends Weapon
 {
-    private static final int SHOT_SPEED = 5;
+    
+    
+    
     
     public EnemyShot()
     {
@@ -17,7 +19,7 @@ public class EnemyShot extends Weapon
     }
     public void act() 
     {
-        this.move(SHOT_SPEED);
+        this.move(Safegame.getBASE_SHOT_SPEED());
         if(this.atWorldEdge())
         {
             getWorld().removeObject(this);
