@@ -9,15 +9,14 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Mitwirkende extends World
 {
 
-    /**
-     * Constructor for objects of class Mitwirkende.
-     * 
-     */
+    private GreenfootSound soundThugLife = new GreenfootSound("thuglife.wav"); 
+
+    
     public Mitwirkende()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(800, 800, 1);
-        
+        soundThugLife.play();
         showText("MITWIRKENDE", 400, 20);
         
         showText("Software-Engineer:", 400, 100);

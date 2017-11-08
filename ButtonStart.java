@@ -9,22 +9,33 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class ButtonStart extends MenuActor
 {
        private boolean onThis=false;
- 
+       private GreenfootSound soundButtonOnHover = new GreenfootSound("button_onHover.wav");
+       private GreenfootSound soundButtonOnClick = new GreenfootSound("button_onClick.wav"); 
+       private boolean FirstMouseOn = true;
+       
+      
  
     public void act() {
         if(Greenfoot.mouseMoved(null))
             onThis = Greenfoot.mouseMoved(this);
         if(onThis)
         {
+            if(FirstMouseOn) {
+                soundButtonOnHover.play();
+                FirstMouseOn = false;
+            }
             setImage("button_start-hover.png");
+            
             if(Greenfoot.mouseClicked(this)) {
+                soundButtonOnClick.play();
                 Space space = new Space();
                 Greenfoot.setWorld(space);
             }
         }
         else
         {
-            setImage("button_start.png"); 
+            setImage("button_start.png");
+            FirstMouseOn = true;
         }
     }
  }    
