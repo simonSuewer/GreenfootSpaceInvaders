@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=UltraEnemy
+comment0.text=\n\ Write\ a\ description\ of\ class\ UltraEnemy\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=UltraEnemy()
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=int\ getHealth()
+comment4.params=h
+comment4.target=void\ setHealth(int)
+numComments=5
