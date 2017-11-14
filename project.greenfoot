@@ -9,10 +9,15 @@
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>>=fe1e41e8290b98018a9f7c4e32cd41dfef953129
 =======
 >>>>>>>=a30276c490d3d762c3660963a05ceb32600ee577
 >>>>>>> c66f77cd5eb5d4ab501a313ef8d297ddc62d6c53
+=======
+>>>>>>>=57c2dfff89005189d2ae326d2c6695d9037c8302
+class.ActionSounds.superclass=
+>>>>>>> parent of 1c61c5d... Merge branch 'master' of https://github.com/simonSuewer/GreenfootSpaceInvaders
 class.BackgroundHeader.image=header.png
 class.BackgroundHeader.superclass=MenuActor
 class.ButtonDamage.image=grafik_upgrade_weapon.png
@@ -51,7 +56,6 @@ class.Human.image=eigenesSchiff.png
 class.Human.superclass=Ship
 class.HumanShot.image=grafik_schuss.png
 class.HumanShot.superclass=Weapon
-class.Info.superclass=greenfoot.Actor
 class.Lucas.image=grafik_gegner_level3.png
 class.Lucas.superclass=Enemy
 class.Max.image=endgegner.png
@@ -70,10 +74,6 @@ class.Mitwirkende.superclass=greenfoot.World
 >>>>>>> parent of 415b477... yes
 class.MyWorld.superclass=greenfoot.World
 class.Safegame.superclass=
-<<<<<<< HEAD
-=======
-class.Score.superclass=greenfoot.Actor
->>>>>>> c66f77cd5eb5d4ab501a313ef8d297ddc62d6c53
 class.Settings.image=background.png
 <<<<<<< HEAD
 class.Settings.superclass=greenfoot.World
@@ -89,21 +89,14 @@ class.Sven.image=grafik_gegner_level1.png
 class.Sven.superclass=Enemy
 class.Tim.image=grafik_gegner_level2.png
 class.Tim.superclass=Enemy
-<<<<<<< HEAD
-class.UltraEnemy.superclass=Ship
-class.UltraSven.image=grafik_gegner_level1.png
-class.UltraSven.superclass=UltraEnemy
-=======
->>>>>>> c66f77cd5eb5d4ab501a313ef8d297ddc62d6c53
 class.Upgrade.superclass=greenfoot.Actor
-class.UpgradeShot.superclass=HumanShot
 class.Weapon.superclass=greenfoot.Actor
 class.XML.superclass=
 class.test.superclass=greenfoot.Actor
-<<<<<<< HEAD
 dependency1.from=Max
 dependency1.to=Weapon
 dependency1.type=UsesDependency
+<<<<<<< HEAD
 dependency10.from=HumanShot
 dependency10.to=Enemy
 <<<<<<< HEAD
@@ -477,6 +470,10 @@ dependency1.to=Weapon
 dependency1.type=UsesDependency
 dependency10.from=Weapon
 dependency10.to=ButtonExit
+=======
+dependency10.from=Weapon
+dependency10.to=Sven
+>>>>>>> parent of 1c61c5d... Merge branch 'master' of https://github.com/simonSuewer/GreenfootSpaceInvaders
 dependency10.type=UsesDependency
 dependency11.from=Weapon
 dependency11.to=Enemy
@@ -491,6 +488,7 @@ dependency14.from=ButtonStart
 dependency14.to=Space
 dependency14.type=UsesDependency
 dependency15.from=ButtonStart
+<<<<<<< HEAD
 dependency15.to=Upgrade
 dependency15.type=UsesDependency
 dependency16.from=Safegame
@@ -504,12 +502,31 @@ dependency18.to=Enemy
 dependency18.type=UsesDependency
 dependency19.from=ButtonSettings
 dependency19.to=ButtonSettings
+=======
+dependency15.to=Safegame
+dependency15.type=UsesDependency
+dependency16.from=ButtonStart
+dependency16.to=ActionSounds
+dependency16.type=UsesDependency
+dependency17.from=Safegame
+dependency17.to=Upgrade
+dependency17.type=UsesDependency
+dependency18.from=Enemy
+dependency18.to=EnemyShot
+dependency18.type=UsesDependency
+dependency19.from=Enemy
+dependency19.to=Safegame
+>>>>>>> parent of 1c61c5d... Merge branch 'master' of https://github.com/simonSuewer/GreenfootSpaceInvaders
 dependency19.type=UsesDependency
 dependency2.from=Sven
 dependency2.to=EnemyShot
 dependency2.type=UsesDependency
 dependency20.from=ButtonSettings
+<<<<<<< HEAD
 dependency20.to=BackgroundHeader
+=======
+dependency20.to=Enemy
+>>>>>>> parent of 1c61c5d... Merge branch 'master' of https://github.com/simonSuewer/GreenfootSpaceInvaders
 dependency20.type=UsesDependency
 dependency21.from=EnemyShot
 dependency21.to=Human
@@ -523,6 +540,7 @@ dependency23.type=UsesDependency
 dependency24.from=Menu
 dependency24.to=ButtonStart
 dependency24.type=UsesDependency
+<<<<<<< HEAD
 dependency25.from=Settings
 dependency25.to=BackgroundHeader
 dependency25.type=UsesDependency
@@ -537,10 +555,27 @@ dependency28.to=ButtonMusik
 dependency28.type=UsesDependency
 dependency29.from=Human
 dependency29.to=HumanShot
+=======
+dependency25.from=EnemyShot
+dependency25.to=Human
+dependency25.type=UsesDependency
+dependency26.from=EnemyShot
+dependency26.to=Safegame
+dependency26.type=UsesDependency
+dependency27.from=Menu
+dependency27.to=BackgroundHeader
+dependency27.type=UsesDependency
+dependency28.from=Menu
+dependency28.to=ButtonStart
+dependency28.type=UsesDependency
+dependency29.from=Menu
+dependency29.to=ButtonMusik
+>>>>>>> parent of 1c61c5d... Merge branch 'master' of https://github.com/simonSuewer/GreenfootSpaceInvaders
 dependency29.type=UsesDependency
 dependency3.from=HumanShot
 dependency3.to=Upgrade
 dependency3.type=UsesDependency
+<<<<<<< HEAD
 dependency30.from=Human
 dependency30.to=Human
 dependency30.type=UsesDependency
@@ -570,10 +605,42 @@ dependency38.to=Lucas
 dependency38.type=UsesDependency
 dependency39.from=Space
 dependency39.to=Weapon
+=======
+dependency30.from=Menu
+dependency30.to=ButtonSettings
+dependency30.type=UsesDependency
+dependency31.from=Menu
+dependency31.to=ButtonExit
+dependency31.type=UsesDependency
+dependency32.from=Menu
+dependency32.to=ActionSounds
+dependency32.type=UsesDependency
+dependency33.from=Settings
+dependency33.to=BackgroundHeader
+dependency33.type=UsesDependency
+dependency34.from=Settings
+dependency34.to=ButtonSfxSounds
+dependency34.type=UsesDependency
+dependency35.from=Settings
+dependency35.to=ButtonMitwirkende
+dependency35.type=UsesDependency
+dependency36.from=Settings
+dependency36.to=ButtonMusik
+dependency36.type=UsesDependency
+dependency37.from=Settings
+dependency37.to=ButtonExit
+dependency37.type=UsesDependency
+dependency38.from=Human
+dependency38.to=HumanShot
+dependency38.type=UsesDependency
+dependency39.from=Human
+dependency39.to=Human
+>>>>>>> parent of 1c61c5d... Merge branch 'master' of https://github.com/simonSuewer/GreenfootSpaceInvaders
 dependency39.type=UsesDependency
 dependency4.from=HumanShot
 dependency4.to=Enemy
 dependency4.type=UsesDependency
+<<<<<<< HEAD
 dependency40.from=Space
 dependency40.to=Info
 dependency40.type=UsesDependency
@@ -585,10 +652,24 @@ dependency42.to=Steven
 dependency42.type=UsesDependency
 dependency43.from=Space
 dependency43.to=Max
+=======
+dependency40.from=Human
+dependency40.to=Sven
+dependency40.type=UsesDependency
+dependency41.from=Human
+dependency41.to=Safegame
+dependency41.type=UsesDependency
+dependency42.from=Space
+dependency42.to=Space
+dependency42.type=UsesDependency
+dependency43.from=Space
+dependency43.to=ButtonExit
+>>>>>>> parent of 1c61c5d... Merge branch 'master' of https://github.com/simonSuewer/GreenfootSpaceInvaders
 dependency43.type=UsesDependency
 dependency44.from=Space
 dependency44.to=Enemy
 dependency44.type=UsesDependency
+<<<<<<< HEAD
 dependency45.from=UpgradeShot
 dependency45.to=ButtonHealth
 dependency45.type=UsesDependency
@@ -603,12 +684,33 @@ dependency48.to=ButtonNextLvl
 dependency48.type=UsesDependency
 dependency49.from=UpgradeShot
 dependency49.to=Safegame
+=======
+dependency45.from=Space
+dependency45.to=Safegame
+dependency45.type=UsesDependency
+dependency46.from=Space
+dependency46.to=Human
+dependency46.type=UsesDependency
+dependency47.from=Space
+dependency47.to=Tim
+dependency47.type=UsesDependency
+dependency48.from=Space
+dependency48.to=Sven
+dependency48.type=UsesDependency
+dependency49.from=Space
+dependency49.to=Lucas
+>>>>>>> parent of 1c61c5d... Merge branch 'master' of https://github.com/simonSuewer/GreenfootSpaceInvaders
 dependency49.type=UsesDependency
 dependency5.from=HumanShot
 dependency5.to=ButtonHealth
 dependency5.type=UsesDependency
+<<<<<<< HEAD
 dependency50.from=UpgradeShot
 dependency50.to=Space
+=======
+dependency50.from=ButtonNextLvl
+dependency50.to=HumanShot
+>>>>>>> parent of 1c61c5d... Merge branch 'master' of https://github.com/simonSuewer/GreenfootSpaceInvaders
 dependency50.type=UsesDependency
 dependency51.from=test
 dependency51.to=XML
@@ -616,6 +718,7 @@ dependency51.type=UsesDependency
 dependency52.from=test
 dependency52.to=Safegame
 dependency52.type=UsesDependency
+<<<<<<< HEAD
 dependency53.from=test
 dependency53.to=Weapon
 dependency53.type=UsesDependency
@@ -636,15 +739,44 @@ dependency58.to=ButtonDamage
 dependency58.type=UsesDependency
 dependency59.from=Shop
 dependency59.to=ButtonHealth
+=======
+dependency53.from=Lucas
+dependency53.to=Weapon
+dependency53.type=UsesDependency
+dependency54.from=Steven
+dependency54.to=Weapon
+dependency54.type=UsesDependency
+dependency55.from=Shop
+dependency55.to=HumanShot
+dependency55.type=UsesDependency
+dependency56.from=Shop
+dependency56.to=ButtonDamage
+dependency56.type=UsesDependency
+dependency57.from=Shop
+dependency57.to=ButtonNextLvl
+dependency57.type=UsesDependency
+dependency58.from=Shop
+dependency58.to=Human
+dependency58.type=UsesDependency
+dependency59.from=Shop
+dependency59.to=Upgrade
+>>>>>>> parent of 1c61c5d... Merge branch 'master' of https://github.com/simonSuewer/GreenfootSpaceInvaders
 dependency59.type=UsesDependency
 dependency6.from=HumanShot
 dependency6.to=ButtonDamage
 dependency6.type=UsesDependency
 dependency60.from=Shop
+<<<<<<< HEAD
 dependency60.to=Upgrade
 dependency60.type=UsesDependency
 dependency61.from=ButtonExit
 dependency61.to=Menu
+=======
+dependency60.to=Safegame
+dependency60.type=UsesDependency
+dependency61.from=Shop
+dependency61.to=ButtonHealth
+>>>>>>> parent of 1c61c5d... Merge branch 'master' of https://github.com/simonSuewer/GreenfootSpaceInvaders
 dependency61.type=UsesDependency
 dependency62.from=ButtonMitwirkende
 dependency62.to=Settings
@@ -652,6 +784,7 @@ dependency62.type=UsesDependency
 dependency7.from=HumanShot
 dependency7.to=ButtonNextLvl
 dependency7.type=UsesDependency
+<<<<<<< HEAD
 dependency8.from=HumanShot
 dependency8.to=Human
 dependency8.type=UsesDependency
@@ -669,17 +802,49 @@ mainWindow.y=-8
 package.numDependencies=61
 package.numTargets=34
 >>>>>>> c66f77cd5eb5d4ab501a313ef8d297ddc62d6c53
+=======
+dependency70.from=ButtonSfxSounds
+dependency70.to=Safegame
+dependency70.type=UsesDependency
+dependency71.from=ButtonSfxSounds
+dependency71.to=XML
+dependency71.type=UsesDependency
+dependency72.from=Ship
+dependency72.to=Weapon
+dependency72.type=UsesDependency
+dependency73.from=Ship
+dependency73.to=Safegame
+dependency73.type=UsesDependency
+dependency74.from=ButtonMitwirkende
+dependency74.to=Mitwirkende
+dependency74.type=UsesDependency
+dependency75.from=ButtonMitwirkende
+dependency75.to=Safegame
+dependency75.type=UsesDependency
+dependency8.from=HumanShot
+dependency8.to=ButtonNextLvl
+dependency8.type=UsesDependency
+dependency9.from=Mitwirkende
+dependency9.to=ButtonExit
+dependency9.type=UsesDependency
+editor.fx.0.height=1048
+editor.fx.0.width=1938
+editor.fx.0.x=-9
+editor.fx.0.y=-9
+mainWindow.height=1036
+mainWindow.width=1934
+mainWindow.x=-8
+mainWindow.y=2
+package.numDependencies=75
+package.numTargets=33
+>>>>>>> parent of 1c61c5d... Merge branch 'master' of https://github.com/simonSuewer/GreenfootSpaceInvaders
 project.charset=UTF-8
 readme.height=58
 readme.name=@README
 readme.width=47
 readme.x=10
 readme.y=10
-<<<<<<< HEAD
-simulation.speed=67
-=======
 simulation.speed=48
->>>>>>> c66f77cd5eb5d4ab501a313ef8d297ddc62d6c53
 target1.height=50
 target1.name=Max
 target1.showInterface=false
@@ -689,8 +854,8 @@ target1.width=80
 target1.x=0
 target1.y=0
 target10.height=50
-<<<<<<< HEAD
 target10.name=Safegame
+<<<<<<< HEAD
 target10.showInterface=false
 target10.type=ClassTarget
 target10.typeParameters=
@@ -737,6 +902,8 @@ target15.typeParameters=
 target15.width=110
 =======
 target10.name=Enemy
+=======
+>>>>>>> parent of 1c61c5d... Merge branch 'master' of https://github.com/simonSuewer/GreenfootSpaceInvaders
 target10.showInterface=false
 target10.type=ClassTarget
 target10.typeParameters=
@@ -780,8 +947,12 @@ target15.name=ButtonDamage
 target15.showInterface=false
 target15.type=ClassTarget
 target15.typeParameters=
+<<<<<<< HEAD
 target15.width=100
 >>>>>>> c66f77cd5eb5d4ab501a313ef8d297ddc62d6c53
+=======
+target15.width=110
+>>>>>>> parent of 1c61c5d... Merge branch 'master' of https://github.com/simonSuewer/GreenfootSpaceInvaders
 target15.x=0
 target15.y=0
 target16.height=50
@@ -790,10 +961,14 @@ target16.showInterface=false
 target16.type=ClassTarget
 target16.typeParameters=
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 1c61c5d... Merge branch 'master' of https://github.com/simonSuewer/GreenfootSpaceInvaders
 target16.width=100
 target16.x=0
 target16.y=0
 target17.height=50
+<<<<<<< HEAD
 target17.name=ButtonDamage
 target17.showInterface=false
 target17.type=ClassTarget
@@ -809,6 +984,9 @@ target16.x=0
 target16.y=0
 target17.height=50
 target17.name=Human
+=======
+target17.name=Settings
+>>>>>>> parent of 1c61c5d... Merge branch 'master' of https://github.com/simonSuewer/GreenfootSpaceInvaders
 target17.showInterface=false
 target17.type=ClassTarget
 target17.typeParameters=
@@ -816,8 +994,12 @@ target17.width=80
 target17.x=0
 target17.y=0
 target18.height=50
+<<<<<<< HEAD
 target18.name=Space
 >>>>>>> c66f77cd5eb5d4ab501a313ef8d297ddc62d6c53
+=======
+target18.name=Human
+>>>>>>> parent of 1c61c5d... Merge branch 'master' of https://github.com/simonSuewer/GreenfootSpaceInvaders
 target18.showInterface=false
 target18.type=ClassTarget
 target18.typeParameters=
@@ -826,6 +1008,9 @@ target18.x=0
 target18.y=0
 target19.height=50
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 1c61c5d... Merge branch 'master' of https://github.com/simonSuewer/GreenfootSpaceInvaders
 target19.name=Space
 target19.showInterface=false
 target19.type=ClassTarget
@@ -834,6 +1019,7 @@ target19.width=80
 target19.x=0
 target19.y=0
 target2.height=50
+<<<<<<< HEAD
 target2.name=UltraEnemy
 =======
 target19.name=UpgradeShot
@@ -844,8 +1030,9 @@ target19.width=90
 target19.x=0
 target19.y=0
 target2.height=50
+=======
+>>>>>>> parent of 1c61c5d... Merge branch 'master' of https://github.com/simonSuewer/GreenfootSpaceInvaders
 target2.name=ButtonHealth
->>>>>>> c66f77cd5eb5d4ab501a313ef8d297ddc62d6c53
 target2.showInterface=false
 target2.type=ClassTarget
 target2.typeParameters=
@@ -853,6 +1040,7 @@ target2.width=90
 target2.x=0
 target2.y=0
 target20.height=50
+<<<<<<< HEAD
 <<<<<<< HEAD
 target20.name=UpgradeShot
 target20.showInterface=false
@@ -872,6 +1060,8 @@ target21.y=0
 target22.height=50
 target22.name=test
 =======
+=======
+>>>>>>> parent of 1c61c5d... Merge branch 'master' of https://github.com/simonSuewer/GreenfootSpaceInvaders
 target20.name=ButtonNextLvl
 target20.showInterface=false
 target20.type=ClassTarget
@@ -889,7 +1079,10 @@ target21.x=0
 target21.y=0
 target22.height=50
 target22.name=Lucas
+<<<<<<< HEAD
 >>>>>>> c66f77cd5eb5d4ab501a313ef8d297ddc62d6c53
+=======
+>>>>>>> parent of 1c61c5d... Merge branch 'master' of https://github.com/simonSuewer/GreenfootSpaceInvaders
 target22.showInterface=false
 target22.type=ClassTarget
 target22.typeParameters=
@@ -898,10 +1091,14 @@ target22.x=0
 target22.y=0
 target23.height=50
 <<<<<<< HEAD
+<<<<<<< HEAD
 target23.name=UltraSven
 =======
 target23.name=Info
 >>>>>>> c66f77cd5eb5d4ab501a313ef8d297ddc62d6c53
+=======
+target23.name=Steven
+>>>>>>> parent of 1c61c5d... Merge branch 'master' of https://github.com/simonSuewer/GreenfootSpaceInvaders
 target23.showInterface=false
 target23.type=ClassTarget
 target23.typeParameters=
@@ -910,10 +1107,14 @@ target23.x=0
 target23.y=0
 target24.height=50
 <<<<<<< HEAD
+<<<<<<< HEAD
 target24.name=Lucas
 =======
 target24.name=Steven
 >>>>>>> c66f77cd5eb5d4ab501a313ef8d297ddc62d6c53
+=======
+target24.name=Shop
+>>>>>>> parent of 1c61c5d... Merge branch 'master' of https://github.com/simonSuewer/GreenfootSpaceInvaders
 target24.showInterface=false
 target24.type=ClassTarget
 target24.typeParameters=
@@ -921,6 +1122,7 @@ target24.width=80
 target24.x=0
 target24.y=0
 target25.height=50
+<<<<<<< HEAD
 <<<<<<< HEAD
 target25.name=Info
 =======
@@ -935,6 +1137,17 @@ target25.y=0
 target26.height=50
 <<<<<<< HEAD
 target26.name=Steven
+=======
+target25.name=ButtonMusik
+target25.showInterface=false
+target25.type=ClassTarget
+target25.typeParameters=
+target25.width=100
+target25.x=0
+target25.y=0
+target26.height=50
+target26.name=MenuActor
+>>>>>>> parent of 1c61c5d... Merge branch 'master' of https://github.com/simonSuewer/GreenfootSpaceInvaders
 target26.showInterface=false
 target26.type=ClassTarget
 target26.typeParameters=
@@ -942,7 +1155,11 @@ target26.width=80
 target26.x=0
 target26.y=0
 target27.height=50
+<<<<<<< HEAD
 target27.name=Shop
+=======
+target27.name=XML
+>>>>>>> parent of 1c61c5d... Merge branch 'master' of https://github.com/simonSuewer/GreenfootSpaceInvaders
 target27.showInterface=false
 target27.type=ClassTarget
 target27.typeParameters=
@@ -950,7 +1167,11 @@ target27.width=80
 target27.x=0
 target27.y=0
 target28.height=50
+<<<<<<< HEAD
 target28.name=MenuActor
+=======
+target28.name=Tim
+>>>>>>> parent of 1c61c5d... Merge branch 'master' of https://github.com/simonSuewer/GreenfootSpaceInvaders
 target28.showInterface=false
 target28.type=ClassTarget
 target28.typeParameters=
@@ -962,6 +1183,7 @@ target29.name=ButtonMusik
 target29.showInterface=false
 target29.type=ClassTarget
 target29.typeParameters=
+<<<<<<< HEAD
 target29.width=100
 =======
 <<<<<<< HEAD
@@ -1606,6 +1828,9 @@ target29.type=ClassTarget
 target29.typeParameters=
 target29.width=80
 >>>>>>> c66f77cd5eb5d4ab501a313ef8d297ddc62d6c53
+=======
+target29.width=150
+>>>>>>> parent of 1c61c5d... Merge branch 'master' of https://github.com/simonSuewer/GreenfootSpaceInvaders
 target29.x=0
 target29.y=0
 target3.height=50
@@ -1618,7 +1843,11 @@ target3.x=0
 target3.y=0
 target30.height=50
 <<<<<<< HEAD
+<<<<<<< HEAD
 target30.name=XML
+=======
+target30.name=ButtonExit
+>>>>>>> parent of 1c61c5d... Merge branch 'master' of https://github.com/simonSuewer/GreenfootSpaceInvaders
 target30.showInterface=false
 target30.type=ClassTarget
 target30.typeParameters=
@@ -1626,6 +1855,7 @@ target30.width=80
 target30.x=0
 target30.y=0
 target31.height=50
+<<<<<<< HEAD
 target31.name=Tim
 =======
 target30.name=BackgroundHeader
@@ -1638,6 +1868,9 @@ target30.y=0
 target31.height=50
 target31.name=ButtonExit
 >>>>>>> c66f77cd5eb5d4ab501a313ef8d297ddc62d6c53
+=======
+target31.name=ButtonSfxSounds
+>>>>>>> parent of 1c61c5d... Merge branch 'master' of https://github.com/simonSuewer/GreenfootSpaceInvaders
 target31.showInterface=false
 target31.type=ClassTarget
 target31.typeParameters=
@@ -1645,6 +1878,7 @@ target31.width=80
 target31.x=0
 target31.y=0
 target32.height=50
+<<<<<<< HEAD
 <<<<<<< HEAD
 target32.name=BackgroundHeader
 target32.showInterface=false
@@ -1657,6 +1891,9 @@ target33.height=50
 target33.name=ButtonSfxSounds
 =======
 target32.name=ButtonSfxSounds
+=======
+target32.name=Ship
+>>>>>>> parent of 1c61c5d... Merge branch 'master' of https://github.com/simonSuewer/GreenfootSpaceInvaders
 target32.showInterface=false
 target32.type=ClassTarget
 target32.typeParameters=
@@ -1664,14 +1901,19 @@ target32.width=140
 target32.x=0
 target32.y=0
 target33.height=50
+<<<<<<< HEAD
 target33.name=Ship
 >>>>>>> c66f77cd5eb5d4ab501a313ef8d297ddc62d6c53
+=======
+target33.name=ButtonMitwirkende
+>>>>>>> parent of 1c61c5d... Merge branch 'master' of https://github.com/simonSuewer/GreenfootSpaceInvaders
 target33.showInterface=false
 target33.type=ClassTarget
 target33.typeParameters=
 target33.width=80
 target33.x=0
 target33.y=0
+<<<<<<< HEAD
 target34.height=50
 <<<<<<< HEAD
 target34.name=ButtonExit
@@ -1917,6 +2159,8 @@ target4.y=0
 target5.height=50
 target5.name=HumanShot
 =======
+=======
+>>>>>>> parent of 1c61c5d... Merge branch 'master' of https://github.com/simonSuewer/GreenfootSpaceInvaders
 target4.height=50
 target4.name=HumanShot
 target4.showInterface=false
@@ -1927,7 +2171,6 @@ target4.x=0
 target4.y=0
 target5.height=50
 target5.name=Mitwirkende
->>>>>>> c66f77cd5eb5d4ab501a313ef8d297ddc62d6c53
 target5.showInterface=false
 target5.type=ClassTarget
 target5.typeParameters=
@@ -1935,17 +2178,6 @@ target5.width=110
 target5.x=0
 target5.y=0
 target6.height=50
-<<<<<<< HEAD
-target6.name=Mitwirkende
-target6.showInterface=false
-target6.type=ClassTarget
-target6.typeParameters=
-target6.width=110
-target6.x=0
-target6.y=0
-target7.height=50
-target7.name=Upgrade
-=======
 target6.name=Upgrade
 target6.showInterface=false
 target6.type=ClassTarget
@@ -1955,7 +2187,6 @@ target6.x=0
 target6.y=0
 target7.height=50
 target7.name=Weapon
->>>>>>> c66f77cd5eb5d4ab501a313ef8d297ddc62d6c53
 target7.showInterface=false
 target7.type=ClassTarget
 target7.typeParameters=
@@ -1963,6 +2194,7 @@ target7.width=80
 target7.x=0
 target7.y=0
 target8.height=50
+<<<<<<< HEAD
 <<<<<<< HEAD
 target8.name=Weapon
 target8.showInterface=false
@@ -1994,6 +2226,9 @@ version=3.0.0
 world.lastInstantiated=Space
 =======
 target8.name=ButtonStart
+=======
+target8.name=ActionSounds
+>>>>>>> parent of 1c61c5d... Merge branch 'master' of https://github.com/simonSuewer/GreenfootSpaceInvaders
 target8.showInterface=false
 target8.type=ClassTarget
 target8.typeParameters=
@@ -2017,5 +2252,4 @@ target9.width=90
 target9.x=0
 target9.y=0
 version=3.0.0
-world.lastInstantiated=Shop
->>>>>>> c66f77cd5eb5d4ab501a313ef8d297ddc62d6c53
+world.lastInstantiated=Menu
