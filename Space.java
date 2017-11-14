@@ -34,6 +34,7 @@ public class Space extends World
    
      public void initializeLvl(int lvl)
     {
+        this.addObject(new Info(),70,150);
         List objects = getObjects(null);
         safegame.setLvl(1);
         if (objects != null) 
