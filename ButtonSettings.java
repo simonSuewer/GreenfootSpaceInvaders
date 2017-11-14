@@ -12,7 +12,6 @@ public class ButtonSettings extends MenuActor
        private GreenfootSound soundButtonOnHover = new GreenfootSound("button_onHover.wav");
        private GreenfootSound soundButtonOnClick = new GreenfootSound("button_onClick.wav"); 
        private boolean FirstMouseOn = true;
-       private Safegame saveGame = new Safegame();
  
  
  
@@ -22,16 +21,12 @@ public class ButtonSettings extends MenuActor
         if(onThis)
         {
             if(FirstMouseOn) {
-                if (!saveGame.getSfxIsOn()) {
                 soundButtonOnHover.play();
                 FirstMouseOn = false;
-                }
             }
             setImage("button_settings-hover.png");
             if(Greenfoot.mouseClicked(this)) {
-                 if (!saveGame.getSfxIsOn()) {
                 soundButtonOnClick.play();
-                }
                 Settings settings = new Settings();
                 Greenfoot.setWorld(settings);
             }
