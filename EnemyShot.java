@@ -26,6 +26,7 @@ public class EnemyShot extends Weapon
         }
         else if(this.isTouching(Human.class))
         {
+            System.out.println(Human.getHealth());
             if(Human.getHealth() <= 1)
             {
                 this.hit(Human.class); 
