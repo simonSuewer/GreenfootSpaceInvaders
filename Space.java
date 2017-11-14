@@ -26,9 +26,9 @@ public class Space extends World
         }
         else
         {
-            safegame.setLvl(1);
-            initializeLvl(1);
-            //initializeLvl(6, true);
+            //safegame.setLvl(1);
+            //initializeLvl(1);
+            initializeLvl(6, true);
         }
         
     }
