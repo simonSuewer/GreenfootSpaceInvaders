@@ -22,6 +22,7 @@ public class HumanShot extends Weapon
         if(this.atWorldEdge())
         {
             getWorld().removeObject(this);
+            return;
         }
         
         Enemy actor = (Enemy) getOneObjectAtOffset(0, 0, Enemy.class);
