@@ -1,8 +1,16 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
+<<<<<<< HEAD
 >>>>>>>=57c2dfff89005189d2ae326d2c6695d9037c8302
 class.ActionSounds.superclass=
+=======
+<<<<<<< HEAD
+>>>>>>>=fe1e41e8290b98018a9f7c4e32cd41dfef953129
+=======
+>>>>>>>=a30276c490d3d762c3660963a05ceb32600ee577
+>>>>>>> c66f77cd5eb5d4ab501a313ef8d297ddc62d6c53
+>>>>>>> 5d4714fea27ef83193085a3e65e448c90867df53
 class.BackgroundHeader.image=header.png
 class.BackgroundHeader.superclass=MenuActor
 class.ButtonDamage.image=grafik_upgrade_weapon.png
@@ -31,6 +39,7 @@ class.Human.image=eigenesSchiff.png
 class.Human.superclass=Ship
 class.HumanShot.image=grafik_schuss.png
 class.HumanShot.superclass=Weapon
+class.Info.superclass=greenfoot.Actor
 class.Lucas.image=grafik_gegner_level3.png
 class.Lucas.superclass=Enemy
 class.Max.image=endgegner.png
@@ -42,6 +51,10 @@ class.Mitwirkende.image=background.png
 class.Mitwirkende.superclass=greenfoot.World
 class.MyWorld.superclass=greenfoot.World
 class.Safegame.superclass=
+<<<<<<< HEAD
+=======
+class.Score.superclass=greenfoot.Actor
+>>>>>>> c66f77cd5eb5d4ab501a313ef8d297ddc62d6c53
 class.Settings.image=background.png
 class.Settings.superclass=greenfoot.World
 class.SettingsActor.superclass=greenfoot.Actor
@@ -56,15 +69,303 @@ class.Sven.image=grafik_gegner_level1.png
 class.Sven.superclass=Enemy
 class.Tim.image=grafik_gegner_level2.png
 class.Tim.superclass=Enemy
+<<<<<<< HEAD
+class.UltraEnemy.superclass=Ship
+class.UltraSven.image=grafik_gegner_level1.png
+class.UltraSven.superclass=UltraEnemy
+=======
+>>>>>>> c66f77cd5eb5d4ab501a313ef8d297ddc62d6c53
 class.Upgrade.superclass=greenfoot.Actor
+class.UpgradeShot.superclass=HumanShot
 class.Weapon.superclass=greenfoot.Actor
 class.XML.superclass=
 class.test.superclass=greenfoot.Actor
+<<<<<<< HEAD
 dependency1.from=Max
 dependency1.to=Weapon
 dependency1.type=UsesDependency
 dependency10.from=Weapon
 dependency10.to=Sven
+=======
+<<<<<<< HEAD
+dependency1.from=Max
+dependency1.to=Weapon
+dependency1.type=UsesDependency
+dependency10.from=HumanShot
+dependency10.to=Enemy
+dependency10.type=UsesDependency
+dependency11.from=HumanShot
+dependency11.to=ButtonHealth
+dependency11.type=UsesDependency
+dependency12.from=HumanShot
+dependency12.to=ButtonDamage
+dependency12.type=UsesDependency
+dependency13.from=HumanShot
+dependency13.to=ButtonNextLvl
+dependency13.type=UsesDependency
+dependency14.from=HumanShot
+dependency14.to=ButtonExit
+dependency14.type=UsesDependency
+dependency15.from=HumanShot
+dependency15.to=Human
+dependency15.type=UsesDependency
+dependency16.from=Mitwirkende
+dependency16.to=Sven
+dependency16.type=UsesDependency
+dependency17.from=Mitwirkende
+dependency17.to=ButtonExit
+dependency17.type=UsesDependency
+dependency18.from=Weapon
+dependency18.to=Enemy
+dependency18.type=UsesDependency
+dependency19.from=Weapon
+dependency19.to=Safegame
+dependency19.type=UsesDependency
+dependency2.from=UltraEnemy
+dependency2.to=EnemyShot
+dependency2.type=UsesDependency
+dependency20.from=Weapon
+dependency20.to=Space
+dependency20.type=UsesDependency
+dependency21.from=ButtonStart
+dependency21.to=Space
+dependency21.type=UsesDependency
+dependency22.from=Safegame
+dependency22.to=Upgrade
+dependency22.type=UsesDependency
+dependency23.from=Enemy
+dependency23.to=EnemyShot
+dependency23.type=UsesDependency
+dependency24.from=Enemy
+dependency24.to=Safegame
+dependency24.type=UsesDependency
+dependency25.from=ButtonSettings
+dependency25.to=ButtonSettings
+dependency25.type=UsesDependency
+dependency26.from=ButtonSettings
+dependency26.to=Settings
+dependency26.type=UsesDependency
+dependency27.from=EnemyShot
+dependency27.to=Human
+dependency27.type=UsesDependency
+dependency28.from=EnemyShot
+dependency28.to=ButtonStart
+dependency28.type=UsesDependency
+dependency29.from=EnemyShot
+dependency29.to=Safegame
+dependency29.type=UsesDependency
+dependency3.from=UltraEnemy
+dependency3.to=Weapon
+dependency3.type=UsesDependency
+dependency30.from=Menu
+dependency30.to=Safegame
+dependency30.type=UsesDependency
+dependency31.from=Menu
+dependency31.to=ButtonMusik
+dependency31.type=UsesDependency
+dependency32.from=Menu
+dependency32.to=BackgroundHeader
+dependency32.type=UsesDependency
+dependency33.from=Menu
+dependency33.to=ButtonStart
+dependency33.type=UsesDependency
+dependency34.from=Menu
+dependency34.to=ButtonSettings
+dependency34.type=UsesDependency
+dependency35.from=Menu
+dependency35.to=ButtonExit
+dependency35.type=UsesDependency
+dependency36.from=Settings
+dependency36.to=BackgroundHeader
+dependency36.type=UsesDependency
+dependency37.from=Settings
+dependency37.to=ButtonSfxSounds
+dependency37.type=UsesDependency
+dependency38.from=Settings
+dependency38.to=HumanShot
+dependency38.type=UsesDependency
+dependency39.from=Settings
+dependency39.to=Human
+dependency39.type=UsesDependency
+dependency4.from=UltraEnemy
+dependency4.to=Safegame
+dependency4.type=UsesDependency
+dependency40.from=Settings
+dependency40.to=ButtonMusik
+dependency40.type=UsesDependency
+dependency41.from=Settings
+dependency41.to=ButtonMitwirkende
+dependency41.type=UsesDependency
+dependency42.from=Settings
+dependency42.to=ButtonExit
+dependency42.type=UsesDependency
+dependency43.from=Human
+dependency43.to=HumanShot
+dependency43.type=UsesDependency
+dependency44.from=Human
+dependency44.to=Human
+dependency44.type=UsesDependency
+dependency45.from=Human
+dependency45.to=Safegame
+dependency45.type=UsesDependency
+dependency46.from=Space
+dependency46.to=Sven
+dependency46.type=UsesDependency
+dependency47.from=Space
+dependency47.to=ButtonExit
+dependency47.type=UsesDependency
+dependency48.from=Space
+dependency48.to=Enemy
+dependency48.type=UsesDependency
+dependency49.from=Space
+dependency49.to=Safegame
+dependency49.type=UsesDependency
+dependency5.from=UltraEnemy
+dependency5.to=Enemy
+dependency5.type=UsesDependency
+dependency50.from=Space
+dependency50.to=Human
+dependency50.type=UsesDependency
+dependency51.from=Space
+dependency51.to=Lucas
+dependency51.type=UsesDependency
+dependency52.from=Space
+dependency52.to=Tim
+dependency52.type=UsesDependency
+dependency53.from=Space
+dependency53.to=Steven
+dependency53.type=UsesDependency
+dependency54.from=Space
+dependency54.to=Max
+dependency54.type=UsesDependency
+dependency55.from=Space
+dependency55.to=UltraSven
+dependency55.type=UsesDependency
+dependency56.from=UpgradeShot
+dependency56.to=ButtonHealth
+dependency56.type=UsesDependency
+dependency57.from=UpgradeShot
+dependency57.to=Upgrade
+dependency57.type=UsesDependency
+dependency58.from=UpgradeShot
+dependency58.to=ButtonDamage
+dependency58.type=UsesDependency
+dependency59.from=UpgradeShot
+dependency59.to=ButtonNextLvl
+dependency59.type=UsesDependency
+dependency6.from=UltraEnemy
+dependency6.to=UltraSven
+dependency6.type=UsesDependency
+dependency60.from=ButtonNextLvl
+dependency60.to=HumanShot
+dependency60.type=UsesDependency
+dependency61.from=test
+dependency61.to=Safegame
+dependency61.type=UsesDependency
+dependency62.from=test
+dependency62.to=HumanShot
+dependency62.type=UsesDependency
+dependency63.from=test
+dependency63.to=ButtonDamage
+dependency63.type=UsesDependency
+dependency64.from=test
+dependency64.to=XML
+dependency64.type=UsesDependency
+dependency65.from=Lucas
+dependency65.to=Steven
+dependency65.type=UsesDependency
+dependency66.from=Lucas
+dependency66.to=ButtonNextLvl
+dependency66.type=UsesDependency
+dependency67.from=Lucas
+dependency67.to=Weapon
+dependency67.type=UsesDependency
+dependency68.from=Steven
+dependency68.to=Max
+dependency68.type=UsesDependency
+dependency69.from=Steven
+dependency69.to=Weapon
+dependency69.type=UsesDependency
+dependency7.from=Sven
+dependency7.to=Weapon
+dependency7.type=UsesDependency
+dependency70.from=Shop
+dependency70.to=Upgrade
+dependency70.type=UsesDependency
+dependency71.from=Shop
+dependency71.to=Safegame
+dependency71.type=UsesDependency
+dependency72.from=Shop
+dependency72.to=ButtonHealth
+dependency72.type=UsesDependency
+dependency73.from=Shop
+dependency73.to=ButtonDamage
+dependency73.type=UsesDependency
+dependency74.from=Shop
+dependency74.to=ButtonNextLvl
+dependency74.type=UsesDependency
+dependency75.from=Shop
+dependency75.to=Human
+dependency75.type=UsesDependency
+dependency76.from=ButtonMusik
+dependency76.to=Safegame
+dependency76.type=UsesDependency
+dependency77.from=ButtonMusik
+dependency77.to=XML
+dependency77.type=UsesDependency
+dependency78.from=XML
+dependency78.to=ButtonNextLvl
+dependency78.type=UsesDependency
+dependency79.from=XML
+dependency79.to=Safegame
+dependency79.type=UsesDependency
+dependency8.from=Sven
+dependency8.to=EnemyShot
+dependency8.type=UsesDependency
+dependency80.from=Tim
+dependency80.to=Weapon
+dependency80.type=UsesDependency
+dependency81.from=ButtonSfxSounds
+dependency81.to=Safegame
+dependency81.type=UsesDependency
+dependency82.from=ButtonSfxSounds
+dependency82.to=XML
+dependency82.type=UsesDependency
+dependency83.from=ButtonExit
+dependency83.to=Human
+dependency83.type=UsesDependency
+dependency84.from=ButtonExit
+dependency84.to=Menu
+dependency84.type=UsesDependency
+dependency85.from=Ship
+dependency85.to=Weapon
+dependency85.type=UsesDependency
+dependency86.from=Ship
+dependency86.to=Safegame
+dependency86.type=UsesDependency
+dependency87.from=ButtonMitwirkende
+dependency87.to=Mitwirkende
+dependency87.type=UsesDependency
+dependency9.from=HumanShot
+dependency9.to=Upgrade
+dependency9.type=UsesDependency
+editor.fx.0.height=722
+editor.fx.0.width=800
+editor.fx.0.x=440
+editor.fx.0.y=99
+mainWindow.height=932
+mainWindow.width=1125
+mainWindow.x=484
+mainWindow.y=44
+package.numDependencies=87
+package.numTargets=36
+=======
+dependency1.from=Sven
+dependency1.to=Weapon
+dependency1.type=UsesDependency
+dependency10.from=Weapon
+dependency10.to=ButtonExit
+>>>>>>> 5d4714fea27ef83193085a3e65e448c90867df53
 dependency10.type=UsesDependency
 dependency11.from=Weapon
 dependency11.to=Enemy
@@ -79,6 +380,7 @@ dependency14.from=ButtonStart
 dependency14.to=Space
 dependency14.type=UsesDependency
 dependency15.from=ButtonStart
+<<<<<<< HEAD
 dependency15.to=Safegame
 dependency15.type=UsesDependency
 dependency16.from=ButtonStart
@@ -92,12 +394,31 @@ dependency18.to=EnemyShot
 dependency18.type=UsesDependency
 dependency19.from=Enemy
 dependency19.to=Safegame
+=======
+dependency15.to=Upgrade
+dependency15.type=UsesDependency
+dependency16.from=Safegame
+dependency16.to=Upgrade
+dependency16.type=UsesDependency
+dependency17.from=Enemy
+dependency17.to=Safegame
+dependency17.type=UsesDependency
+dependency18.from=ButtonSettings
+dependency18.to=Enemy
+dependency18.type=UsesDependency
+dependency19.from=ButtonSettings
+dependency19.to=ButtonSettings
+>>>>>>> 5d4714fea27ef83193085a3e65e448c90867df53
 dependency19.type=UsesDependency
 dependency2.from=Sven
 dependency2.to=Weapon
 dependency2.type=UsesDependency
 dependency20.from=ButtonSettings
+<<<<<<< HEAD
 dependency20.to=Enemy
+=======
+dependency20.to=BackgroundHeader
+>>>>>>> 5d4714fea27ef83193085a3e65e448c90867df53
 dependency20.type=UsesDependency
 dependency21.from=ButtonSettings
 dependency21.to=ButtonSettings
@@ -111,6 +432,7 @@ dependency23.type=UsesDependency
 dependency24.from=ButtonSettings
 dependency24.to=Safegame
 dependency24.type=UsesDependency
+<<<<<<< HEAD
 dependency25.from=EnemyShot
 dependency25.to=Human
 dependency25.type=UsesDependency
@@ -125,10 +447,27 @@ dependency28.to=ButtonStart
 dependency28.type=UsesDependency
 dependency29.from=Menu
 dependency29.to=ButtonMusik
+=======
+dependency25.from=Settings
+dependency25.to=BackgroundHeader
+dependency25.type=UsesDependency
+dependency26.from=Settings
+dependency26.to=ButtonSfxSounds
+dependency26.type=UsesDependency
+dependency27.from=Settings
+dependency27.to=ButtonMitwirkende
+dependency27.type=UsesDependency
+dependency28.from=Settings
+dependency28.to=ButtonMusik
+dependency28.type=UsesDependency
+dependency29.from=Human
+dependency29.to=HumanShot
+>>>>>>> 5d4714fea27ef83193085a3e65e448c90867df53
 dependency29.type=UsesDependency
 dependency3.from=Sven
 dependency3.to=EnemyShot
 dependency3.type=UsesDependency
+<<<<<<< HEAD
 dependency30.from=Menu
 dependency30.to=ButtonSettings
 dependency30.type=UsesDependency
@@ -158,10 +497,42 @@ dependency38.to=HumanShot
 dependency38.type=UsesDependency
 dependency39.from=Human
 dependency39.to=Human
+=======
+dependency30.from=Human
+dependency30.to=Human
+dependency30.type=UsesDependency
+dependency31.from=Human
+dependency31.to=Sven
+dependency31.type=UsesDependency
+dependency32.from=Human
+dependency32.to=Safegame
+dependency32.type=UsesDependency
+dependency33.from=Space
+dependency33.to=Space
+dependency33.type=UsesDependency
+dependency34.from=Space
+dependency34.to=ButtonExit
+dependency34.type=UsesDependency
+dependency35.from=Space
+dependency35.to=Safegame
+dependency35.type=UsesDependency
+dependency36.from=Space
+dependency36.to=Human
+dependency36.type=UsesDependency
+dependency37.from=Space
+dependency37.to=Tim
+dependency37.type=UsesDependency
+dependency38.from=Space
+dependency38.to=Lucas
+dependency38.type=UsesDependency
+dependency39.from=Space
+dependency39.to=Weapon
+>>>>>>> 5d4714fea27ef83193085a3e65e448c90867df53
 dependency39.type=UsesDependency
 dependency4.from=HumanShot
 dependency4.to=Upgrade
 dependency4.type=UsesDependency
+<<<<<<< HEAD
 dependency40.from=Human
 dependency40.to=Sven
 dependency40.type=UsesDependency
@@ -173,10 +544,24 @@ dependency42.to=Space
 dependency42.type=UsesDependency
 dependency43.from=Space
 dependency43.to=ButtonExit
+=======
+dependency40.from=Space
+dependency40.to=Info
+dependency40.type=UsesDependency
+dependency41.from=Space
+dependency41.to=Sven
+dependency41.type=UsesDependency
+dependency42.from=Space
+dependency42.to=Steven
+dependency42.type=UsesDependency
+dependency43.from=Space
+dependency43.to=Max
+>>>>>>> 5d4714fea27ef83193085a3e65e448c90867df53
 dependency43.type=UsesDependency
 dependency44.from=Space
 dependency44.to=Enemy
 dependency44.type=UsesDependency
+<<<<<<< HEAD
 dependency45.from=Space
 dependency45.to=Safegame
 dependency45.type=UsesDependency
@@ -191,12 +576,33 @@ dependency48.to=Sven
 dependency48.type=UsesDependency
 dependency49.from=Space
 dependency49.to=Lucas
+=======
+dependency45.from=UpgradeShot
+dependency45.to=ButtonHealth
+dependency45.type=UsesDependency
+dependency46.from=UpgradeShot
+dependency46.to=Upgrade
+dependency46.type=UsesDependency
+dependency47.from=UpgradeShot
+dependency47.to=ButtonDamage
+dependency47.type=UsesDependency
+dependency48.from=UpgradeShot
+dependency48.to=ButtonNextLvl
+dependency48.type=UsesDependency
+dependency49.from=UpgradeShot
+dependency49.to=Safegame
+>>>>>>> 5d4714fea27ef83193085a3e65e448c90867df53
 dependency49.type=UsesDependency
 dependency5.from=HumanShot
 dependency5.to=Enemy
 dependency5.type=UsesDependency
+<<<<<<< HEAD
 dependency50.from=ButtonNextLvl
 dependency50.to=HumanShot
+=======
+dependency50.from=UpgradeShot
+dependency50.to=Space
+>>>>>>> 5d4714fea27ef83193085a3e65e448c90867df53
 dependency50.type=UsesDependency
 dependency51.from=test
 dependency51.to=XML
@@ -204,6 +610,7 @@ dependency51.type=UsesDependency
 dependency52.from=test
 dependency52.to=Safegame
 dependency52.type=UsesDependency
+<<<<<<< HEAD
 dependency53.from=Lucas
 dependency53.to=Weapon
 dependency53.type=UsesDependency
@@ -224,15 +631,44 @@ dependency58.to=Human
 dependency58.type=UsesDependency
 dependency59.from=Shop
 dependency59.to=Upgrade
+=======
+dependency53.from=test
+dependency53.to=Weapon
+dependency53.type=UsesDependency
+dependency54.from=Shop
+dependency54.to=Safegame
+dependency54.type=UsesDependency
+dependency55.from=Shop
+dependency55.to=Weapon
+dependency55.type=UsesDependency
+dependency56.from=Shop
+dependency56.to=ButtonNextLvl
+dependency56.type=UsesDependency
+dependency57.from=Shop
+dependency57.to=Human
+dependency57.type=UsesDependency
+dependency58.from=Shop
+dependency58.to=ButtonDamage
+dependency58.type=UsesDependency
+dependency59.from=Shop
+dependency59.to=ButtonHealth
+>>>>>>> 5d4714fea27ef83193085a3e65e448c90867df53
 dependency59.type=UsesDependency
 dependency6.from=HumanShot
 dependency6.to=ButtonHealth
 dependency6.type=UsesDependency
 dependency60.from=Shop
+<<<<<<< HEAD
 dependency60.to=Safegame
 dependency60.type=UsesDependency
 dependency61.from=Shop
 dependency61.to=ButtonHealth
+=======
+dependency60.to=Upgrade
+dependency60.type=UsesDependency
+dependency61.from=ButtonExit
+dependency61.to=Menu
+>>>>>>> 5d4714fea27ef83193085a3e65e448c90867df53
 dependency61.type=UsesDependency
 dependency62.from=ButtonMusik
 dependency62.to=Safegame
@@ -261,6 +697,7 @@ dependency69.type=UsesDependency
 dependency7.from=HumanShot
 dependency7.to=ButtonDamage
 dependency7.type=UsesDependency
+<<<<<<< HEAD
 dependency70.from=ButtonSfxSounds
 dependency70.to=Safegame
 dependency70.type=UsesDependency
@@ -295,13 +732,36 @@ mainWindow.x=-8
 mainWindow.y=2
 package.numDependencies=75
 package.numTargets=33
+=======
+dependency8.from=HumanShot
+dependency8.to=Human
+dependency8.type=UsesDependency
+dependency9.from=Mitwirkende
+dependency9.to=Human
+dependency9.type=UsesDependency
+editor.fx.0.height=739
+editor.fx.0.width=816
+editor.fx.0.x=552
+editor.fx.0.y=100
+mainWindow.height=912
+mainWindow.width=1612
+mainWindow.x=-8
+mainWindow.y=-8
+package.numDependencies=61
+package.numTargets=34
+>>>>>>> c66f77cd5eb5d4ab501a313ef8d297ddc62d6c53
+>>>>>>> 5d4714fea27ef83193085a3e65e448c90867df53
 project.charset=UTF-8
 readme.height=58
 readme.name=@README
 readme.width=47
 readme.x=10
 readme.y=10
+<<<<<<< HEAD
+simulation.speed=67
+=======
 simulation.speed=48
+>>>>>>> c66f77cd5eb5d4ab501a313ef8d297ddc62d6c53
 target1.height=50
 target1.name=Max
 target1.showInterface=false
@@ -311,6 +771,10 @@ target1.width=80
 target1.x=0
 target1.y=0
 target10.height=50
+<<<<<<< HEAD
+target10.name=Safegame
+=======
+<<<<<<< HEAD
 target10.name=Safegame
 target10.showInterface=false
 target10.type=ClassTarget
@@ -356,6 +820,58 @@ target15.showInterface=false
 target15.type=ClassTarget
 target15.typeParameters=
 target15.width=110
+=======
+target10.name=Enemy
+>>>>>>> 5d4714fea27ef83193085a3e65e448c90867df53
+target10.showInterface=false
+target10.type=ClassTarget
+target10.typeParameters=
+target10.width=90
+target10.x=0
+target10.y=0
+target11.height=50
+target11.name=Enemy
+target11.showInterface=false
+target11.type=ClassTarget
+target11.typeParameters=
+target11.width=80
+target11.x=0
+target11.y=0
+target12.height=50
+target12.name=ButtonSettings
+target12.showInterface=false
+target12.type=ClassTarget
+target12.typeParameters=
+target12.width=120
+target12.x=0
+target12.y=0
+target13.height=50
+target13.name=EnemyShot
+target13.showInterface=false
+target13.type=ClassTarget
+target13.typeParameters=
+target13.width=100
+target13.x=0
+target13.y=0
+target14.height=50
+target14.name=Menu
+target14.showInterface=false
+target14.type=ClassTarget
+target14.typeParameters=
+target14.width=90
+target14.x=0
+target14.y=0
+target15.height=50
+target15.name=SettingsActor
+target15.showInterface=false
+target15.type=ClassTarget
+target15.typeParameters=
+<<<<<<< HEAD
+target15.width=110
+=======
+target15.width=100
+>>>>>>> c66f77cd5eb5d4ab501a313ef8d297ddc62d6c53
+>>>>>>> 5d4714fea27ef83193085a3e65e448c90867df53
 target15.x=0
 target15.y=0
 target16.height=50
@@ -363,7 +879,26 @@ target16.name=ButtonDamage
 target16.showInterface=false
 target16.type=ClassTarget
 target16.typeParameters=
+<<<<<<< HEAD
 target16.width=100
+=======
+<<<<<<< HEAD
+target16.width=100
+target16.x=0
+target16.y=0
+target17.height=50
+target17.name=ButtonDamage
+target17.showInterface=false
+target17.type=ClassTarget
+target17.typeParameters=
+target17.width=120
+target17.x=0
+target17.y=0
+target18.height=50
+target18.name=Human
+=======
+target16.width=80
+>>>>>>> 5d4714fea27ef83193085a3e65e448c90867df53
 target16.x=0
 target16.y=0
 target17.height=50
@@ -375,7 +910,12 @@ target17.width=80
 target17.x=0
 target17.y=0
 target18.height=50
+<<<<<<< HEAD
 target18.name=Human
+=======
+target18.name=Space
+>>>>>>> c66f77cd5eb5d4ab501a313ef8d297ddc62d6c53
+>>>>>>> 5d4714fea27ef83193085a3e65e448c90867df53
 target18.showInterface=false
 target18.type=ClassTarget
 target18.typeParameters=
@@ -383,6 +923,14 @@ target18.width=80
 target18.x=0
 target18.y=0
 target19.height=50
+<<<<<<< HEAD
+target19.name=Space
+target19.showInterface=false
+target19.type=ClassTarget
+target19.typeParameters=
+target19.width=80
+=======
+<<<<<<< HEAD
 target19.name=Space
 target19.showInterface=false
 target19.type=ClassTarget
@@ -391,7 +939,19 @@ target19.width=80
 target19.x=0
 target19.y=0
 target2.height=50
+target2.name=UltraEnemy
+=======
+target19.name=UpgradeShot
+target19.showInterface=false
+target19.type=ClassTarget
+target19.typeParameters=
+target19.width=90
+>>>>>>> 5d4714fea27ef83193085a3e65e448c90867df53
+target19.x=0
+target19.y=0
+target2.height=50
 target2.name=ButtonHealth
+>>>>>>> c66f77cd5eb5d4ab501a313ef8d297ddc62d6c53
 target2.showInterface=false
 target2.type=ClassTarget
 target2.typeParameters=
@@ -399,6 +959,7 @@ target2.width=90
 target2.x=0
 target2.y=0
 target20.height=50
+<<<<<<< HEAD
 target20.name=ButtonNextLvl
 target20.showInterface=false
 target20.type=ClassTarget
@@ -407,6 +968,35 @@ target20.width=100
 target20.x=0
 target20.y=0
 target21.height=50
+=======
+<<<<<<< HEAD
+target20.name=UpgradeShot
+target20.showInterface=false
+target20.type=ClassTarget
+target20.typeParameters=
+target20.width=110
+target20.x=0
+target20.y=0
+target21.height=50
+target21.name=ButtonNextLvl
+target21.showInterface=false
+target21.type=ClassTarget
+target21.typeParameters=
+target21.width=100
+target21.x=0
+target21.y=0
+target22.height=50
+target22.name=test
+=======
+target20.name=ButtonNextLvl
+target20.showInterface=false
+target20.type=ClassTarget
+target20.typeParameters=
+target20.width=100
+target20.x=0
+target20.y=0
+target21.height=50
+>>>>>>> 5d4714fea27ef83193085a3e65e448c90867df53
 target21.name=test
 target21.showInterface=false
 target21.type=ClassTarget
@@ -416,6 +1006,10 @@ target21.x=0
 target21.y=0
 target22.height=50
 target22.name=Lucas
+<<<<<<< HEAD
+=======
+>>>>>>> c66f77cd5eb5d4ab501a313ef8d297ddc62d6c53
+>>>>>>> 5d4714fea27ef83193085a3e65e448c90867df53
 target22.showInterface=false
 target22.type=ClassTarget
 target22.typeParameters=
@@ -423,7 +1017,15 @@ target22.width=80
 target22.x=0
 target22.y=0
 target23.height=50
+<<<<<<< HEAD
 target23.name=Steven
+=======
+<<<<<<< HEAD
+target23.name=UltraSven
+=======
+target23.name=Info
+>>>>>>> c66f77cd5eb5d4ab501a313ef8d297ddc62d6c53
+>>>>>>> 5d4714fea27ef83193085a3e65e448c90867df53
 target23.showInterface=false
 target23.type=ClassTarget
 target23.typeParameters=
@@ -431,7 +1033,15 @@ target23.width=80
 target23.x=0
 target23.y=0
 target24.height=50
+<<<<<<< HEAD
 target24.name=Shop
+=======
+<<<<<<< HEAD
+target24.name=Lucas
+=======
+target24.name=Steven
+>>>>>>> c66f77cd5eb5d4ab501a313ef8d297ddc62d6c53
+>>>>>>> 5d4714fea27ef83193085a3e65e448c90867df53
 target24.showInterface=false
 target24.type=ClassTarget
 target24.typeParameters=
@@ -439,6 +1049,7 @@ target24.width=80
 target24.x=0
 target24.y=0
 target25.height=50
+<<<<<<< HEAD
 target25.name=ButtonMusik
 target25.showInterface=false
 target25.type=ClassTarget
@@ -448,6 +1059,22 @@ target25.x=0
 target25.y=0
 target26.height=50
 target26.name=MenuActor
+=======
+<<<<<<< HEAD
+target25.name=Info
+=======
+target25.name=Shop
+>>>>>>> c66f77cd5eb5d4ab501a313ef8d297ddc62d6c53
+target25.showInterface=false
+target25.type=ClassTarget
+target25.typeParameters=
+target25.width=80
+target25.x=0
+target25.y=0
+target26.height=50
+<<<<<<< HEAD
+target26.name=Steven
+>>>>>>> 5d4714fea27ef83193085a3e65e448c90867df53
 target26.showInterface=false
 target26.type=ClassTarget
 target26.typeParameters=
@@ -455,7 +1082,11 @@ target26.width=90
 target26.x=0
 target26.y=0
 target27.height=50
+<<<<<<< HEAD
 target27.name=XML
+=======
+target27.name=Shop
+>>>>>>> 5d4714fea27ef83193085a3e65e448c90867df53
 target27.showInterface=false
 target27.type=ClassTarget
 target27.typeParameters=
@@ -463,6 +1094,7 @@ target27.width=80
 target27.x=0
 target27.y=0
 target28.height=50
+<<<<<<< HEAD
 target28.name=Tim
 target28.showInterface=false
 target28.type=ClassTarget
@@ -476,6 +1108,52 @@ target29.showInterface=false
 target29.type=ClassTarget
 target29.typeParameters=
 target29.width=150
+=======
+target28.name=MenuActor
+target28.showInterface=false
+target28.type=ClassTarget
+target28.typeParameters=
+target28.width=90
+target28.x=0
+target28.y=0
+target29.height=50
+target29.name=ButtonMusik
+target29.showInterface=false
+target29.type=ClassTarget
+target29.typeParameters=
+target29.width=100
+=======
+target26.name=ButtonMusik
+target26.showInterface=false
+target26.type=ClassTarget
+target26.typeParameters=
+target26.width=100
+target26.x=0
+target26.y=0
+target27.height=50
+target27.name=MenuActor
+target27.showInterface=false
+target27.type=ClassTarget
+target27.typeParameters=
+target27.width=90
+target27.x=0
+target27.y=0
+target28.height=50
+target28.name=XML
+target28.showInterface=false
+target28.type=ClassTarget
+target28.typeParameters=
+target28.width=80
+target28.x=0
+target28.y=0
+target29.height=50
+target29.name=Tim
+target29.showInterface=false
+target29.type=ClassTarget
+target29.typeParameters=
+target29.width=80
+>>>>>>> c66f77cd5eb5d4ab501a313ef8d297ddc62d6c53
+>>>>>>> 5d4714fea27ef83193085a3e65e448c90867df53
 target29.x=0
 target29.y=0
 target3.height=50
@@ -487,7 +1165,12 @@ target3.width=80
 target3.x=0
 target3.y=0
 target30.height=50
+<<<<<<< HEAD
 target30.name=ButtonExit
+=======
+<<<<<<< HEAD
+target30.name=XML
+>>>>>>> 5d4714fea27ef83193085a3e65e448c90867df53
 target30.showInterface=false
 target30.type=ClassTarget
 target30.typeParameters=
@@ -495,7 +1178,22 @@ target30.width=80
 target30.x=0
 target30.y=0
 target31.height=50
+<<<<<<< HEAD
 target31.name=ButtonSfxSounds
+=======
+target31.name=Tim
+=======
+target30.name=BackgroundHeader
+target30.showInterface=false
+target30.type=ClassTarget
+target30.typeParameters=
+target30.width=150
+target30.x=0
+target30.y=0
+target31.height=50
+target31.name=ButtonExit
+>>>>>>> c66f77cd5eb5d4ab501a313ef8d297ddc62d6c53
+>>>>>>> 5d4714fea27ef83193085a3e65e448c90867df53
 target31.showInterface=false
 target31.type=ClassTarget
 target31.typeParameters=
@@ -503,7 +1201,22 @@ target31.width=140
 target31.x=0
 target31.y=0
 target32.height=50
+<<<<<<< HEAD
 target32.name=Ship
+=======
+<<<<<<< HEAD
+target32.name=BackgroundHeader
+target32.showInterface=false
+target32.type=ClassTarget
+target32.typeParameters=
+target32.width=150
+target32.x=0
+target32.y=0
+target33.height=50
+target33.name=ButtonSfxSounds
+=======
+target32.name=ButtonSfxSounds
+>>>>>>> 5d4714fea27ef83193085a3e65e448c90867df53
 target32.showInterface=false
 target32.type=ClassTarget
 target32.typeParameters=
@@ -511,6 +1224,7 @@ target32.width=80
 target32.x=0
 target32.y=0
 target33.height=50
+<<<<<<< HEAD
 target33.name=ButtonMitwirkende
 target33.showInterface=false
 target33.type=ClassTarget
@@ -518,6 +1232,56 @@ target33.typeParameters=
 target33.width=140
 target33.x=0
 target33.y=0
+=======
+target33.name=Ship
+>>>>>>> c66f77cd5eb5d4ab501a313ef8d297ddc62d6c53
+target33.showInterface=false
+target33.type=ClassTarget
+target33.typeParameters=
+target33.width=80
+target33.x=0
+target33.y=0
+target34.height=50
+<<<<<<< HEAD
+target34.name=ButtonExit
+=======
+target34.name=ButtonMitwirkende
+>>>>>>> c66f77cd5eb5d4ab501a313ef8d297ddc62d6c53
+target34.showInterface=false
+target34.type=ClassTarget
+target34.typeParameters=
+target34.width=140
+target34.x=0
+target34.y=0
+<<<<<<< HEAD
+target35.height=50
+target35.name=Ship
+target35.showInterface=false
+target35.type=ClassTarget
+target35.typeParameters=
+target35.width=80
+target35.x=0
+target35.y=0
+target36.height=50
+target36.name=ButtonMitwirkende
+target36.showInterface=false
+target36.type=ClassTarget
+target36.typeParameters=
+target36.width=140
+target36.x=0
+target36.y=0
+target4.height=50
+target4.name=ButtonHealth
+target4.showInterface=false
+target4.type=ClassTarget
+target4.typeParameters=
+target4.width=90
+target4.x=0
+target4.y=0
+target5.height=50
+target5.name=HumanShot
+=======
+>>>>>>> 5d4714fea27ef83193085a3e65e448c90867df53
 target4.height=50
 target4.name=HumanShot
 target4.showInterface=false
@@ -528,6 +1292,7 @@ target4.x=0
 target4.y=0
 target5.height=50
 target5.name=Mitwirkende
+>>>>>>> c66f77cd5eb5d4ab501a313ef8d297ddc62d6c53
 target5.showInterface=false
 target5.type=ClassTarget
 target5.typeParameters=
@@ -535,6 +1300,17 @@ target5.width=110
 target5.x=0
 target5.y=0
 target6.height=50
+<<<<<<< HEAD
+target6.name=Mitwirkende
+target6.showInterface=false
+target6.type=ClassTarget
+target6.typeParameters=
+target6.width=110
+target6.x=0
+target6.y=0
+target7.height=50
+target7.name=Upgrade
+=======
 target6.name=Upgrade
 target6.showInterface=false
 target6.type=ClassTarget
@@ -544,6 +1320,7 @@ target6.x=0
 target6.y=0
 target7.height=50
 target7.name=Weapon
+>>>>>>> c66f77cd5eb5d4ab501a313ef8d297ddc62d6c53
 target7.showInterface=false
 target7.type=ClassTarget
 target7.typeParameters=
@@ -551,7 +1328,30 @@ target7.width=80
 target7.x=0
 target7.y=0
 target8.height=50
+<<<<<<< HEAD
 target8.name=ActionSounds
+=======
+<<<<<<< HEAD
+target8.name=Weapon
+target8.showInterface=false
+target8.type=ClassTarget
+target8.typeParameters=
+target8.width=80
+target8.x=0
+target8.y=0
+target9.height=50
+target9.name=ButtonStart
+target9.showInterface=false
+target9.type=ClassTarget
+target9.typeParameters=
+target9.width=120
+target9.x=0
+target9.y=0
+version=3.0.0
+world.lastInstantiated=Space
+=======
+target8.name=ButtonStart
+>>>>>>> 5d4714fea27ef83193085a3e65e448c90867df53
 target8.showInterface=false
 target8.type=ClassTarget
 target8.typeParameters=
@@ -567,4 +1367,5 @@ target9.width=120
 target9.x=0
 target9.y=0
 version=3.0.0
-world.lastInstantiated=Menu
+world.lastInstantiated=Shop
+>>>>>>> c66f77cd5eb5d4ab501a313ef8d297ddc62d6c53
