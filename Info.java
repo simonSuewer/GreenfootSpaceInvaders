@@ -9,15 +9,13 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Info extends Actor
 {
     int score = 0;
-    int leben = 3;
-    int money = 0;
     /**
      * Act - do whatever the Score wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() 
     {
-        setImage(new GreenfootImage("Score : " + score   + "             " + "$ : " + money + "                 " + "Leben : " + leben, 26, greenfoot.Color.WHITE,greenfoot.Color.BLACK));
+        setImage(new GreenfootImage("Score : Hallo Tim" + score, 24, greenfoot.Color.GREEN,greenfoot.Color.BLACK));
     }   
     
     

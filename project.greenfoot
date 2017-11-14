@@ -2,8 +2,12 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
+<<<<<<< HEAD
 >>>>>>>=c66f77cd5eb5d4ab501a313ef8d297ddc62d6c53
 class.ActionSounds.superclass=
+=======
+>>>>>>>=fe1e41e8290b98018a9f7c4e32cd41dfef953129
+>>>>>>> parent of 5d4714f... ultra
 class.BackgroundHeader.image=header.png
 class.BackgroundHeader.superclass=MenuActor
 class.ButtonDamage.image=grafik_upgrade_weapon.png
@@ -49,7 +53,10 @@ class.Mitwirkende.superclass=greenfoot.World
 <<<<<<< HEAD
 class.MyWorld.superclass=greenfoot.World
 class.Safegame.superclass=
+<<<<<<< HEAD
 class.Score.superclass=greenfoot.Actor
+=======
+>>>>>>> parent of 5d4714f... ultra
 class.Settings.image=background.png
 class.Settings.superclass=greenfoot.World
 class.SettingsActor.superclass=greenfoot.Actor
@@ -72,8 +79,13 @@ class.UpgradeShot.superclass=HumanShot
 class.Weapon.superclass=greenfoot.Actor
 class.XML.superclass=
 class.test.superclass=greenfoot.Actor
+<<<<<<< HEAD
 dependency1.from=UltraEnemy
 dependency1.to=Safegame
+=======
+dependency1.from=Max
+dependency1.to=Weapon
+>>>>>>> parent of 5d4714f... ultra
 dependency1.type=UsesDependency
 dependency10.from=HumanShot
 dependency10.to=ButtonNextLvl
@@ -331,6 +343,7 @@ dependency87.from=ButtonMitwirkende
 dependency87.to=Mitwirkende
 dependency87.type=UsesDependency
 dependency9.from=HumanShot
+<<<<<<< HEAD
 dependency9.to=ButtonDamage
 dependency9.type=UsesDependency
 editor.fx.0.height=739
@@ -342,6 +355,19 @@ mainWindow.width=1612
 mainWindow.x=-8
 mainWindow.y=-8
 package.numDependencies=66
+=======
+dependency9.to=Upgrade
+dependency9.type=UsesDependency
+editor.fx.0.height=722
+editor.fx.0.width=800
+editor.fx.0.x=440
+editor.fx.0.y=99
+mainWindow.height=932
+mainWindow.width=1125
+mainWindow.x=484
+mainWindow.y=44
+package.numDependencies=87
+>>>>>>> parent of 5d4714f... ultra
 package.numTargets=36
 project.charset=UTF-8
 readme.height=58
@@ -349,7 +375,11 @@ readme.name=@README
 readme.width=47
 readme.x=10
 readme.y=10
+<<<<<<< HEAD
 simulation.speed=48
+=======
+simulation.speed=67
+>>>>>>> parent of 5d4714f... ultra
 target1.height=50
 target1.name=Max
 target1.showInterface=false
@@ -415,11 +445,19 @@ target16.width=100
 target16.x=0
 target16.y=0
 target17.height=50
+<<<<<<< HEAD
 target17.name=Settings
 target17.showInterface=false
 target17.type=ClassTarget
 target17.typeParameters=
 target17.width=80
+=======
+target17.name=ButtonDamage
+target17.showInterface=false
+target17.type=ClassTarget
+target17.typeParameters=
+target17.width=120
+>>>>>>> parent of 5d4714f... ultra
 target17.x=0
 target17.y=0
 target18.height=50
@@ -471,7 +509,11 @@ target22.width=80
 target22.x=0
 target22.y=0
 target23.height=50
+<<<<<<< HEAD
 target23.name=Lucas
+=======
+target23.name=UltraSven
+>>>>>>> parent of 5d4714f... ultra
 target23.showInterface=false
 target23.type=ClassTarget
 target23.typeParameters=
@@ -479,7 +521,11 @@ target23.width=80
 target23.x=0
 target23.y=0
 target24.height=50
+<<<<<<< HEAD
 target24.name=UltraSven
+=======
+target24.name=Lucas
+>>>>>>> parent of 5d4714f... ultra
 target24.showInterface=false
 target24.type=ClassTarget
 target24.typeParameters=
@@ -511,6 +557,7 @@ target27.width=80
 target27.x=0
 target27.y=0
 target28.height=50
+<<<<<<< HEAD
 target28.name=ButtonMusik
 target28.showInterface=false
 target28.type=ClassTarget
@@ -524,6 +571,21 @@ target29.showInterface=false
 target29.type=ClassTarget
 target29.typeParameters=
 target29.width=90
+=======
+target28.name=MenuActor
+target28.showInterface=false
+target28.type=ClassTarget
+target28.typeParameters=
+target28.width=90
+target28.x=0
+target28.y=0
+target29.height=50
+target29.name=ButtonMusik
+target29.showInterface=false
+target29.type=ClassTarget
+target29.typeParameters=
+target29.width=100
+>>>>>>> parent of 5d4714f... ultra
 target29.x=0
 target29.y=0
 target3.height=50
@@ -559,7 +621,11 @@ target32.width=150
 target32.x=0
 target32.y=0
 target33.height=50
+<<<<<<< HEAD
 target33.name=ButtonExit
+=======
+target33.name=ButtonSfxSounds
+>>>>>>> parent of 5d4714f... ultra
 target33.showInterface=false
 target33.type=ClassTarget
 target33.typeParameters=
@@ -567,7 +633,11 @@ target33.width=80
 target33.x=0
 target33.y=0
 target34.height=50
+<<<<<<< HEAD
 target34.name=ButtonSfxSounds
+=======
+target34.name=ButtonExit
+>>>>>>> parent of 5d4714f... ultra
 target34.showInterface=false
 target34.type=ClassTarget
 target34.typeParameters=
@@ -608,6 +678,7 @@ target5.x=0
 target5.y=0
 target6.height=50
 target6.name=Mitwirkende
+<<<<<<< HEAD
 =======
 dependency61.type=UsesDependency
 package.numTargets=34
@@ -1136,3 +1207,37 @@ target9.x=0
 target9.y=0
 version=3.0.0
 world.lastInstantiated=Shop
+=======
+target6.showInterface=false
+target6.type=ClassTarget
+target6.typeParameters=
+target6.width=110
+target6.x=0
+target6.y=0
+target7.height=50
+target7.name=Upgrade
+target7.showInterface=false
+target7.type=ClassTarget
+target7.typeParameters=
+target7.width=80
+target7.x=0
+target7.y=0
+target8.height=50
+target8.name=Weapon
+target8.showInterface=false
+target8.type=ClassTarget
+target8.typeParameters=
+target8.width=80
+target8.x=0
+target8.y=0
+target9.height=50
+target9.name=ButtonStart
+target9.showInterface=false
+target9.type=ClassTarget
+target9.typeParameters=
+target9.width=120
+target9.x=0
+target9.y=0
+version=3.0.0
+world.lastInstantiated=Space
+>>>>>>> parent of 5d4714f... ultra

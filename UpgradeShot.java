@@ -1,49 +1,34 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class HumanShot here.
+ * Write a description of class UpgradeShot here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class HumanShot extends Weapon
+public class UpgradeShot extends HumanShot
 {
+    /**
+     * Act - do whatever the UpgradeShot wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    
     private static final int SHOT_SPEED = 5;
     
-    public HumanShot()
+    public UpgradeShot()
     {
         super();
         this.turn(-90);
     }
     public void act() 
     {
+        
         this.move(SHOT_SPEED);
         getWorld().showText("", 400, 500);
         if(this.atWorldEdge())
         {
             getWorld().removeObject(this);
-        }
-        else if(this.hit(Enemy.class))
-        {
-            getWorld().removeObject(this);
-        }
-        else if(this.isTouching(Enemy.class))
-        {
-            System.out.println(Human.getHealth());
-            Enemy actor = (Enemy) getOneObjectAtOffset(0, 0, Enemy.class);
-           
-            if(actor.getHealth() <= 1)
-            {
-                this.hit(Enemy.class); 
-                getWorld().removeObject(this);
-            }
-            else
-            {
-                Human.setHealth(actor.getHealth() -1);
-                getWorld().removeObject(this);
-            }
-        }
-        /*else if(this.isTouching(ButtonHealth.class))
+        }else if(this.isTouching(ButtonHealth.class))
         {
             Upgrade.addHealth(1);
             getWorld().showText("1 Extra Leben", 400, 500);
@@ -59,7 +44,6 @@ public class HumanShot extends Weapon
         {
             System.out.println(Upgrade.getHealth()+""+Upgrade.getDamage());
             getWorld().removeObject(this);
-        } */
-    }
+        } 
+    }    
 }
-
