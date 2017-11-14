@@ -22,17 +22,13 @@ public class HumanShot extends Weapon
         if(this.atWorldEdge())
         {
             getWorld().removeObject(this);
+            return;
         }
-        else if(this.hit(Enemy.class))
+        
+        Enemy actor = (Enemy) getOneObjectAtOffset(0, 0, Enemy.class);
+        
+        if(actor !=null)
         {
-            getWorld().removeObject(this);
-        }
-        else if(this.isTouching(Enemy.class))
-        {
-            System.out.println(Human.getHealth());
-            Enemy actor = (Enemy) getOneObjectAtOffset(0, 0, Enemy.class);
-            System.out.println(actor.getHealth())
-            ;
             if(actor.getHealth() <= 1)
             {
                 this.hit(Enemy.class); 
@@ -40,7 +36,7 @@ public class HumanShot extends Weapon
             }
             else
             {
-                Human.setHealth(actor.getHealth() -1);
+                actor.setHealth(actor.getHealth() -1);
                 getWorld().removeObject(this);
             }
         }
