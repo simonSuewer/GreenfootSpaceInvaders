@@ -11,8 +11,7 @@ public class ButtonExit extends MenuActor
        private boolean onThis=false;
        private GreenfootSound soundButtonOnHover = new GreenfootSound("button_onHover.wav");
        private GreenfootSound soundButtonOnClick = new GreenfootSound("button_onClick.wav"); 
-       private boolean FirstMouseOn = true;
- 	   private Safegame saveGame = new Safegame();
+       private boolean FirstMouseOn = true; 
 
     public void act() {
         if(Greenfoot.mouseMoved(null))
@@ -20,26 +19,19 @@ public class ButtonExit extends MenuActor
         if(onThis)
         {
             if(FirstMouseOn) {
-				if (!saveGame.getSfxIsOn()) {
                 soundButtonOnHover.play();
                 FirstMouseOn = false;
-                }
             }
             setImage("button_exit-hover.png"); 
             if(Greenfoot.mouseClicked(this)) {
                  if(getWorld().getClass().getName() == "Settings" || getWorld().getClass().getName() == "Mitwirkende") {
 
-                     if(getWorld().getClass().getName() == "Mitwirkende") {
-                        Mitwirkende.stopMusic();
-                        }
                      Menu menu = new Menu();
                      Greenfoot.setWorld(menu);
                  } else if(getWorld().getClass().getName() == "Menu") {
                      System.exit(1);
                  } 
-                if (!saveGame.getSfxIsOn()) {
-                soundButtonOnClick.play();
-            }                
+                 soundButtonOnClick.play();
             }
         }
         else

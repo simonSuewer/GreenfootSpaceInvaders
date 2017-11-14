@@ -4,5 +4,5 @@
     <lvl>0</lvl>
     <musikIsOn>true</musikIsOn>
     <score>0</score>
-    <sfxIsOn>false</sfxIsOn>
+    <sfxIsOn>true</sfxIsOn>
 </safegame>
