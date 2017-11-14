@@ -71,4 +71,13 @@ public class Enemy extends Ship
         //this.move(this.get_moveSpeed());
         }
     }    
+    
+    public int getHealth()
+    {
+        return this.health;
+    }
+    public void setHealth(int h)
+    {
+        this.health = h;
+    }
 }

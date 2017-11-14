@@ -19,18 +19,20 @@ public class Space extends World
     public Space()
     {    
         super(800, 800, 1);
-        initializeLvl1();
-    }
-    
-    public Object getObjectForLVL()
-    {
+        Safegame safegame = new Safegame();
+        if(safegame.getLvl() >= 1)
+        {
+            initializeLvl(safegame.getLvl());
+        }
+        else
+        {
+            safegame.setLvl(1);
+            initializeLvl(1);
+        }
         
-        //switch
-        
-        return null;
     }
-    
-    public void initializeLvl1()
+   
+     public void initializeLvl(int lvl)
     {
         List objects = getObjects(null);
         safegame.setLvl(1);
@@ -42,44 +44,29 @@ public class Space extends World
         {
             for (int i = 0;i<10;i++)
             {
-                this.addObject(new Sven(), 110+(64*(i)),50+j*90);
+                switch (lvl) {
+                    case 1: 
+                             this.addObject(new Sven(), 110+(64*(i)),50+j*90);
+                             break;
+                    case 2:  
+                             this.addObject(new Tim(), 110+(64*(i)),50+j*90);
+                             break;
+                    case 3:  
+                             this.addObject(new Lucas(), 110+(64*(i)),50+j*90);
+                             break;
+                    case 4:  
+                             this.addObject(new Steven(), 110+(64*(i)),50+j*90);
+                             break;
+                    case 5:  
+                             this.addObject(new Max(), 110+(64*(i)),50+j*90);
+                             return;
+                    default: 
+                             return;
+                }
+                
             }
         }
-        this.addObject(new Human(),400,750);
-            Enemy.set_counter(30);
-    }
-    public void initializeLvl2()
-    {
-        List objects = getObjects(null);
-        if (objects != null) 
-        {
-            removeObjects(objects); 
-        }
-        for (int j = 0;j<3;j++)
-        {
-            for (int i = 0;i<10;i++)
-            {
-                this.addObject(new Tim(), 110+(64*(i)),50+j*90);
-            }
-        }
-        this.addObject(new Human(),400,750);
-            Enemy.set_counter(30);
-    }
-    public void initializeLvl3()
-    {
-        List objects = getObjects(null);
-        if (objects != null) 
-        {
-            removeObjects(objects); 
-        }
-        for (int j = 0;j<3;j++)
-        {
-            for (int i = 0;i<10;i++)
-            {
-                this.addObject(new Lucas(), 110+(64*(i)),50+j*90);
-            }
-        }
-        this.addObject(new Human(),400,750);
-            Enemy.set_counter(30);
+        this.addObject(new Human(),400,750); //das geht so ja eigentlich nicht komplett
+        Enemy.set_counter(30);
     }
 }

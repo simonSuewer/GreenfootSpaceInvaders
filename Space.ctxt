@@ -1,15 +1,9 @@
 #BlueJ class context
 comment0.target=Space
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ MyWorld\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\n\ Write\ a\ description\ of\ class\ MyWorld\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
 comment1.params=
 comment1.target=Space()
-comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ MyWorld.\r\n\ \r\n
-comment2.params=
-comment2.target=java.lang.Object\ getObjectForLVL()
-comment3.params=
-comment3.target=void\ initializeLvl1()
-comment4.params=
-comment4.target=void\ initializeLvl2()
-comment5.params=
-comment5.target=void\ initializeLvl3()
-numComments=6
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ MyWorld.\n\ \n
+comment2.params=lvl
+comment2.target=void\ initializeLvl(int)
+numComments=3
