@@ -19,19 +19,13 @@ public class HumanShot extends Weapon
     {
         this.move(SHOT_SPEED);
         getWorld().showText("", 400, 500);
+            Enemy actor = (Enemy) getOneObjectAtOffset(0, 0, Enemy.class);
         if(this.atWorldEdge())
         {
             getWorld().removeObject(this);
         }
-        else if(this.hit(Enemy.class))
-        {
-            getWorld().removeObject(this);
-        }
-        else if(this.isTouching(Enemy.class))
-        {
-            System.out.println(Human.getHealth());
-            Enemy actor = (Enemy) getOneObjectAtOffset(0, 0, Enemy.class);
-           
+        else if(actor != null)
+        {           
             if(actor.getHealth() <= 1)
             {
                 this.hit(Enemy.class); 
