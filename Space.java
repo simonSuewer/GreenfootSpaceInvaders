@@ -26,8 +26,9 @@ public class Space extends World
         }
         else
         {
-            safegame.setLvl(1);
-            initializeLvl(1);
+            //safegame.setLvl(1);
+            //initializeLvl(1);
+            initializeLvl(6, true);
         }
         
     }
@@ -35,7 +36,6 @@ public class Space extends World
      public void initializeLvl(int lvl)
     {
         List objects = getObjects(null);
-        safegame.setLvl(1);
         if (objects != null) 
         {
             removeObjects(objects); 
@@ -65,6 +65,27 @@ public class Space extends World
                 }
                 
             }
+        }
+        this.addObject(new Human(),400,750); //das geht so ja eigentlich nicht komplett
+        Enemy.set_counter(30);
+    }
+    
+     public void initializeLvl(int lvl, boolean ultra)
+    {
+        List objects = getObjects(null);
+        if (objects != null) 
+        {
+            removeObjects(objects); 
+        }
+        for (int j = 0;j<4;j++)
+        {
+            switch (lvl) {
+                    case 6: 
+                             this.addObject(new UltraSven(), 110+(183*(j)),140);
+                             break;
+                    default: 
+                             return;
+                }
         }
         this.addObject(new Human(),400,750); //das geht so ja eigentlich nicht komplett
         Enemy.set_counter(30);

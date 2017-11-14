@@ -31,8 +31,7 @@ public class HumanShot extends Weapon
         {
             System.out.println(Human.getHealth());
             Enemy actor = (Enemy) getOneObjectAtOffset(0, 0, Enemy.class);
-            System.out.println(actor.getHealth())
-            ;
+           
             if(actor.getHealth() <= 1)
             {
                 this.hit(Enemy.class); 
