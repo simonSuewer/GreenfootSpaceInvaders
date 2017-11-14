@@ -30,6 +30,7 @@ public class EnemyShot extends Weapon
             {
                 this.hit(Human.class); 
                 getWorld().removeObject(this);
+                System.exit(1);
             }
             else
             {
