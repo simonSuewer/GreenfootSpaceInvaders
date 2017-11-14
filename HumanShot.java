@@ -29,11 +29,16 @@ public class HumanShot extends Weapon
             if(actor.getHealth() <= 1)
             {
                 this.hit(Enemy.class); 
-                getWorld().removeObject(this);
+                if(Enemy.get_counter()!=30)
+                {
+                    System.out.println(Enemy.get_counter());
+                    getWorld().removeObject(this);
+                }
+                
             }
             else
             {
-                Human.setHealth(actor.getHealth() -1);
+                actor.setHealth(actor.getHealth() -1);
                 getWorld().removeObject(this);
             }
         }
