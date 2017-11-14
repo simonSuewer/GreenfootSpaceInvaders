@@ -27,6 +27,23 @@ public class HumanShot extends Weapon
         {
             getWorld().removeObject(this);
         }
+        else if(this.isTouching(Enemy.class))
+        {
+            System.out.println(Human.getHealth());
+            Enemy actor = (Enemy) getOneObjectAtOffset(0, 0, Enemy.class);
+            System.out.println(actor.getHealth())
+            ;
+            if(actor.getHealth() <= 1)
+            {
+                this.hit(Enemy.class); 
+                getWorld().removeObject(this);
+            }
+            else
+            {
+                Human.setHealth(actor.getHealth() -1);
+                getWorld().removeObject(this);
+            }
+        }
         /*else if(this.isTouching(ButtonHealth.class))
         {
             Upgrade.addHealth(1);
