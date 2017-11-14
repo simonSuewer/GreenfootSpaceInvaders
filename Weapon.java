@@ -34,16 +34,10 @@ public class Weapon extends Actor
                     default:
                         break;
                     case 2:
-                        x.initializeLvl(2);
+                        x.initializeLvl2();
                         break;
                     case 3:
-                        x.initializeLvl(3);
-                        break;
-                    case 4:
-                        x.initializeLvl(4);
-                        break;
-                    case 5:
-                        x.initializeLvl(5);
+                        x.initializeLvl3();
                         break;
                         
                 }

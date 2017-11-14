@@ -24,11 +24,8 @@ public class Shop extends World
     }
     
         public void initial() {
-        showText("??? Credit = 1 Extra Leben", 150, 175);
         addObject(new ButtonHealth(), 150, 300);
-        showText("??? Credit = 1 Extra Schaden", 415, 175);
         addObject(new ButtonDamage(), 415, 300);
-        showText("Ins nächste Level", 675, 175);
         addObject(new ButtonNextLvl(), 675, 300);
         this.addObject(new Human(),400,750);
         this.addObject(new Upgrade(),0,0);

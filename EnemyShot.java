@@ -8,7 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class EnemyShot extends Weapon
 {
-   private Safegame safegame = new Safegame();
+    
     
     
     
@@ -24,20 +24,10 @@ public class EnemyShot extends Weapon
         {
             getWorld().removeObject(this);
         }
-        else if(this.isTouching(Human.class))
-        {
-            if(Human.getHealth() <= 1)
-            {
-                this.hit(Human.class); 
-                getWorld().removeObject(this);
-                System.exit(1);
-            }
-            else
-            {
-                Human.setHealth(Human.getHealth() -1);
-                getWorld().removeObject(this);
-            }
+        else{
+            this.hit(Human.class);  
         }
-            
-    }  
+        
+        
+    }    
 }
