@@ -1,5 +1,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 415b477... yes
 =======
 >>>>>>> parent of 415b477... yes
 #Greenfoot project file
@@ -27,10 +30,13 @@ class.ButtonNextLvl.superclass=Upgrade
 class.ButtonSettings.image=button_settings.png
 class.ButtonSettings.superclass=MenuActor
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #Greenfoot properties
 #Tue Nov 14 11:56:13 CET 2017
 >>>>>>> parent of f302190... project
+=======
+>>>>>>> parent of 415b477... yes
 =======
 >>>>>>> parent of 415b477... yes
 class.ButtonSettingsExit.superclass=SettingsActor
@@ -57,6 +63,9 @@ class.Mitwirkende.image=background.png
 class.Mitwirkende.superclass=greenfoot.World
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 415b477... yes
 =======
 >>>>>>> parent of 415b477... yes
 class.MyWorld.superclass=greenfoot.World
@@ -66,6 +75,7 @@ class.Safegame.superclass=
 class.Score.superclass=greenfoot.Actor
 >>>>>>> c66f77cd5eb5d4ab501a313ef8d297ddc62d6c53
 class.Settings.image=background.png
+<<<<<<< HEAD
 class.Settings.superclass=greenfoot.World
 class.SettingsActor.superclass=greenfoot.Actor
 class.Ship.superclass=greenfoot.Actor
@@ -105,16 +115,37 @@ target19.typeParameters=
 dependency52.to=Safegame
 class.ButtonSettings.superclass=MenuActor
 class.Steven.image=grafik_gegner_level4.png
+=======
+>>>>>>> parent of 415b477... yes
 class.Settings.superclass=greenfoot.World
-dependency85.from=Ship
-target2.type=ClassTarget
-dependency60.from=Shop
-dependency36.type=UsesDependency
-dependency46.to=Upgrade
-target29.typeParameters=
-target25.showInterface=false
-target26.type=ClassTarget
+class.SettingsActor.superclass=greenfoot.Actor
+class.Ship.superclass=greenfoot.Actor
+class.Shop.image=background.png
+class.Shop.superclass=greenfoot.World
+class.Space.image=background.png
+class.Space.superclass=greenfoot.World
+class.Steven.image=grafik_gegner_level4.png
+class.Steven.superclass=Enemy
+class.Sven.image=grafik_gegner_level1.png
+class.Sven.superclass=Enemy
+class.Tim.image=grafik_gegner_level2.png
+class.Tim.superclass=Enemy
+<<<<<<< HEAD
+class.UltraEnemy.superclass=Ship
+class.UltraSven.image=grafik_gegner_level1.png
+class.UltraSven.superclass=UltraEnemy
+=======
+>>>>>>> c66f77cd5eb5d4ab501a313ef8d297ddc62d6c53
+class.Upgrade.superclass=greenfoot.Actor
+class.UpgradeShot.superclass=HumanShot
+class.Weapon.superclass=greenfoot.Actor
+class.XML.superclass=
+class.test.superclass=greenfoot.Actor
+<<<<<<< HEAD
+dependency1.from=Max
+dependency1.to=Weapon
 dependency1.type=UsesDependency
+<<<<<<< HEAD
 target18.name=Space
 target34.y=0
 target34.x=0
@@ -158,6 +189,10 @@ dependency87.type=UsesDependency
 dependency82.to=XML
 >>>>>>> parent of f302190... project
 =======
+>>>>>>> parent of 415b477... yes
+=======
+dependency10.from=HumanShot
+dependency10.to=Enemy
 >>>>>>> parent of 415b477... yes
 dependency10.type=UsesDependency
 dependency11.from=HumanShot
@@ -207,6 +242,9 @@ dependency24.to=Safegame
 dependency24.type=UsesDependency
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 415b477... yes
 =======
 >>>>>>> parent of 415b477... yes
 dependency25.from=ButtonSettings
@@ -375,6 +413,9 @@ dependency74.from=Shop
 dependency74.to=ButtonNextLvl
 dependency74.type=UsesDependency
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 415b477... yes
 dependency75.from=Shop
 dependency75.to=Human
 dependency75.type=UsesDependency
@@ -923,6 +964,7 @@ target29.type=ClassTarget
 target29.typeParameters=
 target29.width=100
 =======
+<<<<<<< HEAD
 =======
 class.HumanShot.superclass=Weapon
 dependency76.type=UsesDependency
@@ -1523,6 +1565,8 @@ target29.typeParameters=
 target29.width=100
 =======
 >>>>>>> parent of 415b477... yes
+=======
+>>>>>>> parent of 415b477... yes
 target26.name=ButtonMusik
 target26.showInterface=false
 target26.type=ClassTarget
@@ -1539,6 +1583,9 @@ target27.width=90
 target27.x=0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 415b477... yes
 =======
 >>>>>>> parent of 415b477... yes
 target27.y=0
@@ -1550,6 +1597,7 @@ target28.typeParameters=
 target28.width=80
 target28.x=0
 target28.y=0
+<<<<<<< HEAD
 <<<<<<< HEAD
 target29.height=50
 target29.name=Tim
@@ -1689,6 +1737,8 @@ target34.typeParameters=
 dependency58.to=ButtonDamage
 =======
 >>>>>>> parent of 415b477... yes
+=======
+>>>>>>> parent of 415b477... yes
 target29.height=50
 target29.name=Tim
 target29.showInterface=false
@@ -1762,6 +1812,7 @@ target33.typeParameters=
 target33.width=80
 target33.x=0
 <<<<<<< HEAD
+<<<<<<< HEAD
 dependency7.from=HumanShot
 target24.width=80
 dependency36.to=Human
@@ -1823,6 +1874,17 @@ target34.name=ButtonMitwirkende
 >>>>>>> c66f77cd5eb5d4ab501a313ef8d297ddc62d6c53
 target34.showInterface=false
 target34.type=ClassTarget
+=======
+target33.y=0
+target34.height=50
+<<<<<<< HEAD
+target34.name=ButtonExit
+=======
+target34.name=ButtonMitwirkende
+>>>>>>> c66f77cd5eb5d4ab501a313ef8d297ddc62d6c53
+target34.showInterface=false
+target34.type=ClassTarget
+>>>>>>> parent of 415b477... yes
 target34.typeParameters=
 target34.width=140
 target34.x=0
@@ -1909,6 +1971,9 @@ target8.typeParameters=
 target8.width=80
 target8.x=0
 target8.y=0
+<<<<<<< HEAD
+>>>>>>> parent of 415b477... yes
+=======
 >>>>>>> parent of 415b477... yes
 target9.height=50
 target9.name=ButtonStart
@@ -1920,6 +1985,9 @@ target9.x=0
 target9.y=0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 415b477... yes
 =======
 >>>>>>> parent of 415b477... yes
 version=3.0.0
@@ -1939,8 +2007,11 @@ target9.type=ClassTarget
 target9.typeParameters=
 target9.width=90
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of f302190... project
+=======
+>>>>>>> parent of 415b477... yes
 =======
 >>>>>>> parent of 415b477... yes
 target9.x=0
