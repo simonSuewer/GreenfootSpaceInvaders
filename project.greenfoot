@@ -1,6 +1,10 @@
 #Greenfoot properties
 <<<<<<< HEAD
+<<<<<<< HEAD
 #Tue Nov 14 10:30:34 CET 2017
+=======
+#Tue Nov 14 08:35:47 CET 2017
+>>>>>>> parent of 68e797c... UpgradeShot Klasse
 =======
 #Tue Nov 14 08:35:47 CET 2017
 >>>>>>> parent of 68e797c... UpgradeShot Klasse
@@ -32,7 +36,10 @@ simulation.speed=48
 dependency25.type=UsesDependency
 dependency22.from=EnemyShot
 <<<<<<< HEAD
+<<<<<<< HEAD
 target15.width=80
+=======
+>>>>>>> parent of 68e797c... UpgradeShot Klasse
 =======
 >>>>>>> parent of 68e797c... UpgradeShot Klasse
 dependency29.from=Settings
@@ -81,7 +88,10 @@ target12.typeParameters=
 dependency15.to=EnemyShot
 dependency59.from=ButtonMitwirkende
 <<<<<<< HEAD
+<<<<<<< HEAD
 target15.name=Settings
+=======
+>>>>>>> parent of 68e797c... UpgradeShot Klasse
 =======
 >>>>>>> parent of 68e797c... UpgradeShot Klasse
 target5.height=50
@@ -160,7 +170,11 @@ target14.name=SettingsActor
 target9.height=50
 target2.showInterface=false
 <<<<<<< HEAD
+<<<<<<< HEAD
 class.Score.superclass=greenfoot.Actor
+=======
+target11.showInterface=false
+>>>>>>> parent of 68e797c... UpgradeShot Klasse
 =======
 target11.showInterface=false
 >>>>>>> parent of 68e797c... UpgradeShot Klasse
