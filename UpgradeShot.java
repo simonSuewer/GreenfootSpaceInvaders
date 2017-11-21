@@ -28,6 +28,11 @@ public class UpgradeShot extends HumanShot
                 safegame.getUpgrade().addHealth(1);
                 getWorld().showText("1 Extra Leben", 400, 500);
                 getWorld().removeObject(this);
+                safegame.setCredits((safegame.getUpgrade().getHealth() * safegame.getPIRICE_FIRST() -safegame.getCredits()));
+            }
+            else
+            {
+                getWorld().showText("Ihnen fehlen " + (safegame.getUpgrade().getHealth() * safegame.getPIRICE_FIRST() - safegame.getCredits()) + " Credits", 400, 500);
             }
         }
         else if(this.isTouching(ButtonDamage.class))
@@ -37,6 +42,11 @@ public class UpgradeShot extends HumanShot
                 safegame.getUpgrade().addDamage(1);
                 getWorld().showText("1 Extra Schaden", 400, 500);
                 getWorld().removeObject(this);
+                safegame.setCredits((safegame.getUpgrade().getDamage() * safegame.getPIRICE_FIRST() -safegame.getCredits()));
+            }
+            else
+            {
+                getWorld().showText("Ihnen fehlen " + (safegame.getUpgrade().getDamage() * safegame.getPIRICE_FIRST() -safegame.getCredits()) + " Credits", 400, 500);
             }
         }
         else if(this.isTouching(ButtonNextLvl.class))
