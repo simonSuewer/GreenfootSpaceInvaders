@@ -9,6 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class HumanShot extends Weapon
 {
     private static final int SHOT_SPEED = 5;
+    private Safegame safegame = new Safegame();
     
     public HumanShot()
     {
@@ -19,7 +20,7 @@ public class HumanShot extends Weapon
     {
         this.move(SHOT_SPEED);
         getWorld().showText("", 400, 500);
-            Enemy actor = (Enemy) getOneObjectAtOffset(0, 0, Enemy.class);
+        Enemy actor = (Enemy) getOneObjectAtOffset(0, 0, Enemy.class);
         if(this.atWorldEdge())
         {
             getWorld().removeObject(this);
@@ -38,7 +39,7 @@ public class HumanShot extends Weapon
             }
             else
             {
-                actor.setHealth(actor.getHealth() -1);
+                actor.setHealth(actor.getHealth() - safegame.getUpgrade().getDamage());
                 getWorld().removeObject(this);
             }
         }

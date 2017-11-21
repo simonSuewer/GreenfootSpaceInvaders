@@ -12,6 +12,7 @@ public class Safegame
     private static boolean SfxIsOn = true;
     private static final int BASE_MOVE_SPEED = 5;
     private static final int BASE_SHOT_SPEED = 5;
+    private static final int PIRICE_FIRST = 20;
     
     public Safegame()
     {
@@ -19,6 +20,10 @@ public class Safegame
     
     
     //getter
+     public static int getPIRICE_FIRST()
+    {
+        return PIRICE_FIRST;
+    }
      public static int getBASE_MOVE_SPEED()
     {
         return BASE_MOVE_SPEED + lvl;

@@ -8,15 +8,15 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Human extends Ship
 {
-    private static int health = 5;
+    // private static int health = 5; ist jetzt in Upgrades
     private int shotCount = 0;
-
+    private static Safegame safegame = new Safegame();
     private GreenfootSound soundHorn = new GreenfootSound("horn.wav"); 
 
     public Human()
     {
         super();
-        Safegame load = new Safegame();
+        
         //this.health = load.getUpgrade().getHealth();
         this.setMoveSpeed(5);
     }
@@ -56,10 +56,10 @@ public class Human extends Ship
     
     public static int getHealth()
     {
-        return health;
+        return safegame.getUpgrade().getHealth();
     }
     public static void setHealth(int h)
     {
-        health = h;
+       safegame.getUpgrade().setHealth(h);
     }
 }

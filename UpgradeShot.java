@@ -23,20 +23,25 @@ public class UpgradeShot extends HumanShot
         }
         else if(this.isTouching(ButtonHealth.class))
         {
-            Upgrade.addHealth(1);
-            getWorld().showText("1 Extra Leben", 400, 500);
-            getWorld().removeObject(this);
+            if(safegame.getCredits() >= (safegame.getUpgrade().getHealth() * safegame.getPIRICE_FIRST()))
+            {
+                safegame.getUpgrade().addHealth(1);
+                getWorld().showText("1 Extra Leben", 400, 500);
+                getWorld().removeObject(this);
+            }
         }
         else if(this.isTouching(ButtonDamage.class))
         {
-            Upgrade.addDamage(1);
-            getWorld().showText("1 Extra Schaden", 400, 500);
-            getWorld().removeObject(this);
+            if(safegame.getCredits() >= (safegame.getUpgrade().getDamage() * safegame.getPIRICE_FIRST()))
+            {
+                safegame.getUpgrade().addDamage(1);
+                getWorld().showText("1 Extra Schaden", 400, 500);
+                getWorld().removeObject(this);
+            }
         }
         else if(this.isTouching(ButtonNextLvl.class))
         {
             Space space = new Space();
-            safegame.setLvl(safegame.getLvl()+1);
             getWorld().removeObject(this);
             Greenfoot.setWorld(space);
         } 
