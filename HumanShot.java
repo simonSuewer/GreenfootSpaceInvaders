@@ -9,8 +9,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class HumanShot extends Weapon
 {
     private static final int SHOT_SPEED = 5;
-    private ActionSounds actionSounds = new ActionSounds();
     private Safegame safegame = new Safegame();
+    private GreenfootSound hitmarkerSound = new GreenfootSound("hitmarker.wav");
     public HumanShot()
     {
         super();
@@ -19,6 +19,7 @@ public class HumanShot extends Weapon
     public void act() 
     {
         this.move(SHOT_SPEED);
+        getWorld().showText("", 400, 500);
         Enemy actor = (Enemy) getOneObjectAtOffset(0, 0, Enemy.class);
         if(this.atWorldEdge())
         {
@@ -26,13 +27,18 @@ public class HumanShot extends Weapon
         }
         else if(actor != null)
         {
-            actionSounds.playHitmarkerSound();
-            if(actor.getHealth() <= 1)
+            if(!safegame.getSfxIsOn()) {
+                hitmarkerSound.play();
+            }
+            
+            
+            safegame.setScore(safegame.getScore() + safegame.getLvl() * safegame.getLvl());
+            if(actor.getHealth() <= safegame.getUpgrade().getDamage())
             {
                 this.hit(Enemy.class); 
+                safegame.setCredits(safegame.getCredits() + safegame.getLvl() * safegame.getLvl());
                 if(Enemy.get_counter()!=30)
                 {
-                    System.out.println(Enemy.get_counter());
                     getWorld().removeObject(this);
                 }
                 
@@ -43,6 +49,23 @@ public class HumanShot extends Weapon
                 getWorld().removeObject(this);
             }
         }
+        /*else if(this.isTouching(ButtonHealth.class))
+        {
+            Upgrade.addHealth(1);
+            getWorld().showText("1 Extra Leben", 400, 500);
+            getWorld().removeObject(this);
+        }
+        else if(this.isTouching(ButtonDamage.class))
+        {
+            Upgrade.addDamage(1);
+            getWorld().showText("1 Extra Schaden", 400, 500);
+            getWorld().removeObject(this);
+        }
+        else if(this.isTouching(ButtonNextLvl.class))
+        {
+            System.out.println(Upgrade.getHealth()+""+Upgrade.getDamage());
+            getWorld().removeObject(this);
+        } */
     }
 }
 

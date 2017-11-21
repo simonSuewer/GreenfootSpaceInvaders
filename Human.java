@@ -11,7 +11,9 @@ public class Human extends Ship
     // private static int health = 5; ist jetzt in Upgrades
     private int shotCount = 0;
     private static Safegame safegame = new Safegame();
-    private GreenfootSound soundHorn = new GreenfootSound("horn.wav"); 
+    private GreenfootSound soundHorn = new GreenfootSound("horn.wav");
+    private GreenfootSound shotSound1 = new GreenfootSound("shot1.wav");
+    
 
     public Human()
     {
@@ -50,6 +52,10 @@ public class Human extends Ship
             {
                 shotCount = 30;
                 getWorld().addObject(new HumanShot(), getX(), getY()+5);
+                if(!safegame.getSfxIsOn()) {
+                shotSound1.play();
+                }
+                
             }
         }
     }    

@@ -9,7 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Mitwirkende extends World
 {
 
-    private GreenfootSound soundThugLife = new GreenfootSound("thuglife.wav"); 
+    public static GreenfootSound soundThugLife = new GreenfootSound("thuglife.wav"); 
 
     
     public Mitwirkende()
