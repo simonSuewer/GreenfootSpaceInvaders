@@ -9,8 +9,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class HumanShot extends Weapon
 {
     private static final int SHOT_SPEED = 5;
-    private ActionSounds actionSounds = new ActionSounds();
     private Safegame safegame = new Safegame();
+    private GreenfootSound hitmarkerSound = new GreenfootSound("hitmarker.wav");
     public HumanShot()
     {
         super();
@@ -27,7 +27,11 @@ public class HumanShot extends Weapon
         }
         else if(actor != null)
         {
-            actionSounds.playHitmarkerSound();
+            if(!safegame.getSfxIsOn()) {
+                hitmarkerSound.play();
+            }
+            
+            
             safegame.setScore(safegame.getScore() + safegame.getLvl() * safegame.getLvl());
             if(actor.getHealth() <= safegame.getUpgrade().getDamage())
             {
