@@ -9,12 +9,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class HumanShot extends Weapon
 {
     private static final int SHOT_SPEED = 5;
-<<<<<<< HEAD
     private ActionSounds actionSounds = new ActionSounds();
-=======
     private Safegame safegame = new Safegame();
-    
->>>>>>> 24cc7cc7e698a6f859a57dfdfbb67e8b2d098eff
     public HumanShot()
     {
         super();
