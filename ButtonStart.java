@@ -12,6 +12,7 @@ public class ButtonStart extends MenuActor
        private GreenfootSound soundButtonOnHover = new GreenfootSound("button_onHover.wav");
        private GreenfootSound soundButtonOnClick = new GreenfootSound("button_onClick.wav"); 
        private boolean FirstMouseOn = true;
+       private Safegame SaveGame = new Safegame();
        
       
  
@@ -20,14 +21,17 @@ public class ButtonStart extends MenuActor
             onThis = Greenfoot.mouseMoved(this);
         if(onThis)
         {
-            if(FirstMouseOn) {
-                soundButtonOnHover.play();
-                FirstMouseOn = false;
-            }
+                if(FirstMouseOn && !SaveGame.getSfxIsOn()) {
+                    soundButtonOnHover.play();
+                    FirstMouseOn = false;
+                }
             setImage("button_start-hover.png");
             
             if(Greenfoot.mouseClicked(this)) {
-                soundButtonOnClick.play();
+                if(!SaveGame.getSfxIsOn()) {
+                    soundButtonOnClick.play();
+                }
+                
                 Space space = new Space();
                 Greenfoot.setWorld(space);
             }

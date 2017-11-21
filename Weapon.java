@@ -9,6 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Weapon extends Actor
 {
     private Safegame safegame = new Safegame();
+    
     public boolean atWorldEdge()
     {
         if(getX() < 20 || getX() > getWorld().getWidth() - 20)
