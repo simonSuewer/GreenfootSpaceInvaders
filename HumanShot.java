@@ -28,12 +28,13 @@ public class HumanShot extends Weapon
         else if(actor != null)
         {
             actionSounds.playHitmarkerSound();
-            if(actor.getHealth() <= 1)
+            safegame.setScore(safegame.getScore() + safegame.getLvl() * safegame.getLvl());
+            if(actor.getHealth() <= safegame.getUpgrade().getDamage())
             {
                 this.hit(Enemy.class); 
+                safegame.setCredits(safegame.getCredits() + safegame.getLvl() * safegame.getLvl());
                 if(Enemy.get_counter()!=30)
                 {
-                    System.out.println(Enemy.get_counter());
                     getWorld().removeObject(this);
                 }
                 
