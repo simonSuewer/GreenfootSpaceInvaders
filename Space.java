@@ -66,6 +66,7 @@ public class Space extends World
                 
             }
         }
+        this.addObject(new Info(),400,15);
         this.addObject(new Human(),400,750); //das geht so ja eigentlich nicht komplett
         Enemy.set_counter(30);
     }
