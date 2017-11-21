@@ -6,13 +6,13 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class UltraEnemy extends Ship
+public class UltraEnemy extends Enemy
 {
     private int shotCount = 0;
     private int max_shot = 10;
     private int health;
-    private boolean changeVertikal = true;
-    private boolean change = false;
+    private boolean changeVertical = true;
+    private boolean changeHorizontal = false;
     private int newCounter = 40;
     
     public UltraEnemy()
@@ -35,25 +35,15 @@ public class UltraEnemy extends Ship
        if(Greenfoot.getRandomNumber(100) > 95)
        {
            
-           if(changeVertikal)
+           if(changeVertical)
            {
-              if(change) turn(270);
-              else turn(90);
-               changeVertikal = false;
+               turn(90);
+               changeVertical = false;
            }
            else
            {
                turn(270);
-               if(getY() <= 10 || getY() >= 790 )
-               {
-                   turn(180);
-                   change = true;
-                }
-                else
-                {
-                    change = false;
-                }
-               changeVertikal = true;
+               changeVertical = true;
            }
        }
        
@@ -76,7 +66,22 @@ public class UltraEnemy extends Ship
            getWorld().removeObject(this);
        }
         
-      move(1);
+       
+      if(changeVertical)
+      {
+        if(Greenfoot.getRandomNumber(100) >= 98)
+        {
+            changeHorizontal=!changeHorizontal;
+        }
+        if(!changeHorizontal)
+        move(1);
+        else
+        move(-1);
+      }
+      else
+      {
+          move(1);
+      }
     }    
     
    
