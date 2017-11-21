@@ -27,7 +27,7 @@ public class Upgrade extends Actor
         extraDamage= extraDamage + add;
     }
     
-        public static void addHealth(int add)
+    public static void addHealth(int add)
     {
         health= health + add;
     }
@@ -35,6 +35,10 @@ public class Upgrade extends Actor
         public static void setHealth(int h)
     {
         health= h;
+    }
+    public static void setDamage(int h)
+    {
+        extraDamage= h;
     }
     
     public static int getDamage()

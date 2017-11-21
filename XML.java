@@ -20,22 +20,18 @@ public class XML
         Safegame read  = JAXB.unmarshal( file, Safegame.class );
         return read;
     }
-    public static void init() throws JAXBException
+    public static void init() 
     {
         Safegame write = new Safegame();
         
         write.setLvl(1);
         write.setCredits(0);
         write.setScore(0);
+        write.getUpgrade().setHealth(5);
+        write.getUpgrade().setDamage(1);
+        save();
         
-        File file = new File( path );
         
-        
-        JAXBContext jaxbContext = JAXBContext.newInstance(Safegame.class);
-        Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
-        jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
-        //jaxbMarshaller.marshal(write, System.out);
-        jaxbMarshaller.marshal(write, file);
     }
     
     public static void save()

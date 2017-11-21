@@ -61,28 +61,44 @@ public class Safegame
     public void setLvl(int lvl)
     {
         this.lvl = lvl;
+        save();
     }
     public void setCredits(int credits)
     {
         this.credits = credits;
+        save();
     }
     public void setScore(int score)
     {
         this.score = score;
+        save();
     }
     public void setUpgrade(Upgrade upgrades)
     {
         this.upgrades = upgrades;
+        save();
     }
     public void setMusikIsOn(boolean MusikIsOn)
     {
         this.MusikIsOn = MusikIsOn;
+        save();
     }
     public void setSfxIsOn(boolean SfxIsOn)
     {
         this.SfxIsOn = SfxIsOn;
+        save();
     }
     
+    private void save()
+    {
+        XML data = new XML();
+        data.save();
+    }
     
+    private void reset()
+    {
+        XML data = new XML();
+        data.init();
+    }
     
 }
