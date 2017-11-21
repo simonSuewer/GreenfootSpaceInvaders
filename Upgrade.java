@@ -8,8 +8,10 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Upgrade extends Actor
 {
-    static int extraHealth=0;
-    static int extraDamage=0;
+    static int health=1;
+    static int extraDamage=1;
+    
+   
     
     /**
      * Act - do whatever the Upgrade wants to do. This method is called whenever
@@ -27,7 +29,12 @@ public class Upgrade extends Actor
     
         public static void addHealth(int add)
     {
-        extraHealth= extraHealth + add;
+        health= health + add;
+    }
+    
+        public static void setHealth(int h)
+    {
+        health= h;
     }
     
     public static int getDamage()
@@ -37,6 +44,6 @@ public class Upgrade extends Actor
     
        public static int getHealth()
     {
-        return extraHealth;
+        return health;
     }
 }

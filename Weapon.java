@@ -29,7 +29,12 @@ public class Weapon extends Actor
             if(Enemy.get_counter()==0)
             {
                 safegame.setLvl(safegame.getLvl()+1);
+                //upgrade welt laden
+                Shop x = new Shop();
+                Greenfoot.setWorld(x);
+                /* auskommentiert wegen 
                 Space x = (Space) getWorld();
+                
                 switch(safegame.getLvl())
                 {
                     default:
@@ -48,7 +53,7 @@ public class Weapon extends Actor
                         break;
                         
                 }
-                return false;
+                return false; */
             }
             return true;
         }

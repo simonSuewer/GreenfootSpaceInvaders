@@ -1,30 +1,22 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Human here.
- * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Human extends Ship
+public class UpgradeShip extends Ship
 {
-    // private static int health = 5; ist jetzt in Upgrades
     private int shotCount = 0;
-    private static Safegame safegame = new Safegame();
     private GreenfootSound soundHorn = new GreenfootSound("horn.wav"); 
-
-    public Human()
+    
+    public UpgradeShip()
     {
         super();
-        
-        //this.health = load.getUpgrade().getHealth();
         this.setMoveSpeed(5);
     }
 
     public void act() 
     {
-        
-        
         //move left
         if(Greenfoot.isKeyDown("a"))
         {
@@ -49,17 +41,8 @@ public class Human extends Ship
             if(shotCount == 0)
             {
                 shotCount = 30;
-                getWorld().addObject(new HumanShot(), getX(), getY()+5);
+                getWorld().addObject(new UpgradeShot(), getX(), getY()+5);
             }
         }
     }    
-    
-    public static int getHealth()
-    {
-        return safegame.getUpgrade().getHealth();
-    }
-    public static void setHealth(int h)
-    {
-       safegame.getUpgrade().setHealth(h);
-    }
 }
