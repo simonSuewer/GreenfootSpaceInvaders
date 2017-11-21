@@ -19,7 +19,6 @@ public class HumanShot extends Weapon
     public void act() 
     {
         this.move(SHOT_SPEED);
-        getWorld().showText("", 400, 500);
         Enemy actor = (Enemy) getOneObjectAtOffset(0, 0, Enemy.class);
         if(this.atWorldEdge())
         {
@@ -44,23 +43,6 @@ public class HumanShot extends Weapon
                 getWorld().removeObject(this);
             }
         }
-        /*else if(this.isTouching(ButtonHealth.class))
-        {
-            Upgrade.addHealth(1);
-            getWorld().showText("1 Extra Leben", 400, 500);
-            getWorld().removeObject(this);
-        }
-        else if(this.isTouching(ButtonDamage.class))
-        {
-            Upgrade.addDamage(1);
-            getWorld().showText("1 Extra Schaden", 400, 500);
-            getWorld().removeObject(this);
-        }
-        else if(this.isTouching(ButtonNextLvl.class))
-        {
-            System.out.println(Upgrade.getHealth()+""+Upgrade.getDamage());
-            getWorld().removeObject(this);
-        } */
     }
 }
 

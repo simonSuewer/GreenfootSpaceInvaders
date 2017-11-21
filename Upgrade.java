@@ -8,7 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Upgrade extends Actor
 {
-    static int health=1;
+    static int health=5;
     static int extraDamage=1;
     
    
