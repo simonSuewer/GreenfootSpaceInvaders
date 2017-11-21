@@ -9,7 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class HumanShot extends Weapon
 {
     private static final int SHOT_SPEED = 5;
-    
+    private ActionSounds actionSounds = new ActionSounds();
     public HumanShot()
     {
         super();
@@ -25,7 +25,8 @@ public class HumanShot extends Weapon
             getWorld().removeObject(this);
         }
         else if(actor != null)
-        {           
+        {
+            actionSounds.playHitmarkerSound();
             if(actor.getHealth() <= 1)
             {
                 this.hit(Enemy.class); 

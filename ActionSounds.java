@@ -16,8 +16,6 @@ public class ActionSounds
     private static GreenfootSound shotSound2 = new GreenfootSound("shot2.wav");
     
     public static void playShotSound() {
-
-        
         Random random = new Random();
         
         if(random.nextBoolean()) {
