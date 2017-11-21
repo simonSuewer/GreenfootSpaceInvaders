@@ -27,8 +27,8 @@ public class Space extends World
         else
         {
             safegame.setLvl(1);
-            initializeLvl(1);
-            //initializeLvl(6, true);
+            //initializeLvl(1);
+            initializeLvl(6, true);
         }
         
     }
@@ -89,6 +89,7 @@ public class Space extends World
                 }
         }
         this.addObject(new Human(),400,750); //das geht so ja eigentlich nicht komplett
+        this.addObject(new Info(),400,15);       
         Enemy.set_counter(30);
     }
 }
