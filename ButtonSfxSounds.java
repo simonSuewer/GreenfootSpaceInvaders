@@ -8,8 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class ButtonSfxSounds extends SettingsActor
 {
-private boolean onThis=false;
- 
+    private boolean onThis=false;
     private Safegame savegame = new Safegame();
  
     public void act() {
