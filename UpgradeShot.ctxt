@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=UpgradeShot
-comment0.text=\r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
 comment1.params=
 comment1.target=UpgradeShot()
 comment2.params=

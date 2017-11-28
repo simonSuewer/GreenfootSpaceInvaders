@@ -9,7 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class EnemyShot extends Weapon
 {
    private Safegame safegame = new Safegame();
-    
+ 
     
     
     public EnemyShot()
@@ -35,6 +35,11 @@ public class EnemyShot extends Weapon
             {
                 Human.setHealth(Human.getHealth() -1);
                 getWorld().removeObject(this);
+            }
+            
+            if(Human.getHealth() == (safegame.getLvl() * safegame.getLvl() / 2))
+            {
+                //setImage("grafik_gegner_level" + safegame.getLvl() + "_schaden");
             }
         }
             

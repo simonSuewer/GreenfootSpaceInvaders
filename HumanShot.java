@@ -11,6 +11,7 @@ public class HumanShot extends Weapon
     private static final int SHOT_SPEED = 5;
     private Safegame safegame = new Safegame();
     private GreenfootSound hitmarkerSound = new GreenfootSound("hitmarker.wav");
+  
     public HumanShot()
     {
         super();
@@ -48,24 +49,15 @@ public class HumanShot extends Weapon
                 actor.setHealth(actor.getHealth() - safegame.getUpgrade().getDamage());
                 getWorld().removeObject(this);
             }
+            
+            if(actor.getHealth() == (safegame.getLvl() * safegame.getLvl() / 2))
+            {
+                setImage("grafik_gegner_level" + safegame.getLvl() + "_schaden");
+            }
+            
         }
-        /*else if(this.isTouching(ButtonHealth.class))
-        {
-            Upgrade.addHealth(1);
-            getWorld().showText("1 Extra Leben", 400, 500);
-            getWorld().removeObject(this);
-        }
-        else if(this.isTouching(ButtonDamage.class))
-        {
-            Upgrade.addDamage(1);
-            getWorld().showText("1 Extra Schaden", 400, 500);
-            getWorld().removeObject(this);
-        }
-        else if(this.isTouching(ButtonNextLvl.class))
-        {
-            System.out.println(Upgrade.getHealth()+""+Upgrade.getDamage());
-            getWorld().removeObject(this);
-        } */
+        
+        
     }
 }
 
