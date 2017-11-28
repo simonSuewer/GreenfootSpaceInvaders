@@ -24,37 +24,9 @@ public class Human extends Ship
     }
 
     public void act() 
-    {
-        switch(getHealth()){
-            case 1: 
-                setImage("eigenesSchiff_1.png");
-            break;
-            case 2: 
-                setImage("eigenesSchiff_2.png");
-            break;
-            case 3: 
-                setImage("eigenesSchiff_3.png");
-            break;
-            case 4: 
-                setImage("eigenesSchiff_4.png");
-            break;
-            case 5: 
-                setImage("eigenesSchiff.png");
-            break;
-            case 6: 
-                setImage("eigenesSchiff_6.png");
-            break;
-            case 7: 
-                setImage("eigenesSchiff_7.png");
-            break;
-            case 8: 
-                setImage("eigenesSchiff_8.png");
-            break;
-            case 9: 
-                setImage("eigenesSchiff_9.png");
-            break;
-        }
-        
+    {        
+        setImage("eigenesSchiff_"+getHealth()+".png");
+
         //move left
         if(Greenfoot.isKeyDown("a"))
         {
