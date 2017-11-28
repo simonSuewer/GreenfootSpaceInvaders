@@ -1,3 +1,7 @@
 #BlueJ class context
 comment0.target=BackgroundMusic
-numComments=1
+comment1.params=NumberOfSong
+comment1.target=void\ initialSound(int)
+comment2.params=NumberOfSong
+comment2.target=void\ playBackgroundMusic(int)
+numComments=3
