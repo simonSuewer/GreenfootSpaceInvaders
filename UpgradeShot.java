@@ -39,10 +39,10 @@ public class UpgradeShot extends HumanShot
         {
             if(safegame.getCredits() >= (safegame.getUpgrade().getDamage() * safegame.getPIRICE_FIRST()))
             {
-                safegame.getUpgrade().addDamage(1);
                 getWorld().showText("1 Extra Schaden", 400, 500);
                 getWorld().removeObject(this);
-                safegame.setCredits((safegame.getUpgrade().getDamage() * safegame.getPIRICE_FIRST() -safegame.getCredits()));
+                safegame.setCredits(safegame.getCredits()-(safegame.getUpgrade().getDamage() * safegame.getPIRICE_FIRST()));
+                safegame.getUpgrade().addDamage(1);
             }
             else
             {
