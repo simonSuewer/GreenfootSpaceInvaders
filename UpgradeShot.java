@@ -15,6 +15,7 @@ public class UpgradeShot extends HumanShot
     
     public void act() 
     {
+        setImage("grafik_schuss_"+safegame.getUpgrade().getDamage()+".png");
         this.move(SHOT_SPEED);
         getWorld().showText("", 400, 500);
         if(this.atWorldEdge())
@@ -25,10 +26,10 @@ public class UpgradeShot extends HumanShot
         {
             if(safegame.getCredits() >= (safegame.getUpgrade().getHealth() * safegame.getPIRICE_FIRST()))
             {
-                safegame.getUpgrade().addHealth(1);
                 getWorld().showText("1 Extra Leben", 400, 500);
                 getWorld().removeObject(this);
-                safegame.setCredits((safegame.getUpgrade().getHealth() * safegame.getPIRICE_FIRST() -safegame.getCredits()));
+                safegame.setCredits(safegame.getCredits()-(safegame.getUpgrade().getHealth() * safegame.getPIRICE_FIRST()));
+                safegame.getUpgrade().addHealth(1);
             }
             else
             {
