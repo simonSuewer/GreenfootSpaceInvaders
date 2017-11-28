@@ -7,7 +7,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Shop extends World
 {
     int damageAdd = 0;
-    int healthAdd = 0;    
+    int healthAdd = 0;  
+    private Safegame safegame = new Safegame();
     /**
      * Constructor for objects of class Shop.
      */
@@ -18,13 +19,16 @@ public class Shop extends World
     }
     
         public void initial() {
-        showText("??? Credit = 1 Extra Leben", 150, 175);
+        showText(safegame.getUpgrade().getHealth() * safegame.getPIRICE_FIRST() + " Credit = 1 Extra Leben", 150, 175);
         addObject(new ButtonHealth(), 150, 300);
-        showText("??? Credit = 1 Extra Schaden", 415, 175);
+        showText(safegame.getUpgrade().getDamage() * safegame.getPIRICE_FIRST() +" Credit = 1 Extra Schaden", 415, 175);
         addObject(new ButtonDamage(), 415, 300);
         showText("Ins nächste Level", 675, 175);
         addObject(new ButtonNextLvl(), 675, 300);
         this.addObject(new UpgradeShip(),400,750);
         this.addObject(new Upgrade(),0,0);
+        
+        //damit man sieht wie vieke Points man hat
+        this.addObject(new Info(),400,15);
     }
 }

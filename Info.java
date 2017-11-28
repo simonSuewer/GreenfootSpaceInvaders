@@ -11,6 +11,7 @@ public class Info extends Actor
     private int score = 0;
     private int credits = 0;
     private int health = 0;
+    private int lvl = 1;
     private Safegame safegame = new Safegame();
     /**
      * Act - do whatever the Score wants to do. This method is called whenever
@@ -26,7 +27,8 @@ public class Info extends Actor
         health = Human.getHealth();
         score = safegame.getScore();
         credits = safegame.getCredits();
-        setImage(new GreenfootImage("Score: " + score + " Credits: " + credits + " Health: " + health, 24, greenfoot.Color.WHITE, greenfoot.Color.BLACK));
+        lvl = safegame.getLvl();
+        setImage(new GreenfootImage("Level: "+ lvl + " Score: " + score + " Credits: " + credits + " Health: " + health, 24, greenfoot.Color.WHITE, greenfoot.Color.BLACK));
     }
     
     public void addScore()
