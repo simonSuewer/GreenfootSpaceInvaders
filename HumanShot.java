@@ -50,9 +50,9 @@ public class HumanShot extends Weapon
                 getWorld().removeObject(this);
             }
             
-            if(actor.getHealth() == (safegame.getLvl() * safegame.getLvl() / 2))
+            if(actor.getHealth() <= (safegame.getLvl() * safegame.getLvl() / 2))
             {
-                setImage("grafik_gegner_level" + safegame.getLvl() + "_schaden.png");
+                actor.setImage("grafik_gegner_level" + safegame.getLvl() + "_schaden.png");
             }
             
         }
