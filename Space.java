@@ -1,4 +1,4 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 import java.util.List;
 
 /**
@@ -22,12 +22,20 @@ public class Space extends World
         Safegame safegame = new Safegame();
         if(safegame.getLvl() >= 1)
         {
-            initializeLvl(safegame.getLvl());
+            if(safegame.getLvl()<=5)
+            {
+                initializeLvl(safegame.getLvl());
+            }
+            else if (safegame.getLvl()>5)
+            {
+                initializeLvl(safegame.getLvl(), true);
+            }
+            
         }
         else
         {
             safegame.setLvl(1);
-            initializeLvl(1);
+            //initializeLvl(1);
             //initializeLvl(6, true);
         }
         
@@ -82,8 +90,20 @@ public class Space extends World
         {
             switch (lvl) {
                     case 6: 
-                             this.addObject(new UltraSven(), 110+(183*(j)),140);
-                             break;
+                         this.addObject(new UltraSven(), 110+(183*(j)),140);
+                         break;
+                    case 7: 
+                         this.addObject(new UltraLucas(), 110+(183*(j)),140);
+                         break;
+                    case 8: 
+                         this.addObject(new UltraSteven(), 110+(183*(j)),140);
+                         break;
+                    case 9: 
+                         this.addObject(new UltraTim(), 110+(183*(j)),140);
+                         break;
+                    case 10: 
+                         this.addObject(new UltraMax(), 110+(183*(j)),140);
+                         break;
                     default: 
                              return;
                 }

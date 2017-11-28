@@ -26,7 +26,7 @@ public class Weapon extends Actor
         if(actor != null) {
             getWorld().removeObject(actor);
             Enemy.set_counter(Enemy.get_counter()-1);
-            if(Enemy.get_counter()==0)
+            if(getWorld().getObjects(Enemy.class).isEmpty())
             {
                 safegame.setLvl(safegame.getLvl()+1);
                 //upgrade welt laden
