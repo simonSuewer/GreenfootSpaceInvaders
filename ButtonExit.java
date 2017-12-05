@@ -25,7 +25,7 @@ public class ButtonExit extends MenuActor
             }
             setImage("button_exit-hover.png"); 
             if(Greenfoot.mouseClicked(this)) {
-                 if(getWorld().getClass().getName() == "Settings" || getWorld().getClass().getName() == "Mitwirkende") {
+                 if(getWorld().getClass().getName() == "Settings" || getWorld().getClass().getName() == "Mitwirkende" || getWorld().getClass().getName() == "GameOver") {
                         if(getWorld().getClass().getName() == "Mitwirkende") {
                             Mitwirkende.soundThugLife.stop();
                         }
