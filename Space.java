@@ -26,17 +26,22 @@ public class Space extends World
             {
                 initializeLvl(safegame.getLvl());
             }
-            else if (safegame.getLvl()>5)
+            else if (safegame.getLvl()>5 && safegame.getLvl() <=10)
             {
                 initializeLvl(safegame.getLvl(), true);
+            }
+            else if (safegame.getLvl()>10)
+            {
+                initializeLvl(safegame.getLvl(), true, true);
             }
             
         }
         else
         {
-            safegame.setLvl(1);
-            initializeLvl(1);
+            safegame.setLvl(11);
+            //initializeLvl(1);
             //initializeLvl(6, true);
+            initializeLvl(11,true,true);
         }
         
     }
@@ -103,6 +108,39 @@ public class Space extends World
                          break;
                     case 10: 
                          this.addObject(new UltraMax(), 110+(183*(j)),140);
+                         break;
+                    default: 
+                             return;
+                }
+        }
+        this.addObject(new Human(),400,750); //das geht so ja eigentlich nicht komplett
+        this.addObject(new Info(),400,15);       
+        Enemy.set_counter(30);
+    } 
+    public void initializeLvl(int lvl, boolean ultra, boolean ai)
+    {
+        List objects = getObjects(null);
+        if (objects != null) 
+        {
+            removeObjects(objects); 
+        }
+        for (int j = 0;j<4;j++)
+        {
+            switch (lvl) {
+                    case 11: 
+                         this.addObject(new AiSteven(), 110+(183*(j)),50+(60*j));
+                         break;
+                    case 12: 
+                         this.addObject(new AiLucas(), 110+(183*(j)),50+(60*j));
+                         break;
+                    case 13: 
+                         this.addObject(new AiSven(), 110+(183*(j)),50+(60*j));
+                         break;
+                    case 14: 
+                         this.addObject(new AiTim(), 110+(183*(j)),50+(60*j));
+                         break;
+                    case 15: 
+                         this.addObject(new AiMax(), 110+(183*(j)),50+(60*j));
                          break;
                     default: 
                              return;

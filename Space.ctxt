@@ -8,4 +8,6 @@ comment2.params=lvl
 comment2.target=void\ initializeLvl(int)
 comment3.params=lvl\ ultra
 comment3.target=void\ initializeLvl(int,\ boolean)
-numComments=4
+comment4.params=lvl\ ultra\ ai
+comment4.target=void\ initializeLvl(int,\ boolean,\ boolean)
+numComments=5
