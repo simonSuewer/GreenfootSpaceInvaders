@@ -95,7 +95,7 @@ public class Safegame
         data.save();
     }
     
-    private void reset()
+    public void reset()
     {
         XML data = new XML();
         data.init();
