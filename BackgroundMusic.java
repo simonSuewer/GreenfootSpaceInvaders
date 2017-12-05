@@ -7,11 +7,15 @@ public class BackgroundMusic
 
       
       private static void playBackgroundMusic(int NumberOfSong) {
-          if(NumberOfSong > 6) {
+          try {
+          if(NumberOfSong >= 6) {
             soundBackgroundMusic = new GreenfootSound("backgroundmusic/" + NumberOfSong + ".wav");
         } else {
             soundBackgroundMusic = new GreenfootSound("backgroundmusic/" + 1 + ".wav");
         }
+    } catch (Exception e) {
+        System.out.println("Background-Musik konnte nicht geladen werden");
+    }
         }
         
         
