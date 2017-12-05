@@ -12,14 +12,27 @@ public class AiEnemy extends Enemy
      * Act - do whatever the AiEnemy wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    private static int destination[] = new int[140];
+    private static int destination[] = new int[4];
     private static  int destinationCount = 0;
     private int myDestination;
-    private int counter;
+    private int counter = 0;
+    private int shotCount = 0;
+    private int dodgeCount = 0;
+    
+    private final int MAX_DODGE_COUNT = 50;
+    private final int MAX_SHOT_COUNT = 10;
+    private final int MAX_COUNT = 10;
+    
     public void act() 
     {
-        // Add your action code here.
-        System.out.println("test");
+        if(shotCount != 0) shotCount -= 1;
+        if((Greenfoot.getRandomNumber(100) < 2) && (getWorld().getObjects(EnemyShot.class).size())< MAX_SHOT_COUNT)
+        {
+            getWorld().addObject(new EnemyShot(), getX(), getY()+5);
+            shotCount = 30;
+        }
+        
+        
         Human actor = (Human) getWorld().getObjects(Human.class).get(0);
         for(int i = 0; i<4; i++)
         {
@@ -38,7 +51,50 @@ public class AiEnemy extends Enemy
                     break;
             }
         }
-        System.out.println(destination.toString());
+        
+        if(counter == 0)
+        { myDestination = this.getDestination();
+            counter = MAX_COUNT;
+        }
+        else
+            counter--;
+            
+       if(dodgeCount <= 0)
+        {
+            if(!getObjectsInRange(50, HumanShot.class).isEmpty())
+            {
+                move(75);
+                myDestination = this.getDestination();
+                dodgeCount = MAX_DODGE_COUNT;
+                
+            }
+            
+       
+           // System.out.println(enemyShot);
+        }
+        else
+        {
+            dodgeCount--;
+            
+        
+        }
+        
+        if(myDestination > this.getX() + 20 && (getObjectsInRange(50, HumanShot.class).isEmpty()))
+        {
+            move(this.getMoveSpeed());
+        }
+        else if (myDestination < this.getX() - 20 && (getObjectsInRange(50, HumanShot.class).isEmpty()))
+        {
+            move(this.getMoveSpeed() * (-1));
+        }
+        else
+        {
+            myDestination = this.getDestination();
+        }
+            
+       
+   
+       
     }   
     
     public int getDestination()
