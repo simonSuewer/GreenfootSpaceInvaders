@@ -1,4 +1,5 @@
 #Greenfoot properties
+<<<<<<< HEAD
 #Tue Nov 28 12:45:29 CET 2017
 class.ButtonSettingsExit.superclass=SettingsActor
 target24.type=ClassTarget
@@ -10,17 +11,41 @@ dependency33.from=ButtonSettings
 target10.width=120
 target36.height=50
 dependency19.type=UsesDependency
+=======
+#Tue Dec 05 11:56:00 CET 2017
+class.ButtonSettingsExit.superclass=SettingsActor
+target24.type=ClassTarget
+target16.name=EnemyShot
+target43.name=ButtonExit
+dependency116.from=Ship
+dependency85.to=Safegame
+target11.typeParameters=
+dependency58.from=Space
+dependency33.from=Enemy
+target10.width=80
+target36.height=50
+target46.width=90
+dependency19.type=UsesDependency
+target43.showInterface=false
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 dependency79.to=Safegame
 dependency104.type=UsesDependency
 class.HumanShot.image=grafik_schuss.png
 target34.showInterface=false
+<<<<<<< HEAD
 dependency46.type=UsesDependency
+=======
+target42.y=0
+dependency46.type=UsesDependency
+target42.x=0
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 dependency98.type=UsesDependency
 dependency21.type=UsesDependency
 dependency73.type=UsesDependency
 target21.typeParameters=
 target36.type=ClassTarget
 target17.showInterface=false
+<<<<<<< HEAD
 dependency112.to=Safegame
 target11.type=ClassTarget
 dependency33.to=Settings
@@ -30,15 +55,34 @@ class.EnemyShot.image=grafik_schuss_gegner.png
 dependency103.from=Tim
 dependency45.from=Settings
 dependency106.to=Mitwirkende
+=======
+dependency112.to=Mitwirkende
+target11.type=ClassTarget
+dependency33.to=EnemyShot
+dependency18.from=Weapon
+target30.name=Info
+class.EnemyShot.image=grafik_schuss_gegner.png
+dependency103.from=Shop
+dependency45.from=Settings
+dependency106.to=Weapon
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 target17.typeParameters=
 dependency97.from=Shop
 dependency20.from=Weapon
 class.ButtonMusik.image=button_musik_on.png
+<<<<<<< HEAD
 dependency27.to=Upgrade
 target6.name=HumanShot
 target37.width=80
 dependency80.to=Weapon
 dependency72.from=UpgradeShot
+=======
+dependency27.to=ButtonSettings
+target6.name=ButtonHealth
+target37.width=100
+dependency80.to=ButtonHealth
+dependency72.from=Space
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 target39.y=0
 target31.height=50
 class.UpgradeShot.superclass=HumanShot
@@ -47,20 +91,32 @@ target31.showInterface=false
 target31.y=0
 target31.x=0
 dependency85.type=UsesDependency
+<<<<<<< HEAD
 dependency74.to=ButtonHealth
+=======
+dependency74.to=AiSven
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 dependency60.type=UsesDependency
 target14.showInterface=false
 class.test.superclass=greenfoot.Actor
 class.Sven.superclass=Enemy
 class.UltraLucas.image=grafik_gegner_level2.png
+<<<<<<< HEAD
 dependency68.to=UltraSteven
 target32.width=100
 mainWindow.width=1377
+=======
+dependency68.to=UltraLucas
+target32.width=90
+mainWindow.width=1377
+dependency118.type=UsesDependency
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 target8.showInterface=false
 target1.typeParameters=
 target1.type=ClassTarget
 dependency35.type=UsesDependency
 target28.y=0
+<<<<<<< HEAD
 dependency101.to=XML
 target15.typeParameters=
 target28.x=0
@@ -83,6 +139,33 @@ target5.showInterface=false
 dependency105.type=UsesDependency
 target18.width=80
 dependency63.to=Upgrade
+=======
+dependency101.to=ButtonNextLvl
+target15.typeParameters=
+target28.x=0
+dependency22.to=Space
+target25.type=ClassTarget
+target17.name=Menu
+target20.y=0
+target11.showInterface=false
+target20.x=0
+target44.name=ButtonSfxSounds
+dependency117.from=ButtonMitwirkende
+class.AiMax.superclass=AiEnemy
+dependency16.to=ButtonExit
+dependency59.from=Space
+target25.typeParameters=
+dependency34.from=ButtonSettings
+dependency5.to=UltraSven
+target19.height=50
+target4.y=0
+target23.width=90
+target4.x=0
+target5.showInterface=false
+dependency105.type=UsesDependency
+target18.width=100
+dependency63.to=ButtonHealth
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 dependency47.type=UsesDependency
 dependency99.type=UsesDependency
 dependency22.type=UsesDependency
@@ -92,6 +175,7 @@ target17.y=0
 target17.x=0
 target37.type=ClassTarget
 target12.type=ClassTarget
+<<<<<<< HEAD
 dependency57.to=Weapon
 dependency19.from=Weapon
 target31.name=UltraMax
@@ -106,10 +190,27 @@ dependency73.from=UpgradeShot
 target14.width=100
 target2.width=80
 dependency11.to=ButtonNextLvl
+=======
+dependency57.to=ButtonExit
+dependency19.from=Weapon
+target31.name=AiSven
+dependency104.from=Shop
+dependency46.from=Settings
+class.ButtonMitwirkende.image=button_mitwirkende.png
+dependency98.from=Shop
+dependency21.from=Weapon
+class.UltraLucas.superclass=UltraEnemy
+target7.name=Sven
+dependency73.from=Space
+target14.width=90
+target2.width=80
+dependency11.to=ButtonDamage
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 target14.height=50
 target2.showInterface=false
 target23.typeParameters=
 target37.showInterface=false
+<<<<<<< HEAD
 dependency98.to=Info
 target28.showInterface=false
 readme.height=58
@@ -129,11 +230,36 @@ target2.type=ClassTarget
 dependency60.from=Space
 dependency36.type=UsesDependency
 dependency46.to=Sven
+=======
+dependency98.to=ButtonHealth
+target28.showInterface=false
+readme.height=58
+target45.y=0
+class.Lucas.superclass=Enemy
+dependency86.type=UsesDependency
+target45.x=0
+class.Mitwirkende.superclass=greenfoot.World
+dependency61.type=UsesDependency
+package.numTargets=47
+target5.typeParameters=
+target19.typeParameters=
+dependency52.to=HumanShot
+class.ButtonSettings.superclass=MenuActor
+target45.width=80
+class.Steven.image=grafik_gegner_level4.png
+class.Settings.superclass=greenfoot.World
+dependency85.from=test
+target2.type=ClassTarget
+dependency60.from=Space
+dependency36.type=UsesDependency
+dependency46.to=HumanShot
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 class.UltraSteven.image=grafik_gegner_level3.png
 target29.typeParameters=
 target25.showInterface=false
 target26.type=ClassTarget
 dependency1.type=UsesDependency
+<<<<<<< HEAD
 target18.name=Settings
 target34.y=0
 target34.x=0
@@ -146,6 +272,22 @@ class.Human.superclass=Ship
 target35.height=50
 target36.width=130
 dependency87.to=Weapon
+=======
+target18.name=SettingsActor
+target34.y=0
+target34.x=0
+target45.name=Ship
+dependency93.to=Weapon
+dependency118.from=ButtonMitwirkende
+target20.name=Settings
+target41.width=80
+target3.typeParameters=
+dependency35.from=ButtonSettings
+class.Human.superclass=Ship
+target35.height=50
+target36.width=80
+dependency87.to=ButtonNextLvl
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 target8.height=50
 target31.typeParameters=
 dependency106.type=UsesDependency
@@ -157,12 +299,17 @@ target22.showInterface=false
 target38.type=ClassTarget
 dependency50.type=UsesDependency
 target13.type=ClassTarget
+<<<<<<< HEAD
 dependency41.to=ButtonExit
+=======
+dependency41.to=ButtonSettings
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 target27.typeParameters=
 world.lastInstantiated=Menu
 target40.type=ClassTarget
 target23.y=0
 target23.x=0
+<<<<<<< HEAD
 target32.name=ButtonMusik
 class.Settings.image=background.png
 dependency105.from=ButtonExit
@@ -174,10 +321,25 @@ target9.typeParameters=
 target27.height=50
 target8.name=Upgrade
 dependency74.from=UpgradeShot
+=======
+target32.name=Steven
+class.Settings.image=background.png
+dependency105.from=ButtonMusik
+dependency114.to=XML
+dependency47.from=Settings
+dependency99.from=Shop
+dependency22.from=ButtonStart
+dependency35.to=Safegame
+target9.typeParameters=
+target27.height=50
+target8.name=HumanShot
+dependency74.from=Space
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 target7.y=0
 target27.width=80
 target7.x=0
 target30.height=50
+<<<<<<< HEAD
 dependency108.to=XML
 target3.height=50
 dependency29.to=Safegame
@@ -189,10 +351,24 @@ dependency76.to=Space
 target12.y=0
 target12.x=0
 dependency86.from=Steven
+=======
+dependency108.to=Safegame
+target3.height=50
+dependency29.to=XML
+dependency87.type=UsesDependency
+dependency82.to=Space
+dependency10.type=UsesDependency
+dependency62.type=UsesDependency
+dependency76.to=AiMax
+target12.y=0
+target12.x=0
+dependency86.from=test
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 target3.type=ClassTarget
 dependency61.from=Space
 target22.height=50
 dependency37.type=UsesDependency
+<<<<<<< HEAD
 target6.width=110
 target7.typeParameters=
 dependency30.to=BackgroundHeader
@@ -203,10 +379,26 @@ dependency103.to=Weapon
 target35.typeParameters=
 dependency24.to=Safegame
 target21.name=UpgradeShot
+=======
+target6.width=80
+target7.typeParameters=
+class.AiLucas.superclass=AiEnemy
+dependency30.to=Safegame
+class.AiTim.image=grafik_gegner_level4.png
+target27.type=ClassTarget
+dependency2.type=UsesDependency
+target19.name=ButtonDamage
+dependency103.to=ButtonDamage
+target35.typeParameters=
+target46.name=UltraLucas
+dependency24.to=Enemy
+target21.name=Human
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 target40.y=0
 dependency36.from=EnemyShot
 target40.x=0
 target18.height=50
+<<<<<<< HEAD
 target13.width=120
 dependency18.to=Space
 dependency71.to=ButtonDamage
@@ -214,17 +406,32 @@ dependency1.from=Max
 dependency107.type=UsesDependency
 dependency49.type=UsesDependency
 dependency7.to=Upgrade
+=======
+target13.width=80
+dependency18.to=Safegame
+dependency71.to=UltraMax
+dependency1.from=AiEnemy
+dependency107.type=UsesDependency
+target45.showInterface=false
+dependency49.type=UsesDependency
+dependency7.to=EnemyShot
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 dependency24.type=UsesDependency
 class.HumanShot.superclass=Weapon
 dependency76.type=UsesDependency
 target39.type=ClassTarget
 dependency51.type=UsesDependency
+<<<<<<< HEAD
 dependency65.to=UltraSven
+=======
+dependency65.to=Lucas
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 target19.showInterface=false
 target14.type=ClassTarget
 target41.type=ClassTarget
 target37.y=0
 target37.x=0
+<<<<<<< HEAD
 target33.name=MenuActor
 dependency106.from=ButtonExit
 dependency48.from=Settings
@@ -234,10 +441,24 @@ dependency23.from=ButtonStart
 target9.name=Weapon
 dependency75.from=UpgradeShot
 dependency50.from=Human
+=======
+target33.name=UpgradeShip
+dependency106.from=ButtonMusik
+dependency48.from=Settings
+dependency59.to=Info
+target33.typeParameters=
+dependency23.from=ButtonStart
+target9.name=Mitwirkende
+target43.height=50
+dependency75.from=Space
+dependency50.from=Human
+target42.showInterface=false
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 target13.height=50
 class.EnemyShot.superclass=Weapon
 dependency88.type=UsesDependency
 dependency11.type=UsesDependency
+<<<<<<< HEAD
 dependency13.to=Safegame
 dependency63.type=UsesDependency
 target16.showInterface=false
@@ -245,18 +466,36 @@ dependency2.to=Safegame
 dependency90.type=UsesDependency
 dependency60.to=Steven
 target40.width=90
+=======
+dependency13.to=Human
+dependency63.type=UsesDependency
+target43.typeParameters=
+target16.showInterface=false
+dependency2.to=Weapon
+dependency90.type=UsesDependency
+dependency60.to=Sven
+target40.width=80
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 target39.height=50
 target26.y=0
 target26.x=0
 target39.typeParameters=
+<<<<<<< HEAD
 dependency87.from=Steven
+=======
+dependency87.from=test
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 dependency10.from=HumanShot
 class.UltraEnemy.superclass=Enemy
 target4.type=ClassTarget
 dependency62.from=Space
 class.Tim.superclass=Enemy
 dependency38.type=UsesDependency
+<<<<<<< HEAD
 dependency54.to=Human
+=======
+dependency54.to=Safegame
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 editor.fx.0.height=722
 class.Lucas.image=grafik_gegner_level3.png
 class.Enemy.superclass=Ship
@@ -265,6 +504,7 @@ target28.type=ClassTarget
 dependency3.type=UsesDependency
 class.Menu.superclass=greenfoot.World
 target13.showInterface=false
+<<<<<<< HEAD
 dependency48.to=ButtonExit
 target2.y=0
 target2.x=0
@@ -278,18 +518,40 @@ target15.y=0
 target15.x=0
 target26.width=80
 dependency2.from=UltraEnemy
+=======
+dependency48.to=ButtonMitwirkende
+target2.y=0
+target2.x=0
+target47.name=ButtonMitwirkende
+target22.name=Space
+target41.typeParameters=
+dependency37.from=EnemyShot
+target31.width=80
+dependency95.to=UpgradeShot
+target34.height=50
+target15.y=0
+class.AiSteven.image=grafik_gegner_level1.png
+target15.x=0
+target26.width=80
+dependency2.from=Max
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 dependency108.type=UsesDependency
 target7.height=50
 class.Steven.superclass=Enemy
 dependency25.type=UsesDependency
 target37.typeParameters=
 dependency77.type=UsesDependency
+<<<<<<< HEAD
 dependency89.to=UpgradeShot
+=======
+dependency89.to=Weapon
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 dependency110.type=UsesDependency
 dependency52.type=UsesDependency
 target15.type=ClassTarget
 class.ButtonMitwirkende.superclass=SettingsActor
 target10.showInterface=false
+<<<<<<< HEAD
 target34.name=XML
 class.UltraSteven.superclass=UltraEnemy
 dependency107.from=ButtonSfxSounds
@@ -299,15 +561,39 @@ dependency24.from=ButtonStart
 version=3.0.0
 target22.width=90
 dependency76.from=UpgradeShot
+=======
+target42.type=ClassTarget
+target34.name=Shop
+class.UltraSteven.superclass=UltraEnemy
+dependency107.from=ButtonMusik
+dependency49.from=Settings
+dependency43.to=BackgroundHeader
+dependency24.from=ButtonStart
+version=3.0.0
+target47.typeParameters=
+target43.y=0
+target22.width=80
+dependency76.from=Space
+target43.x=0
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 target26.height=50
 class.ButtonNextLvl.image=grafik_upgrade_nextlvl.png
 dependency51.from=Human
 target4.showInterface=false
+<<<<<<< HEAD
 target17.width=80
 target5.width=80
 target39.showInterface=false
 dependency37.to=Human
 dependency90.to=Safegame
+=======
+dependency116.to=Safegame
+target17.width=90
+target5.width=80
+target39.showInterface=false
+dependency37.to=Safegame
+dependency90.to=Human
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 target2.height=50
 dependency89.type=UsesDependency
 dependency12.type=UsesDependency
@@ -315,6 +601,7 @@ class.ButtonSfxSounds.superclass=SettingsActor
 dependency64.type=UsesDependency
 dependency91.type=UsesDependency
 class.Space.image=background.png
+<<<<<<< HEAD
 dependency84.to=Human
 class.Info.superclass=greenfoot.Actor
 readme.width=47
@@ -324,11 +611,23 @@ target5.type=ClassTarget
 dependency78.to=XML
 dependency63.from=Space
 target1.width=100
+=======
+dependency84.to=XML
+class.Info.superclass=greenfoot.Actor
+readme.width=47
+dependency88.from=test
+dependency11.from=HumanShot
+target5.type=ClassTarget
+dependency78.to=ButtonNextLvl
+dependency63.from=Space
+target1.width=80
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 dependency39.type=UsesDependency
 target32.y=0
 target1.showInterface=false
 target32.x=0
 target21.height=50
+<<<<<<< HEAD
 dependency90.from=Shop
 target36.showInterface=false
 target29.type=ClassTarget
@@ -340,19 +639,42 @@ dependency38.from=Menu
 dependency105.to=Safegame
 simulation.speed=46
 dependency26.to=ButtonSettings
+=======
+target45.typeParameters=
+dependency90.from=Info
+target36.showInterface=false
+target29.type=ClassTarget
+dependency4.type=UsesDependency
+dependency111.to=Safegame
+dependency32.to=Human
+target23.name=UpgradeShot
+dependency38.from=EnemyShot
+dependency105.to=Safegame
+simulation.speed=46
+target47.height=50
+target44.width=150
+dependency26.to=Space
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 target10.typeParameters=
 target29.y=0
 target29.x=0
 target17.height=50
 dependency3.from=UltraEnemy
 dependency109.type=UsesDependency
+<<<<<<< HEAD
 target39.width=80
 dependency26.type=UsesDependency
+=======
+target39.width=150
+dependency26.type=UsesDependency
+class.AiEnemy.superclass=Enemy
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 target33.showInterface=false
 target21.y=0
 dependency78.type=UsesDependency
 dependency111.type=UsesDependency
 target21.x=0
+<<<<<<< HEAD
 dependency73.to=Safegame
 dependency53.type=UsesDependency
 target16.type=ClassTarget
@@ -371,11 +693,39 @@ dependency110.from=Ship
 target35.width=80
 dependency52.from=Human
 dependency100.to=Weapon
+=======
+dependency73.to=AiLucas
+dependency53.type=UsesDependency
+target16.type=ClassTarget
+class.AiSven.image=grafik_gegner_level3.png
+dependency9.to=Enemy
+dependency80.type=UsesDependency
+target43.type=ClassTarget
+target35.name=UltraMax
+target5.y=0
+dependency108.from=XML
+target5.x=0
+class.AiLucas.image=grafik_gegner_level2.png
+dependency67.to=Enemy
+target10.name=Upgrade
+dependency25.from=ButtonStart
+dependency77.from=UpgradeShot
+class.Mitwirkende.image=background.png
+dependency110.from=ButtonExit
+target42.height=50
+target35.width=80
+dependency52.from=Human
+dependency100.to=Human
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 target18.y=0
 target18.x=0
 target12.height=50
 dependency13.type=UsesDependency
+<<<<<<< HEAD
 dependency21.to=Space
+=======
+dependency21.to=Shop
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 target30.showInterface=false
 <<<<<<<=HEAD
 dependency65.type=UsesDependency
@@ -386,15 +736,25 @@ dependency40.type=UsesDependency
 dependency92.type=UsesDependency
 dependency15.to=ButtonExit
 target30.type=ClassTarget
+<<<<<<< HEAD
 dependency4.to=UltraSven
 class.UltraSven.superclass=UltraEnemy
 class.Shop.superclass=greenfoot.World
 class.BackgroundHeader.superclass=MenuActor
 dependency89.from=UpgradeShip
+=======
+class.AiTim.superclass=AiEnemy
+dependency4.to=EnemyShot
+class.UltraSven.superclass=UltraEnemy
+class.Shop.superclass=greenfoot.World
+class.BackgroundHeader.superclass=MenuActor
+dependency89.from=Lucas
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 dependency12.from=HumanShot
 target6.type=ClassTarget
 class.Ship.superclass=greenfoot.Actor
 dependency64.from=Space
+<<<<<<< HEAD
 dependency62.to=ButtonHealth
 target7.showInterface=false
 dependency91.from=Shop
@@ -414,6 +774,30 @@ target16.width=100
 target6.height=50
 dependency27.type=UsesDependency
 dependency97.to=ButtonDamage
+=======
+dependency62.to=Max
+target46.y=0
+target7.showInterface=false
+target46.x=0
+dependency91.from=Info
+target9.width=110
+dependency5.type=UsesDependency
+target14.typeParameters=
+dependency56.to=Tim
+target24.name=ButtonNextLvl
+class.Shop.image=background.png
+dependency39.from=Menu
+target21.width=80
+class.ButtonExit.superclass=MenuActor
+dependency10.to=EnemyShot
+dependency4.from=UltraEnemy
+target33.height=50
+target47.showInterface=false
+target16.width=100
+target6.height=50
+dependency27.type=UsesDependency
+dependency97.to=Weapon
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 class.ButtonSettings.image=button_settings.png
 dependency79.type=UsesDependency
 target35.y=0
@@ -422,6 +806,7 @@ target35.x=0
 dependency54.type=UsesDependency
 target17.type=ClassTarget
 dependency81.type=UsesDependency
+<<<<<<< HEAD
 target36.name=BackgroundHeader
 dependency109.from=Ship
 target11.name=Safegame
@@ -435,17 +820,44 @@ target12.width=90
 target25.height=50
 dependency45.to=HumanShot
 dependency80.from=test
+=======
+target44.type=ClassTarget
+target36.name=AiTim
+dependency109.from=Tim
+target11.name=Weapon
+target12.typeParameters=
+dependency51.to=Safegame
+dependency26.from=Safegame
+dependency78.from=UpgradeShot
+dependency111.from=ButtonExit
+dependency53.from=Human
+target12.width=120
+target25.height=50
+target44.showInterface=false
+dependency45.to=ButtonMusik
+dependency80.from=UpgradeShot
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 dependency14.type=UsesDependency
 target1.height=50
 dependency66.type=UsesDependency
 target22.typeParameters=
+<<<<<<< HEAD
+=======
+dependency118.to=Safegame
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 target27.showInterface=false
 target24.y=0
 dependency41.type=UsesDependency
 target24.x=0
+<<<<<<< HEAD
 dependency39.to=ButtonStart
 dependency93.type=UsesDependency
 dependency92.to=ButtonHealth
+=======
+dependency39.to=BackgroundHeader
+dependency93.type=UsesDependency
+dependency92.to=Safegame
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 target31.type=ClassTarget
 target4.typeParameters=
 class.BackgroundHeader.image=header.png
@@ -453,12 +865,17 @@ class.Max.image=endgegner.png
 target8.y=0
 target18.typeParameters=
 target8.x=0
+<<<<<<< HEAD
 dependency86.to=Safegame
+=======
+dependency86.to=Weapon
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 dependency13.from=HumanShot
 target7.type=ClassTarget
 dependency65.from=Space
 dependency40.from=Menu
 target41.showInterface=false
+<<<<<<< HEAD
 dependency92.from=Shop
 target20.height=50
 target1.name=UltraSteven
@@ -480,22 +897,60 @@ dependency28.type=UsesDependency
 target16.typeParameters=
 dependency28.to=XML
 dependency81.to=ButtonNextLvl
+=======
+dependency92.from=Steven
+target20.height=50
+target1.name=AiEnemy
+dependency6.type=UsesDependency
+class.UltraSven.image=grafik_gegner_level1.png
+target24.showInterface=false
+dependency40.to=ButtonStart
+target13.y=0
+target25.name=test
+target13.x=0
+target20.typeParameters=
+dependency113.to=Safegame
+dependency34.to=Settings
+target46.height=50
+target34.width=80
+dependency5.from=UltraEnemy
+target2.typeParameters=
+class.AiSven.superclass=AiEnemy
+dependency107.to=XML
+class.ButtonNextLvl.superclass=Upgrade
+dependency28.type=UsesDependency
+target16.typeParameters=
+dependency28.to=Upgrade
+dependency113.type=UsesDependency
+dependency81.to=Upgrade
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 target30.typeParameters=
 dependency55.type=UsesDependency
 target18.type=ClassTarget
 dependency30.type=UsesDependency
 target21.showInterface=false
 dependency82.type=UsesDependency
+<<<<<<< HEAD
 target41.y=0
 target41.x=0
 target37.name=ButtonExit
 dependency75.to=Upgrade
 target20.type=ClassTarget
 target12.name=Enemy
+=======
+target45.type=ClassTarget
+target41.y=0
+target41.x=0
+target37.name=ButtonMusik
+dependency75.to=AiTim
+target20.type=ClassTarget
+target12.name=ButtonStart
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 class.XML.superclass=
 target26.typeParameters=
 dependency27.from=Safegame
 target30.width=80
+<<<<<<< HEAD
 dependency79.from=test
 target38.height=50
 class.Weapon.superclass=greenfoot.Actor
@@ -506,11 +961,24 @@ target41.height=50
 target25.width=80
 target8.typeParameters=
 dependency81.from=test
+=======
+dependency79.from=UpgradeShot
+target38.height=50
+class.Weapon.superclass=greenfoot.Actor
+dependency112.from=ButtonExit
+dependency54.from=Space
+dependency69.to=UltraSteven
+target41.height=50
+target25.width=80
+target8.typeParameters=
+dependency81.from=UpgradeShot
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 dependency15.type=UsesDependency
 dependency67.type=UsesDependency
 dependency100.type=UsesDependency
 dependency42.type=UsesDependency
 target38.y=0
+<<<<<<< HEAD
 dependency102.to=Safegame
 target38.x=0
 dependency94.type=UsesDependency
@@ -547,12 +1015,53 @@ target5.height=50
 class.ButtonExit.image=button_exit.png
 target35.showInterface=false
 dependency12.to=Human
+=======
+dependency102.to=UpgradeShip
+target38.x=0
+dependency94.type=UsesDependency
+dependency23.to=Upgrade
+target32.type=ClassTarget
+target30.y=0
+target30.x=0
+dependency14.from=HumanShot
+target8.type=ClassTarget
+dependency17.to=Human
+dependency70.to=UltraTim
+dependency66.from=Space
+dependency6.to=Weapon
+dependency41.from=Menu
+target24.typeParameters=
+dependency93.from=Steven
+target4.width=80
+target38.showInterface=false
+target2.name=AiLucas
+dependency7.type=UsesDependency
+dependency64.to=Upgrade
+class.Safegame.superclass=
+target6.typeParameters=
+target27.y=0
+target26.name=UltraTim
+target27.x=0
+target34.typeParameters=
+dependency58.to=Weapon
+target29.height=50
+dependency6.from=Sven
+target11.width=80
+target47.width=140
+dependency29.type=UsesDependency
+target5.height=50
+dependency114.type=UsesDependency
+class.ButtonExit.image=button_exit.png
+target35.showInterface=false
+dependency12.to=ButtonNextLvl
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 target3.y=0
 dependency56.type=UsesDependency
 target3.x=0
 class.Menu.image=background.png
 target19.type=ClassTarget
 dependency31.type=UsesDependency
+<<<<<<< HEAD
 dependency1.to=Weapon
 dependency83.type=UsesDependency
 dependency99.to=Safegame
@@ -561,10 +1070,23 @@ target38.name=ButtonSfxSounds
 target21.type=ClassTarget
 mainWindow.y=23
 target13.name=ButtonSettings
+=======
+dependency1.to=Human
+class.AiMax.image=endgegner.png
+dependency83.type=UsesDependency
+dependency99.to=Upgrade
+target46.type=ClassTarget
+target18.showInterface=false
+target38.name=MenuActor
+target21.type=ClassTarget
+mainWindow.y=23
+target13.name=Safegame
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 mainWindow.x=145
 target16.y=0
 target16.x=0
 dependency28.from=Safegame
+<<<<<<< HEAD
 target40.name=UltraLucas
 dependency55.from=Space
 target32.typeParameters=
@@ -573,13 +1095,29 @@ dependency53.to=Safegame
 target24.height=50
 target38.width=150
 dependency82.from=test
+=======
+target40.name=AiMax
+dependency113.from=ButtonSfxSounds
+target43.width=80
+dependency55.from=Space
+target32.typeParameters=
+dependency30.from=Enemy
+dependency53.to=ButtonExit
+target24.height=50
+target38.width=90
+dependency82.from=UpgradeShot
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 dependency16.type=UsesDependency
 target32.showInterface=false
 dependency68.type=UsesDependency
 dependency101.type=UsesDependency
 class.MenuActor.superclass=greenfoot.Actor
 dependency43.type=UsesDependency
+<<<<<<< HEAD
 dependency47.to=ButtonMitwirkende
+=======
+dependency47.to=Sven
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 dependency95.type=UsesDependency
 class.Space.superclass=greenfoot.World
 target28.typeParameters=
@@ -588,6 +1126,7 @@ dependency70.type=UsesDependency
 target15.showInterface=false
 readme.name=@README
 target33.type=ClassTarget
+<<<<<<< HEAD
 class.ButtonSfxSounds.image=button_sfx-sounds.png
 dependency94.to=Human
 dependency15.from=Weapon
@@ -595,11 +1134,24 @@ target9.type=ClassTarget
 dependency67.from=Space
 dependency100.from=ButtonMusik
 dependency42.from=Settings
+=======
+target42.typeParameters=
+target44.y=0
+target44.x=0
+class.ButtonSfxSounds.image=button_sfx-sounds.png
+dependency94.to=Weapon
+dependency15.from=Mitwirkende
+target9.type=ClassTarget
+dependency67.from=Space
+dependency100.from=Shop
+dependency42.from=Menu
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 class.Max.superclass=Enemy
 class.Upgrade.superclass=greenfoot.Actor
 readme.y=10
 target16.height=50
 target9.showInterface=false
+<<<<<<< HEAD
 dependency94.from=Shop
 readme.x=10
 target38.typeParameters=
@@ -637,26 +1189,86 @@ target14.name=EnemyShot
 dependency29.from=Enemy
 target41.name=ButtonMitwirkende
 dependency77.to=HumanShot
+=======
+dependency94.from=UpgradeShip
+readme.x=10
+target38.typeParameters=
+dependency88.to=ButtonDamage
+target3.name=UltraSteven
+target29.width=80
+dependency8.type=UsesDependency
+class.ButtonStart.superclass=MenuActor
+target27.name=Lucas
+target12.showInterface=false
+dependency42.to=ButtonExit
+target33.y=0
+target33.x=0
+target45.height=50
+dependency7.from=Sven
+target40.typeParameters=
+dependency115.to=Weapon
+target24.width=90
+class.UpgradeShip.superclass=Ship
+dependency36.to=Enemy
+target6.showInterface=false
+dependency115.type=UsesDependency
+dependency57.type=UsesDependency
+target11.height=50
+class.ButtonDamage.image=grafik_upgrade_weapon.png
+target8.width=110
+class.SettingsActor.superclass=greenfoot.Actor
+dependency32.type=UsesDependency
+dependency109.to=Weapon
+class.AiSteven.superclass=AiEnemy
+dependency84.type=UsesDependency
+target36.typeParameters=
+target47.type=ClassTarget
+editor.fx.0.width=800
+dependency83.to=HumanShot
+target39.name=XML
+class.ButtonHealth.image=grafik_upgrade_health.png
+target22.type=ClassTarget
+target14.name=Enemy
+dependency29.from=Safegame
+target41.name=Tim
+dependency114.from=ButtonSfxSounds
+dependency77.to=ButtonDamage
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 target20.width=80
 dependency56.from=Space
 target37.height=50
 >>>>>>>=96b16a0439a9323ea86432028fa129348bd8dfab
+<<<<<<< HEAD
 dependency31.from=Enemy
 target22.y=0
 target22.x=0
 target40.height=50
 dependency83.from=Lucas
 target15.width=90
+=======
+target22.y=0
+dependency31.from=Enemy
+target22.x=0
+target46.typeParameters=
+target40.height=50
+dependency83.from=ButtonNextLvl
+target15.width=120
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 target3.showInterface=false
 dependency17.type=UsesDependency
 dependency69.type=UsesDependency
 dependency102.type=UsesDependency
+<<<<<<< HEAD
 dependency110.to=Safegame
+=======
+dependency110.to=Menu
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 dependency44.type=UsesDependency
 target29.showInterface=false
 target6.y=0
 dependency96.type=UsesDependency
 target6.x=0
+<<<<<<< HEAD
 dependency31.to=Human
 package.numDependencies=112
 dependency71.type=UsesDependency
@@ -693,12 +1305,56 @@ dependency8.from=HumanShot
 target28.height=50
 target40.showInterface=false
 dependency20.to=Shop
+=======
+dependency31.to=BackgroundHeader
+package.numDependencies=118
+dependency71.type=UsesDependency
+target34.type=ClassTarget
+dependency104.to=Info
+dependency16.from=Weapon
+dependency25.to=Safegame
+target19.y=0
+target19.x=0
+dependency68.from=Space
+dependency101.from=Shop
+class.Human.image=eigenesSchiff.png
+target9.height=50
+dependency43.from=Settings
+dependency95.from=UpgradeShip
+target32.height=50
+target11.y=0
+target4.name=Max
+dependency70.from=Space
+target11.x=0
+dependency19.to=Space
+dependency9.type=UsesDependency
+dependency72.to=AiSteven
+editor.fx.0.y=98
+class.ButtonDamage.superclass=Upgrade
+editor.fx.0.x=440
+dependency8.to=Upgrade
+class.UltraTim.image=grafik_gegner_level4.png
+target44.typeParameters=
+target26.showInterface=false
+target28.name=UltraSven
+dependency66.to=UltraSven
+target47.y=0
+mainWindow.height=970
+target47.x=0
+target42.width=130
+dependency8.from=HumanShot
+target28.height=50
+target40.showInterface=false
+dependency20.to=Enemy
+dependency116.type=UsesDependency
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 target4.height=50
 dependency58.type=UsesDependency
 dependency33.type=UsesDependency
 target23.showInterface=false
 class.UltraTim.superclass=UltraEnemy
 class.UpgradeShip.image=eigenesSchiff.png
+<<<<<<< HEAD
 dependency14.to=ButtonExit
 class.ButtonHealth.superclass=Upgrade
 target23.type=ClassTarget
@@ -706,10 +1362,22 @@ target15.name=Menu
 dependency3.to=EnemyShot
 dependency57.from=Space
 dependency61.to=Max
+=======
+dependency14.to=Safegame
+class.ButtonHealth.superclass=Upgrade
+target23.type=ClassTarget
+target15.name=ButtonSettings
+dependency3.to=Safegame
+target42.name=BackgroundHeader
+dependency115.from=Ship
+dependency57.from=Space
+dependency61.to=Steven
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 target33.width=90
 dependency32.from=Enemy
 target36.y=0
 target36.x=0
+<<<<<<< HEAD
 dependency84.from=Info
 target23.height=50
 dependency18.type=UsesDependency
@@ -717,6 +1385,15 @@ target28.width=90
 dependency103.type=UsesDependency
 project.charset=UTF-8
 dependency55.to=Tim
+=======
+dependency84.from=test
+target23.height=50
+dependency18.type=UsesDependency
+target28.width=80
+dependency103.type=UsesDependency
+project.charset=UTF-8
+dependency55.to=Human
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 dependency45.type=UsesDependency
 dependency97.type=UsesDependency
 dependency20.type=UsesDependency
@@ -725,6 +1402,7 @@ class.Score.superclass=greenfoot.Actor
 dependency72.type=UsesDependency
 target35.type=ClassTarget
 target10.type=ClassTarget
+<<<<<<< HEAD
 dependency49.to=Human
 dependency17.from=Weapon
 dependency69.from=Space
@@ -745,17 +1423,55 @@ target13.typeParameters=
 target9.y=0
 target9.x=0
 dependency50.to=Safegame
+=======
+dependency49.to=ButtonExit
+dependency17.from=Weapon
+dependency69.from=Space
+dependency102.from=Shop
+dependency44.from=Settings
+dependency96.from=Shop
+dependency96.to=Safegame
+class.Sven.image=grafik_gegner_level1.png
+target15.height=50
+target5.name=UltraEnemy
+target25.y=0
+dependency71.from=Space
+target25.x=0
+target19.width=80
+target7.width=80
+target29.name=AiSteven
+target13.typeParameters=
+target9.y=0
+target9.x=0
+dependency50.to=Human
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 class.Tim.image=grafik_gegner_level2.png
 target1.y=0
 dependency9.from=HumanShot
 target1.x=0
+<<<<<<< HEAD
 dependency44.to=ButtonMusik
 target3.width=80
 dependency59.type=UsesDependency
+=======
+target44.height=50
+dependency44.to=ButtonSfxSounds
+dependency117.type=UsesDependency
+target46.showInterface=false
+target3.width=100
+dependency59.type=UsesDependency
+dependency117.to=Mitwirkende
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
 dependency34.type=UsesDependency
 target14.y=0
 target10.height=50
 target14.x=0
+<<<<<<< HEAD
 dependency38.to=BackgroundHeader
 =\=\=\=\=\=\=
 dependency91.to=Weapon
+=======
+dependency38.to=Human
+=\=\=\=\=\=\=
+dependency91.to=Safegame
+>>>>>>> 5334858cffa2d685d8f5357b0f86cee61843390f
