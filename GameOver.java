@@ -1,5 +1,6 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
+
 /**
  * Write a description of class GameOver here.
  * 
@@ -8,7 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class GameOver extends World
 {
-
+    Safegame saveGame = new Safegame();
     /**
      * Constructor for objects of class GameOver.
      * 
@@ -18,6 +19,7 @@ public class GameOver extends World
        
         super(800, 800, 1);
         setBackground(new GreenfootImage("backgrounds/game_over.png"));
+        saveGame.reset();
         addObject(new ButtonExit(), 400, 700);
     }
 }

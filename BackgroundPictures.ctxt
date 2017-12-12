@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=BackgroundPictures
+comment1.params=w
+comment1.target=void\ setBackground(greenfoot.World)
+numComments=2
