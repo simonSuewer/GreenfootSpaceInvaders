@@ -14,12 +14,12 @@ public class UltraEnemy extends Enemy
     private boolean changeVertical = true;
     private boolean changeHorizontal = false;
     private int newCounter = 40;
+    private Safegame safegame = new Safegame();
     
     public UltraEnemy()
     {
         super();
-        Safegame load = new Safegame();
-        this.health = load.getLvl() * load.getLvl();
+        this.health = safegame.getLvl() * safegame.getLvl();
         if((Greenfoot.getRandomNumber(2)) == 1)
         {
            changeHorizontal=!changeHorizontal; 
@@ -57,7 +57,25 @@ public class UltraEnemy extends Enemy
            if(newCounter == 0)
            {
                newCounter = 40;
-               getWorld().addObject(new UltraSven(), 110+(Greenfoot.getRandomNumber(580)),140);
+               switch(safegame.getLvl())
+               {
+                   case 6:
+                        getWorld().addObject(new UltraSven(), 110+(Greenfoot.getRandomNumber(580)),140);
+                        break;
+                   case 7:
+                        getWorld().addObject(new UltraTim(), 110+(Greenfoot.getRandomNumber(580)),140);
+                        break;
+                   case 8:
+                        getWorld().addObject(new UltraLucas(), 110+(Greenfoot.getRandomNumber(580)),140);
+                        break;
+                   case 9:
+                        getWorld().addObject(new UltraSteven(), 110+(Greenfoot.getRandomNumber(580)),140);
+                        break;
+                   default:
+                        break;
+               }
+               
+               
            }
            else{
                newCounter -= 1;

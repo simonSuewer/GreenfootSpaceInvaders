@@ -30,9 +30,16 @@ public class Weapon extends Actor
             Enemy.set_counter(Enemy.get_counter()-1);
             if(getWorld().getObjects(Enemy.class).isEmpty())
             {
-                safegame.setLvl(safegame.getLvl()+1);
-                Shop x = new Shop();
-                Greenfoot.setWorld(x);
+                if(safegame.getLvl()==15)
+                {
+                    Greenfoot.setWorld(new WinScreen());
+                }
+                else
+                {                    
+                    safegame.setLvl(safegame.getLvl()+1);
+                    Shop x = new Shop();
+                    Greenfoot.setWorld(x);
+                }
             }
             return true;
         }
