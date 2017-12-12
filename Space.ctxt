@@ -10,4 +10,6 @@ comment3.params=lvl\ ultra
 comment3.target=void\ initializeLvl(int,\ boolean)
 comment4.params=lvl\ ultra\ ai
 comment4.target=void\ initializeLvl(int,\ boolean,\ boolean)
-numComments=5
+comment5.params=
+comment5.target=void\ spawnHuman()
+numComments=6
