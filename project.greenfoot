@@ -1,11 +1,7 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
-<<<<<<< HEAD
->>>>>>>=5334858cffa2d685d8f5357b0f86cee61843390f
-=======
->>>>>>>=a44c652487043b7435ed0de839553ef298da858c
->>>>>>> 212c3888b58d48b4a2a7ac1fe7938d884413fc68
+>>>>>>>=212c3888b58d48b4a2a7ac1fe7938d884413fc68
 class.AiEnemy.superclass=Enemy
 class.AiLucas.image=grafik_gegner_level2.png
 class.AiLucas.superclass=AiEnemy
@@ -194,41 +190,33 @@ dependency127.type=UsesDependency
 dependency128.from=UltraMax
 dependency128.to=EnemyRocket
 dependency128.type=UsesDependency
-<<<<<<< HEAD
-dependency129.from=UltraMax
-dependency129.to=Enemy
-=======
 dependency129.from=ButtonMusik
 dependency129.to=Safegame
->>>>>>> 212c3888b58d48b4a2a7ac1fe7938d884413fc68
 dependency129.type=UsesDependency
 dependency13.from=Weapon
 dependency13.to=Shop
 dependency13.type=UsesDependency
 dependency130.from=ButtonMusik
-dependency130.to=Safegame
+dependency130.to=Weapon
 dependency130.type=UsesDependency
 dependency131.from=ButtonMusik
-dependency131.to=Weapon
+dependency131.to=XML
 dependency131.type=UsesDependency
-dependency132.from=ButtonMusik
-dependency132.to=XML
+dependency132.from=XML
+dependency132.to=Safegame
 dependency132.type=UsesDependency
-dependency133.from=XML
-dependency133.to=Safegame
+dependency133.from=Tim
+dependency133.to=Weapon
 dependency133.type=UsesDependency
-dependency134.from=Tim
+dependency134.from=Ship
 dependency134.to=Weapon
 dependency134.type=UsesDependency
 dependency135.from=Ship
 dependency135.to=Weapon
 dependency135.type=UsesDependency
-<<<<<<< HEAD
 dependency136.from=Ship
 dependency136.to=Safegame
 dependency136.type=UsesDependency
-=======
->>>>>>> 212c3888b58d48b4a2a7ac1fe7938d884413fc68
 dependency14.from=Safegame
 dependency14.to=Space
 dependency14.type=UsesDependency
@@ -511,19 +499,15 @@ dependency98.type=UsesDependency
 dependency99.from=HumanShot
 dependency99.to=Human
 dependency99.type=UsesDependency
-editor.fx.0.height=1048
-editor.fx.0.width=1938
-editor.fx.0.x=-9
-editor.fx.0.y=-9
+editor.fx.0.height=739
+editor.fx.0.width=816
+editor.fx.0.x=552
+editor.fx.0.y=100
 mainWindow.height=1048
 mainWindow.width=1932
 mainWindow.x=-9
 mainWindow.y=0
-<<<<<<< HEAD
-package.numDependencies=136
-=======
-package.numDependencies=135
->>>>>>> 212c3888b58d48b4a2a7ac1fe7938d884413fc68
+package.numDependencies=134
 package.numTargets=51
 project.charset=UTF-8
 readme.height=58
@@ -897,11 +881,7 @@ target50.name=BackgroundPictures
 target50.showInterface=false
 target50.type=ClassTarget
 target50.typeParameters=
-<<<<<<< HEAD
-target50.width=130
-=======
 target50.width=160
->>>>>>> 212c3888b58d48b4a2a7ac1fe7938d884413fc68
 target50.x=0
 target50.y=0
 target51.height=50
