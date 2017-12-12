@@ -75,7 +75,7 @@ public class Space extends World
                              this.addObject(new Steven(), 110+(64*(i)), 50+j*90);
                              break;
                     case 5:  
-                             this.addObject(new Max(), 400, 50);
+                             this.addObject(new Max(), 400, 150);
                              spawnHuman();
                              return;
                     default: 

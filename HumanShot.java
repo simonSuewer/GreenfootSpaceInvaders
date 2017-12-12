@@ -38,7 +38,7 @@ public class HumanShot extends Weapon
             if(actor.getHealth() <= safegame.getUpgrade().getDamage())
             {
                 this.hit(Enemy.class); 
-                gif = new GreenfootImage("grafik_gegner_gif");
+                gif = new GreenfootImage("grafik_gegner_gif.gif");
                 safegame.setCredits(safegame.getCredits() + safegame.getLvl() * safegame.getLvl());
                 if(Enemy.get_counter()!=30)
                 {
