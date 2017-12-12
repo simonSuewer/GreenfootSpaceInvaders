@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
@@ -31,6 +32,11 @@ class.ButtonNextLvl.image=grafik_upgrade_nextlvl.png
 class.ButtonNextLvl.superclass=Upgrade
 class.ButtonSettings.image=button_settings.png
 class.ButtonSettings.superclass=MenuActor
+=======
+#Greenfoot properties
+#Tue Dec 12 12:46:30 CET 2017
+target49.type=ClassTarget
+>>>>>>> 81fe111300bd8bc6a77de4ec568c4b4d5c1f6b66
 class.ButtonSettingsExit.superclass=SettingsActor
 class.ButtonSfxSounds.image=button_sfx-sounds.png
 class.ButtonSfxSounds.superclass=SettingsActor
@@ -661,11 +667,37 @@ target20.name=UpgradeShip
 target20.showInterface=false
 target20.type=ClassTarget
 target20.typeParameters=
+<<<<<<< HEAD
 target20.width=90
 target20.x=0
 target20.y=0
 target21.height=50
 target21.name=Shop
+=======
+dependency113.to=ButtonStart
+target52.name=Ship
+dependency34.to=Human
+target46.height=50
+dependency5.from=UltraEnemy
+target34.width=90
+target2.typeParameters=
+dependency107.to=Safegame
+class.AiSven.superclass=AiEnemy
+class.GameOverBackground.image=gameOver.png
+dependency28.type=UsesDependency
+class.ButtonNextLvl.superclass=Upgrade
+target16.typeParameters=
+dependency28.to=ButtonExit
+dependency81.to=Safegame
+dependency113.type=UsesDependency
+target30.typeParameters=
+target49.y=0
+target49.x=0
+dependency55.type=UsesDependency
+target18.type=ClassTarget
+class.GameOver.superclass=greenfoot.World
+dependency30.type=UsesDependency
+>>>>>>> 81fe111300bd8bc6a77de4ec568c4b4d5c1f6b66
 target21.showInterface=false
 target21.type=ClassTarget
 target21.typeParameters=
@@ -743,6 +775,7 @@ target3.type=ClassTarget
 target3.typeParameters=
 target3.width=80
 target3.x=0
+<<<<<<< HEAD
 target3.y=0
 target30.height=50
 target30.name=Sven
@@ -762,6 +795,40 @@ target31.x=0
 target31.y=0
 target32.height=50
 target32.name=ButtonStart
+=======
+target19.type=ClassTarget
+dependency31.type=UsesDependency
+class.AiMax.image=endgegner.png
+dependency1.to=Human
+class.GameOver.image=background.png
+dependency83.type=UsesDependency
+dependency99.to=ButtonNextLvl
+target46.type=ClassTarget
+target18.showInterface=false
+target38.name=GameOver
+target21.type=ClassTarget
+mainWindow.y=-8
+mainWindow.x=-8
+target13.name=Space
+target16.y=0
+target16.x=0
+dependency28.from=Settings
+target40.name=UltraSven
+dependency113.from=Menu
+dependency132.to=Weapon
+dependency55.from=Space
+target43.width=80
+target32.typeParameters=
+dependency53.to=AiSven
+dependency30.from=Human
+target24.height=50
+dependency82.from=ButtonExit
+target38.width=90
+dependency16.type=UsesDependency
+dependency126.type=UsesDependency
+dependency68.type=UsesDependency
+dependency126.to=GameOverBackground
+>>>>>>> 81fe111300bd8bc6a77de4ec568c4b4d5c1f6b66
 target32.showInterface=false
 target32.type=ClassTarget
 target32.typeParameters=
