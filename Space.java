@@ -21,7 +21,7 @@ public class Space extends World
     {    
         super(800, 800, 1);
         Safegame safegame = new Safegame();
-        
+        BackgroundPictures.setBackground(this, safegame.getLvl());
         if(safegame.getLvl() >= 1)
         {
             if(safegame.getLvl()<=5)
@@ -52,6 +52,7 @@ public class Space extends World
     {
         List objects = getObjects(null);
         backgroundMusic.started(lvl);
+        
         if (objects != null) 
         {
             removeObjects(objects); 

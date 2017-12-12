@@ -1,5 +1,5 @@
 #BlueJ class context
 comment0.target=BackgroundPictures
-comment1.params=w
-comment1.target=void\ setBackground(greenfoot.World)
+comment1.params=w\ level
+comment1.target=void\ setBackground(greenfoot.World,\ int)
 numComments=2
