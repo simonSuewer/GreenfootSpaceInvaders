@@ -9,7 +9,9 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Weapon extends Actor
 {
     private Safegame safegame = new Safegame();
-    
+    private GreenfootImage gif =  new GreenfootImage("grafik_explosion.png");
+        
+        
     public boolean atWorldEdge()
     {
         if(getX() < 20 || getX() > getWorld().getWidth() - 20)
@@ -22,38 +24,16 @@ public class Weapon extends Actor
     
     public boolean hit(Class clss)
     {
-        Actor actor = getOneObjectAtOffset(0, 0, clss);
+        Actor actor = getOneObjectAtOffset(0, 0, Enemy.class);
+        System.out.println(actor);
         if(actor != null) {
             getWorld().removeObject(actor);
             Enemy.set_counter(Enemy.get_counter()-1);
             if(getWorld().getObjects(Enemy.class).isEmpty())
             {
                 safegame.setLvl(safegame.getLvl()+1);
-                //upgrade welt laden
                 Shop x = new Shop();
                 Greenfoot.setWorld(x);
-                /* auskommentiert wegen 
-                Space x = (Space) getWorld();
-                
-                switch(safegame.getLvl())
-                {
-                    default:
-                        break;
-                    case 2:
-                        x.initializeLvl(2);
-                        break;
-                    case 3:
-                        x.initializeLvl(3);
-                        break;
-                    case 4:
-                        x.initializeLvl(4);
-                        break;
-                    case 5:
-                        x.initializeLvl(5);
-                        break;
-                        
-                }
-                return false; */
             }
             return true;
         }
