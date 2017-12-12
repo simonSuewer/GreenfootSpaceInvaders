@@ -18,8 +18,15 @@ public class GameOver extends World
     {    
        
         super(800, 800, 1);
-        setBackground(new GreenfootImage("backgrounds/game_over.png"));
+        initial();
+        
         saveGame.reset();
+    }
+    
+    public void initial() {
+        addObject(new BackgroundHeader(), 400, 125);
+        addObject(new GameOverBackground(), 400, 400);
+        showText("SCORE: "  + saveGame.getLvl(), 400, 500);
         addObject(new ButtonExit(), 400, 700);
     }
 }
