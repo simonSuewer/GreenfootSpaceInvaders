@@ -11,7 +11,7 @@ public class Upgrade extends Actor
     static int health=5;
    // static int extraDamage=10000; für test
     
-   static int extraDamage=5; 
+   static int extraDamage=1; 
     
     /**
      * Act - do whatever the Upgrade wants to do. This method is called whenever

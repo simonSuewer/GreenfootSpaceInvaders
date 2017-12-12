@@ -18,6 +18,7 @@ public class Menu extends World
         addObject(new ButtonStart(), 400, 500);
         addObject(new ButtonSettings(), 400, 600);
         addObject(new ButtonExit(), 400, 700);
+        XML.read();
     }
     
     public void act() {

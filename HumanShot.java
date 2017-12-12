@@ -11,8 +11,8 @@ public class HumanShot extends Weapon
     private static final int SHOT_SPEED = 5;
     private Safegame safegame = new Safegame();
     private GreenfootSound hitmarkerSound = new GreenfootSound("hitmarker.wav");
-    private GreenfootImage gif =  new GreenfootImage("grafik_explosion.png");;
-    private int timer =4;
+
+  
     
     public HumanShot()
     {
@@ -34,40 +34,13 @@ public class HumanShot extends Weapon
                 hitmarkerSound.play();
             }
             
-            
             safegame.setScore(safegame.getScore() + safegame.getLvl() * safegame.getLvl());
+            
             if(actor.getHealth() <= safegame.getUpgrade().getDamage())
             {
-               
-                if (timer == 4)   
-                {   
-                     this.setImage(gif);  
-                     this.getImage().scale(10,10);
-                }
-                if(timer == 3)
-                {
-                     this.getImage().scale(20,20);
-                }
-                if(timer == 2)
-                {
-                     this.getImage().scale(30,30);
-                }
-                if(timer == 1)
-                {
-                     this.getImage().scale(40,40);
-                }
-                if(timer == 0) {  
-                     this.hit(Enemy.class); 
-                     safegame.setCredits(safegame.getCredits() + safegame.getLvl() * safegame.getLvl());
-                }
-                
-                
-                
-                if(Enemy.get_counter()!=30)
-                {
-                    getWorld().removeObject(this);
-                }
-                
+                 this.hit(Enemy.class); 
+                 getWorld().removeObject(this);
+                 safegame.setCredits(safegame.getCredits() + safegame.getLvl() * safegame.getLvl());                
             }
             else
             {
