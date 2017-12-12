@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <safegame>
     <credits>0</credits>
-    <lvl>1</lvl>
-    <musikIsOn>true</musikIsOn>
+    <lvl>5</lvl>
+    <musikIsOn>false</musikIsOn>
     <score>0</score>
     <sfxIsOn>true</sfxIsOn>
 </safegame>

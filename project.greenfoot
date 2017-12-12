@@ -1,7 +1,7 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
->>>>>>>=2e53e285e925d42ef2cf7e8971c26df3a8056202
+>>>>>>>=a44c652487043b7435ed0de839553ef298da858c
 class.AiEnemy.superclass=Enemy
 class.AiLucas.image=grafik_gegner_level2.png
 class.AiLucas.superclass=AiEnemy
@@ -16,10 +16,7 @@ class.AiTim.superclass=AiEnemy
 class.BackgroundHeader.image=header.png
 class.BackgroundHeader.superclass=MenuActor
 class.BackgroundMusic.superclass=
-<<<<<<< HEAD
 class.BackgroundPictures.superclass=
-=======
->>>>>>> a44c652487043b7435ed0de839553ef298da858c
 class.ButtonDamage.image=grafik_upgrade_weapon.png
 class.ButtonDamage.superclass=Upgrade
 class.ButtonExit.image=button_exit.png
@@ -99,37 +96,6 @@ dependency1.type=UsesDependency
 dependency10.from=Weapon
 dependency10.to=Safegame
 dependency10.type=UsesDependency
-<<<<<<< HEAD
-dependency100.from=ButtonStart
-dependency100.to=Upgrade
-dependency100.type=UsesDependency
-dependency101.from=ButtonStart
-dependency101.to=Enemy
-dependency101.type=UsesDependency
-dependency102.from=ButtonStart
-dependency102.to=Safegame
-dependency102.type=UsesDependency
-dependency103.from=ButtonSettings
-dependency103.to=Settings
-dependency103.type=UsesDependency
-dependency104.from=ButtonSettings
-dependency104.to=Safegame
-dependency104.type=UsesDependency
-dependency105.from=EnemyShot
-dependency105.to=Enemy
-dependency105.type=UsesDependency
-dependency106.from=EnemyShot
-dependency106.to=Safegame
-dependency106.type=UsesDependency
-dependency107.from=EnemyShot
-dependency107.to=Human
-dependency107.type=UsesDependency
-dependency108.from=EnemyShot
-dependency108.to=GameOver
-dependency108.type=UsesDependency
-dependency109.from=Menu
-dependency109.to=BackgroundHeader
-=======
 dependency100.from=HumanShot
 dependency100.to=Safegame
 dependency100.type=UsesDependency
@@ -159,42 +125,10 @@ dependency108.to=Safegame
 dependency108.type=UsesDependency
 dependency109.from=EnemyShot
 dependency109.to=Human
->>>>>>> a44c652487043b7435ed0de839553ef298da858c
 dependency109.type=UsesDependency
 dependency11.from=Weapon
 dependency11.to=Space
 dependency11.type=UsesDependency
-<<<<<<< HEAD
-dependency110.from=Menu
-dependency110.to=ButtonStart
-dependency110.type=UsesDependency
-dependency111.from=Menu
-dependency111.to=ButtonSettings
-dependency111.type=UsesDependency
-dependency112.from=Menu
-dependency112.to=ButtonExit
-dependency112.type=UsesDependency
-dependency113.from=UpgradeShot
-dependency113.to=ButtonDamage
-dependency113.type=UsesDependency
-dependency114.from=UpgradeShot
-dependency114.to=ButtonNextLvl
-dependency114.type=UsesDependency
-dependency115.from=UpgradeShot
-dependency115.to=Safegame
-dependency115.type=UsesDependency
-dependency116.from=UpgradeShot
-dependency116.to=ButtonHealth
-dependency116.type=UsesDependency
-dependency117.from=UpgradeShot
-dependency117.to=Upgrade
-dependency117.type=UsesDependency
-dependency118.from=UpgradeShot
-dependency118.to=Space
-dependency118.type=UsesDependency
-dependency119.from=ButtonNextLvl
-dependency119.to=HumanShot
-=======
 dependency110.from=EnemyShot
 dependency110.to=GameOver
 dependency110.type=UsesDependency
@@ -224,42 +158,10 @@ dependency118.to=ButtonHealth
 dependency118.type=UsesDependency
 dependency119.from=UpgradeShot
 dependency119.to=Upgrade
->>>>>>> a44c652487043b7435ed0de839553ef298da858c
 dependency119.type=UsesDependency
 dependency12.from=Weapon
 dependency12.to=Enemy
 dependency12.type=UsesDependency
-<<<<<<< HEAD
-dependency120.from=GameOver
-dependency120.to=ButtonExit
-dependency120.type=UsesDependency
-dependency121.from=Lucas
-dependency121.to=Weapon
-dependency121.type=UsesDependency
-dependency122.from=Info
-dependency122.to=Human
-dependency122.type=UsesDependency
-dependency123.from=Info
-dependency123.to=Safegame
-dependency123.type=UsesDependency
-dependency124.from=ButtonMusik
-dependency124.to=Safegame
-dependency124.type=UsesDependency
-dependency125.from=ButtonMusik
-dependency125.to=Weapon
-dependency125.type=UsesDependency
-dependency126.from=ButtonMusik
-dependency126.to=XML
-dependency126.type=UsesDependency
-dependency127.from=XML
-dependency127.to=Safegame
-dependency127.type=UsesDependency
-dependency128.from=Tim
-dependency128.to=Weapon
-dependency128.type=UsesDependency
-dependency129.from=Ship
-dependency129.to=Weapon
-=======
 dependency120.from=UpgradeShot
 dependency120.to=Space
 dependency120.type=UsesDependency
@@ -289,16 +191,10 @@ dependency128.to=Enemy
 dependency128.type=UsesDependency
 dependency129.from=ButtonMusik
 dependency129.to=Safegame
->>>>>>> a44c652487043b7435ed0de839553ef298da858c
 dependency129.type=UsesDependency
 dependency13.from=Weapon
 dependency13.to=Shop
 dependency13.type=UsesDependency
-<<<<<<< HEAD
-dependency130.from=Ship
-dependency130.to=Safegame
-dependency130.type=UsesDependency
-=======
 dependency130.from=ButtonMusik
 dependency130.to=Weapon
 dependency130.type=UsesDependency
@@ -317,7 +213,6 @@ dependency134.type=UsesDependency
 dependency135.from=Ship
 dependency135.to=Safegame
 dependency135.type=UsesDependency
->>>>>>> a44c652487043b7435ed0de839553ef298da858c
 dependency14.from=Safegame
 dependency14.to=Space
 dependency14.type=UsesDependency
@@ -522,19 +417,6 @@ dependency74.type=UsesDependency
 dependency75.from=Shop
 dependency75.to=ButtonDamage
 dependency75.type=UsesDependency
-<<<<<<< HEAD
-dependency76.from=Shop
-dependency76.to=Info
-dependency76.type=UsesDependency
-dependency77.from=ButtonExit
-dependency77.to=Menu
-dependency77.type=UsesDependency
-dependency78.from=ButtonExit
-dependency78.to=Safegame
-dependency78.type=UsesDependency
-dependency79.from=ButtonExit
-dependency79.to=Mitwirkende
-=======
 dependency76.from=AiMax
 dependency76.to=EnemyShot
 dependency76.type=UsesDependency
@@ -546,42 +428,10 @@ dependency78.to=Enemy
 dependency78.type=UsesDependency
 dependency79.from=ButtonExit
 dependency79.to=Menu
->>>>>>> a44c652487043b7435ed0de839553ef298da858c
 dependency79.type=UsesDependency
 dependency8.from=Weapon
 dependency8.to=ButtonExit
 dependency8.type=UsesDependency
-<<<<<<< HEAD
-dependency80.from=ButtonSfxSounds
-dependency80.to=Safegame
-dependency80.type=UsesDependency
-dependency81.from=ButtonSfxSounds
-dependency81.to=XML
-dependency81.type=UsesDependency
-dependency82.from=ButtonMitwirkende
-dependency82.to=Mitwirkende
-dependency82.type=UsesDependency
-dependency83.from=ButtonMitwirkende
-dependency83.to=Safegame
-dependency83.type=UsesDependency
-dependency84.from=EnemyRocket
-dependency84.to=Safegame
-dependency84.type=UsesDependency
-dependency85.from=EnemyRocket
-dependency85.to=GameOver
-dependency85.type=UsesDependency
-dependency86.from=EnemyRocket
-dependency86.to=Human
-dependency86.type=UsesDependency
-dependency87.from=Max
-dependency87.to=Weapon
-dependency87.type=UsesDependency
-dependency88.from=Max
-dependency88.to=EnemyShot
-dependency88.type=UsesDependency
-dependency89.from=Max
-dependency89.to=EnemyRocket
-=======
 dependency80.from=ButtonExit
 dependency80.to=Safegame
 dependency80.type=UsesDependency
@@ -611,42 +461,10 @@ dependency88.to=Human
 dependency88.type=UsesDependency
 dependency89.from=Max
 dependency89.to=Weapon
->>>>>>> a44c652487043b7435ed0de839553ef298da858c
 dependency89.type=UsesDependency
 dependency9.from=Weapon
 dependency9.to=Human
 dependency9.type=UsesDependency
-<<<<<<< HEAD
-dependency90.from=Sven
-dependency90.to=Weapon
-dependency90.type=UsesDependency
-dependency91.from=Sven
-dependency91.to=EnemyShot
-dependency91.type=UsesDependency
-dependency92.from=HumanShot
-dependency92.to=Upgrade
-dependency92.type=UsesDependency
-dependency93.from=HumanShot
-dependency93.to=Enemy
-dependency93.type=UsesDependency
-dependency94.from=HumanShot
-dependency94.to=EnemyShot
-dependency94.type=UsesDependency
-dependency95.from=HumanShot
-dependency95.to=ButtonDamage
-dependency95.type=UsesDependency
-dependency96.from=HumanShot
-dependency96.to=ButtonNextLvl
-dependency96.type=UsesDependency
-dependency97.from=HumanShot
-dependency97.to=Human
-dependency97.type=UsesDependency
-dependency98.from=HumanShot
-dependency98.to=Safegame
-dependency98.type=UsesDependency
-dependency99.from=ButtonStart
-dependency99.to=Space
-=======
 dependency90.from=Max
 dependency90.to=EnemyShot
 dependency90.type=UsesDependency
@@ -676,23 +494,17 @@ dependency98.to=ButtonNextLvl
 dependency98.type=UsesDependency
 dependency99.from=HumanShot
 dependency99.to=Human
->>>>>>> a44c652487043b7435ed0de839553ef298da858c
 dependency99.type=UsesDependency
-editor.fx.0.height=0
-editor.fx.0.width=0
-editor.fx.0.x=0
-editor.fx.0.y=0
+editor.fx.0.height=1048
+editor.fx.0.width=1938
+editor.fx.0.x=-9
+editor.fx.0.y=-9
 mainWindow.height=1048
 mainWindow.width=1932
 mainWindow.x=-9
 mainWindow.y=0
-<<<<<<< HEAD
-package.numDependencies=130
-package.numTargets=51
-=======
 package.numDependencies=135
-package.numTargets=50
->>>>>>> a44c652487043b7435ed0de839553ef298da858c
+package.numTargets=51
 project.charset=UTF-8
 readme.height=58
 readme.name=@README
@@ -1061,19 +873,11 @@ target5.width=110
 target5.x=0
 target5.y=0
 target50.height=50
-<<<<<<< HEAD
 target50.name=BackgroundPictures
 target50.showInterface=false
 target50.type=ClassTarget
 target50.typeParameters=
 target50.width=160
-=======
-target50.name=Ship
-target50.showInterface=false
-target50.type=ClassTarget
-target50.typeParameters=
-target50.width=80
->>>>>>> a44c652487043b7435ed0de839553ef298da858c
 target50.x=0
 target50.y=0
 target51.height=50
