@@ -51,7 +51,7 @@ public class Space extends World
      public void initializeLvl(int lvl)
     {
         List objects = getObjects(null);
-        backgroundMusic.started(lvl);
+        backgroundMusic.started();
         
         if (objects != null) 
         {

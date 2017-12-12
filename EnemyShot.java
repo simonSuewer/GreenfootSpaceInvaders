@@ -9,7 +9,6 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class EnemyShot extends Weapon
 {
    private Safegame safegame = new Safegame();
- 
     
     
     public EnemyShot()
