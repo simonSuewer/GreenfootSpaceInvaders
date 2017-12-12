@@ -17,6 +17,7 @@ public class UpgradeShip extends Ship
 
     public void act() 
     {
+        setImage("eigenesSchiff_"+Human.getHealth()+".png");
         //move left
         if(Greenfoot.isKeyDown("a"))
         {

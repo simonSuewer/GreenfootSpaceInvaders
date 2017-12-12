@@ -25,7 +25,6 @@ public class Weapon extends Actor
     public boolean hit(Class clss)
     {
         Actor actor = getOneObjectAtOffset(0, 0, Enemy.class);
-        System.out.println(actor);
         if(actor != null) {
             getWorld().removeObject(actor);
             Enemy.set_counter(Enemy.get_counter()-1);
