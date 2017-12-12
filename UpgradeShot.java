@@ -37,11 +37,13 @@ public class UpgradeShot extends HumanShot
                 getWorld().removeObject(this);
                 safegame.setCredits(safegame.getCredits()-(safegame.getUpgrade().getHealth() * safegame.getPIRICE_FIRST()));
                 safegame.getUpgrade().addHealth(1);
+                
             }
             else
             {
                 getWorld().showText("Ihnen fehlen " + (safegame.getUpgrade().getHealth() * safegame.getPIRICE_FIRST() - safegame.getCredits()) + " Credits", 400, 500);
             }
+
         }
         else if(this.isTouching(ButtonDamage.class))
         {
