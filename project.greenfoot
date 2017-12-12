@@ -1,5 +1,5 @@
 #Greenfoot properties
-#Tue Dec 12 12:31:13 CET 2017
+#Tue Dec 12 12:46:30 CET 2017
 target49.type=ClassTarget
 class.ButtonSettingsExit.superclass=SettingsActor
 target24.type=ClassTarget
@@ -593,6 +593,7 @@ target34.width=90
 target2.typeParameters=
 dependency107.to=Safegame
 class.AiSven.superclass=AiEnemy
+class.GameOverBackground.image=gameOver.png
 dependency28.type=UsesDependency
 class.ButtonNextLvl.superclass=Upgrade
 target16.typeParameters=
@@ -683,6 +684,7 @@ target19.type=ClassTarget
 dependency31.type=UsesDependency
 class.AiMax.image=endgegner.png
 dependency1.to=Human
+class.GameOver.image=background.png
 dependency83.type=UsesDependency
 dependency99.to=ButtonNextLvl
 target46.type=ClassTarget
