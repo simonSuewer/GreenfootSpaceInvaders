@@ -33,6 +33,7 @@ public class EnemyRocket extends Weapon
                 getWorld().removeObject(this);
                 GameOver gameOver = new GameOver();
                 Greenfoot.setWorld(gameOver);
+                return;
             }
             else
             {
@@ -44,10 +45,9 @@ public class EnemyRocket extends Weapon
           
         }
         
-          if(getY() < 550)
+          if(this.getY() < 550)
             {
                player = (Human) getWorld().getObjects(Human.class).get(0);
-               System.out.println(player.toString());
                turnTowards(player.getX(), player.getY());
             }
             

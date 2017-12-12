@@ -8,7 +8,6 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Max extends Enemy
 {
-    private Weapon weapon = new Weapon();
     private int shotCount = 0;
     private int max_shot = 5;
     
@@ -26,6 +25,21 @@ public class Max extends Enemy
         {
             getWorld().addObject(new EnemyRocket(), getX(), getY()+5);
             shotCount = 30;
+        }
+        move(this.getMoveSpeed());
+       if(this.getX() >= 580 || this.getX() <= 220)
+        {
+            if(this.getMoveSpeed()>0)
+            {
+                getWorld().getObjects(Enemy.class).get(0).setMoveSpeed(getWorld().getObjects(Enemy.class).get(0).getMoveSpeed()*(-1));
+                //getWorld().getObjects(Enemy.class).get(i).move(getWorld().getObjects(Enemy.class).get(i).get_moveSpeed());
+
+            }
+            else
+            {
+                getWorld().getObjects(Enemy.class).get(0).setMoveSpeed(getWorld().getObjects(Enemy.class).get(0).getMoveSpeed()*(-1));
+                //getWorld().getObjects(Enemy.class).get(i).move(getWorld().getObjects(Enemy.class).get(i).get_moveSpeed());
+            }
         }
     }    
 }
