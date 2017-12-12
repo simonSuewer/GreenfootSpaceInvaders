@@ -21,7 +21,14 @@ public class HumanShot extends Weapon
     }
     public void act() 
     {
-        setImage("grafik_schuss_"+safegame.getUpgrade().getDamage()+".png");
+        if(safegame.getUpgrade().getDamage()>13)
+        {
+            setImage("grafik_schuss_13.png");
+        }
+        else
+        {
+            setImage("grafik_schuss_"+safegame.getUpgrade().getDamage()+".png");
+        }
         this.move(SHOT_SPEED);
         Enemy actor = (Enemy) getOneObjectAtOffset(0, 0, Enemy.class);
         if(this.atWorldEdge())

@@ -15,7 +15,14 @@ public class UpgradeShot extends HumanShot
     
     public void act() 
     {
-        setImage("grafik_schuss_"+safegame.getUpgrade().getDamage()+".png");
+        if(safegame.getUpgrade().getDamage()>13)
+        {
+            setImage("grafik_schuss_13.png");
+        }
+        else
+        {
+            setImage("grafik_schuss_"+safegame.getUpgrade().getDamage()+".png");
+        }
         this.move(SHOT_SPEED);
         getWorld().showText("", 400, 500);
         if(this.atWorldEdge())
