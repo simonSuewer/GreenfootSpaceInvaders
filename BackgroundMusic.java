@@ -8,10 +8,10 @@ public class BackgroundMusic
       
       private static void playBackgroundMusic(int NumberOfSong) {
           try {
-          if(NumberOfSong >= 6) {
-            soundBackgroundMusic = new GreenfootSound("backgroundmusic/" + NumberOfSong + ".wav");
+          if(NumberOfSong > 5) {
+            soundBackgroundMusic = new GreenfootSound("backgroundmusic/" + NumberOfSong + ".mp3");
         } else {
-            soundBackgroundMusic = new GreenfootSound("backgroundmusic/" + 1 + ".wav");
+            soundBackgroundMusic = new GreenfootSound("backgroundmusic/" + 1 + ".mp3");
         }
     } catch (Exception e) {
         System.out.println("Background-Musik konnte nicht geladen werden");
