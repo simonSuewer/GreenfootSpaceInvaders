@@ -10,6 +10,7 @@ import java.util.List;
 public class Space extends World
 {
    Safegame safegame = new Safegame();
+   private BackgroundMusic backgroundMusic = new BackgroundMusic();
    
     
     /**
@@ -20,6 +21,7 @@ public class Space extends World
     {    
         super(800, 800, 1);
         Safegame safegame = new Safegame();
+        
         if(safegame.getLvl() >= 1)
         {
             if(safegame.getLvl()<=5)
@@ -49,6 +51,7 @@ public class Space extends World
      public void initializeLvl(int lvl)
     {
         List objects = getObjects(null);
+        backgroundMusic.started(lvl);
         if (objects != null) 
         {
             removeObjects(objects); 

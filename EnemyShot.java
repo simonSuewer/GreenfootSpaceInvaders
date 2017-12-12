@@ -30,6 +30,8 @@ public class EnemyShot extends Weapon
             {
                 this.hit(Human.class); 
                 getWorld().removeObject(this);
+                GameOver gameOver = new GameOver();
+                Greenfoot.setWorld(gameOver);
             }
             else
             {
