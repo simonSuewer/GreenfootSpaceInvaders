@@ -11,6 +11,7 @@ public class HumanShot extends Weapon
     private static final int SHOT_SPEED = 5;
     private Safegame safegame = new Safegame();
     private GreenfootSound hitmarkerSound = new GreenfootSound("hitmarker.wav");
+    private GreenfootImage gif;
   
     public HumanShot()
     {
@@ -37,6 +38,7 @@ public class HumanShot extends Weapon
             if(actor.getHealth() <= safegame.getUpgrade().getDamage())
             {
                 this.hit(Enemy.class); 
+                gif = new GreenfootImage("grafik_gegner_gif");
                 safegame.setCredits(safegame.getCredits() + safegame.getLvl() * safegame.getLvl());
                 if(Enemy.get_counter()!=30)
                 {
